@@ -1,7 +1,7 @@
 {
  "shop": "DR.FISHING",
  "source": "https://drive.google.com/drive/folders/1LMRWnHmTHHV4Lm_9zAng_eIkZiEL6VCp",
- "updated": "2026-09-11 15:36",
+ "updated": "2026-09-11 20:10",
  "localImages": true,
  "total": 523,
  "groups": [
@@ -179,7 +179,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2024-10-10"
+   "date": "2024-10-10",
+   "price": 18.0,
+   "note": "ราคาต่อซอง / บรรจุ 10 ซอง"
   },
   {
    "id": "1OehKGAR6YzbOswzakzAtX8ysrbsVbx27",
@@ -193,7 +195,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2024-11-05"
+   "date": "2024-11-05",
+   "price": 18.0,
+   "note": "ราคาต่อซอง / บรรจุ 10 ซอง"
   },
   {
    "id": "1bmS6J9J9olgRgB2L7DzYDZeZyco2-w2l",
@@ -207,7 +211,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2024-11-05"
+   "date": "2024-11-05",
+   "price": 18.0,
+   "note": "ราคาต่อซอง / บรรจุ 10 ซอง"
   },
   {
    "id": "15foc7CWSoftfh3mZpAiw48H9KiuPKxfM",
@@ -221,7 +227,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2024-11-05"
+   "date": "2024-11-05",
+   "price": 16.0,
+   "note": "ราคาต่อซอง / บรรจุ 10 ซอง"
   },
   {
    "id": "1KSSmGUA683l_yCzAah3ubDGkjGhKdOkw",
@@ -235,7 +243,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2024-11-05"
+   "date": "2024-11-05",
+   "price": 19.0,
+   "note": "ราคาต่อซอง / บรรจุ 10 ซอง"
   },
   {
    "id": "1bvabYZ0kjZ_Iy58sB1XiyOTipFZEwHhj",
@@ -249,7 +259,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-12"
+   "date": "2025-05-12",
+   "price": 18.0,
+   "note": "ราคาต่อซอง / บรรจุ 10 ซอง"
   },
   {
    "id": "165CiGCbcGVaSoHVhYc8qvG2_39YlH8S4",
@@ -263,7 +275,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-04-14"
+   "date": "2025-04-14",
+   "price": 10.0,
+   "note": "ราคาต่อซอง / บรรจุ 20 ซอง"
   },
   {
    "id": "18wFDWF0_Zcko3llnEoyL8Vpbit9zoICw",
@@ -277,7 +291,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-07-29"
+   "date": "2026-07-29",
+   "price": 35.0,
+   "note": "ราคาต่อกระป๋อง / บรรจุ 12 กระป๋อง"
   },
   {
    "id": "1zSswLqTVe8vgXdIWo5CEz6k68w4v_Dui",
@@ -291,7 +307,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2024-11-22"
+   "date": "2024-11-22",
+   "price": 23.0,
+   "note": "ราคาต่อขวด / บรรจุ 12 ขวด"
   },
   {
    "id": "1vJA_w_Fc391YZ4A_RmgkLMTEi2xYlSIe",
@@ -305,7 +323,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2024-11-22"
+   "date": "2024-11-22",
+   "price": 20.0,
+   "note": "ราคาต่อขวด / บรรจุ 12 ขวด"
   },
   {
    "id": "1FsnCpqVrPexxngrrvRokiFborRDgfHGS",
@@ -319,7 +339,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2024-11-22"
+   "date": "2024-11-22",
+   "price": 16.0,
+   "note": "ราคาต่อขวด / บรรจุกลิ่นละ 24 ขวด"
   },
   {
    "id": "158L2K3O_PDiCxUNBqV62YHky6_X5aA8j",
@@ -333,7 +355,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2024-10-31"
+   "date": "2024-10-31",
+   "price": 165.0,
+   "note": "ราคาต่อชุด (คัน + รอก)"
   },
   {
    "id": "1bJ7c9OzNDKROwxjALcyGadk8Ba-xs2p1",
@@ -347,7 +371,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2024-11-23"
+   "date": "2024-11-23",
+   "price": 175.0,
+   "note": "ราคาต่อชุด (คัน + รอก)"
   },
   {
    "id": "1ztouShwoCqr4dCGVz4YckQ9bjWNpt9ms",
@@ -361,7 +387,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2024-11-23"
+   "date": "2024-11-23",
+   "price": 205.0,
+   "note": "ราคาต่อชุด (คัน + รอก)"
   },
   {
    "id": "12qIeQqnz4Ijr4Ef59JLyoEFiEhslISB1",
@@ -375,7 +403,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-09-01"
+   "date": "2026-09-01",
+   "price": 150.0,
+   "note": "ราคาต่อชุด (คัน + รอก) / บรรจุคละสี 5 ชุด"
   },
   {
    "id": "1gqtJh2SY5GgLxiunBHUSzvcfBOMaz6Kj",
@@ -389,7 +419,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2024-11-23"
+   "date": "2024-11-23",
+   "price": 140.0,
+   "note": "ราคาต่อชุด (คัน + รอก)"
   },
   {
    "id": "11JbcqiBtDP3BTmNpmNZMbbvd4uwnqO7e",
@@ -403,7 +435,26 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-08-05"
+   "date": "2025-08-05",
+   "options": [
+    {
+     "name": "4.6 ฟุต 1 ท่อน",
+     "price": 170.0
+    },
+    {
+     "name": "5 ฟุต 1 ท่อน",
+     "price": 170.0
+    },
+    {
+     "name": "5 ฟุต 2 ท่อน",
+     "price": 170.0
+    },
+    {
+     "name": "5.6 ฟุต 2 ท่อน",
+     "price": 175.0
+    }
+   ],
+   "note": "ราคาต่อชุด (คัน + รอก)"
   },
   {
    "id": "1Gvy_POkDgexK0xinDvfbcKeujkUwuTSr",
@@ -417,7 +468,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-09-01"
+   "date": "2026-09-01",
+   "price": 85.0,
+   "note": "ราคาต่อคัน / บรรจุคละสี 5 คัน"
   },
   {
    "id": "14aGlbLyBGWtmAbhuAgvR8-F6SnaqkHKK",
@@ -431,7 +484,26 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-01"
+   "date": "2025-05-01",
+   "options": [
+    {
+     "name": "1.8 ม.",
+     "price": 45.0
+    },
+    {
+     "name": "3.0 ม.",
+     "price": 65.0
+    },
+    {
+     "name": "3.6 ม.",
+     "price": 75.0
+    },
+    {
+     "name": "4.0 ม.",
+     "price": 90.0
+    }
+   ],
+   "note": "ราคาต่อคัน / บรรจุ 10 คัน คละสี"
   },
   {
    "id": "11RWYPFiMHMPdH8lkMGIOgN9YGO4m0vFc",
@@ -445,7 +517,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-01"
+   "date": "2025-05-01",
+   "price": 55.0,
+   "note": "ขนาด 2.4 ม. / บรรจุ 10 คัน"
   },
   {
    "id": "1Itj9Qg303EvyedSeG0OS76S2v4jpKGAy",
@@ -459,7 +533,26 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-04-12"
+   "date": "2025-04-12",
+   "options": [
+    {
+     "name": "2.4 ม.",
+     "price": 60.0
+    },
+    {
+     "name": "3.0 ม.",
+     "price": 75.0
+    },
+    {
+     "name": "3.6 ม.",
+     "price": 95.0
+    },
+    {
+     "name": "4.5 ม.",
+     "price": 115.0
+    }
+   ],
+   "note": "ราคาต่อคัน / บรรจุคละสี 5 คัน"
   },
   {
    "id": "1Ag-7pEnWKJ4SmA4rEjYZ3eFhrUu2Nlc0",
@@ -473,7 +566,38 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-01"
+   "date": "2025-05-01",
+   "options": [
+    {
+     "name": "3 ม.",
+     "price": 100.0
+    },
+    {
+     "name": "4 ม.",
+     "price": 120.0
+    },
+    {
+     "name": "5 ม.",
+     "price": 160.0
+    },
+    {
+     "name": "6 ม.",
+     "price": 195.0
+    },
+    {
+     "name": "7 ม.",
+     "price": 240.0
+    },
+    {
+     "name": "8 ม.",
+     "price": 305.0
+    },
+    {
+     "name": "10 ม.",
+     "price": 510.0
+    }
+   ],
+   "note": "ราคาต่อคัน"
   },
   {
    "id": "1CaEMzEsaqB-zgIHf1wmlSy6iL9YyEpzR",
@@ -487,7 +611,22 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-01"
+   "date": "2025-05-01",
+   "options": [
+    {
+     "name": "2.7 ม.",
+     "price": 230.0
+    },
+    {
+     "name": "3.6 ม.",
+     "price": 260.0
+    },
+    {
+     "name": "4.5 ม.",
+     "price": 280.0
+    }
+   ],
+   "note": "ราคาต่อคัน"
   },
   {
    "id": "11qNJybMZImskcr56aRxnSaswODNOOs1Q",
@@ -501,7 +640,26 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-01"
+   "date": "2025-05-01",
+   "options": [
+    {
+     "name": "ปลายคัน 1 ท่อน",
+     "price": 25.0
+    },
+    {
+     "name": "ปลายคัน 2 ท่อนต่อกัน",
+     "price": 35.0
+    },
+    {
+     "name": "จุกปิด",
+     "price": 25.0
+    },
+    {
+     "name": "ฝาปิดท้าย",
+     "price": 20.0
+    }
+   ],
+   "note": "บางรายการสินค้าหมด (ดูในรูป)"
   },
   {
    "id": "1KUPdszVR2vqalJjw64Zazy8tZruLfdrH",
@@ -515,7 +673,21 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-01"
+   "date": "2025-05-01",
+   "options": [
+    {
+     "name": "7 ฟุต",
+     "price": 150.0
+    },
+    {
+     "name": "8 ฟุต",
+     "price": 190.0
+    },
+    {
+     "name": "9 ฟุต",
+     "price": 210.0
+    }
+   ]
   },
   {
    "id": "1PHFGsJ_VVsYmDXrjOEcEx4H0X4fKkwqm",
@@ -529,7 +701,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-12"
+   "date": "2025-05-12",
+   "price": 100.0,
+   "note": "ราคาต่อคัน / ยกลัง 30 คัน (คละสี) คันละ 95"
   },
   {
    "id": "1e-cmnz7LIzCtpII09OSEL-zQps2wjQ_C",
@@ -543,7 +717,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-12"
+   "date": "2025-05-12",
+   "price": 75.0,
+   "note": "ราคาต่อคัน / ยกลัง 50 คัน (คละสี) คันละ 70"
   },
   {
    "id": "1kdd1KXU7MDj9nvaQdUf2zOqo5BAafidH",
@@ -557,7 +733,26 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-12"
+   "date": "2025-05-12",
+   "options": [
+    {
+     "name": "5 ฟุต",
+     "price": 140.0
+    },
+    {
+     "name": "6 ฟุต",
+     "price": 160.0
+    },
+    {
+     "name": "7 ฟุต",
+     "price": 185.0
+    },
+    {
+     "name": "8 ฟุต",
+     "price": 220.0
+    }
+   ],
+   "note": "ราคาต่อคัน"
   },
   {
    "id": "1eDrg4ykAEl5sIKkToOiWjfwJp02bEOJK",
@@ -571,7 +766,30 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-12"
+   "date": "2025-05-12",
+   "options": [
+    {
+     "name": "6 ฟุต",
+     "price": 185.0
+    },
+    {
+     "name": "7 ฟุต",
+     "price": 210.0
+    },
+    {
+     "name": "8 ฟุต",
+     "price": 245.0
+    },
+    {
+     "name": "9 ฟุต",
+     "price": 270.0
+    },
+    {
+     "name": "10 ฟุต",
+     "price": 330.0
+    }
+   ],
+   "note": "ราคาต่อคัน"
   },
   {
    "id": "102Ok1z8JLtbcfdqbX-dfi3jd9IumZQMC",
@@ -585,7 +803,34 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-04-29"
+   "date": "2026-04-29",
+   "options": [
+    {
+     "name": "5 ฟุต",
+     "price": 230.0
+    },
+    {
+     "name": "6 ฟุต",
+     "price": 250.0
+    },
+    {
+     "name": "7 ฟุต",
+     "price": 275.0
+    },
+    {
+     "name": "8 ฟุต",
+     "price": 305.0
+    },
+    {
+     "name": "9 ฟุต",
+     "price": 340.0
+    },
+    {
+     "name": "10 ฟุต",
+     "price": 385.0
+    }
+   ],
+   "note": "ราคาต่อคัน"
   },
   {
    "id": "1X31hB6S_YXIQlvL_shXjWSVFeSHfmNut",
@@ -599,7 +844,34 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-04-12"
+   "date": "2025-04-12",
+   "options": [
+    {
+     "name": "5 ฟุต",
+     "price": 240.0
+    },
+    {
+     "name": "6 ฟุต",
+     "price": 260.0
+    },
+    {
+     "name": "7 ฟุต",
+     "price": 285.0
+    },
+    {
+     "name": "8 ฟุต",
+     "price": 315.0
+    },
+    {
+     "name": "9 ฟุต",
+     "price": 350.0
+    },
+    {
+     "name": "10 ฟุต",
+     "price": 395.0
+    }
+   ],
+   "note": "ราคาต่อคัน"
   },
   {
    "id": "1czsmfyusNwa75Iyl4YhGgyKTJq2D1zHC",
@@ -613,7 +885,18 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-01"
+   "date": "2025-05-01",
+   "options": [
+    {
+     "name": "602 (1.80 ม.)",
+     "price": 169.0
+    },
+    {
+     "name": "662 (1.95 ม.)",
+     "price": 179.0
+    }
+   ],
+   "note": "ราคาต่อคัน"
   },
   {
    "id": "1eXkrpUAilk__YIrZhcIjGsFF5AEJZndT",
@@ -627,7 +910,18 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-01"
+   "date": "2025-05-01",
+   "options": [
+    {
+     "name": "602 (1.80 ม.)",
+     "price": 175.0
+    },
+    {
+     "name": "662 (1.95 ม.)",
+     "price": 185.0
+    }
+   ],
+   "note": "ราคาต่อคัน"
   },
   {
    "id": "1GIkENSkzTvqLLzJm_wT0Mv_QYEzUAfXN",
@@ -641,7 +935,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-01"
+   "date": "2025-05-01",
+   "price": 60.0,
+   "note": "ราคาต่อชิ้น (สปินนิ่ง / เบทคาสติ้ง ราคาเดียวกัน)"
   },
   {
    "id": "1jHlOL-zk2gtIVgiWtWQwn53VAH8F3wDz",
@@ -655,7 +951,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-01"
+   "date": "2025-05-01",
+   "price": 110.0,
+   "note": "ราคาต่อคัน / ยกลัง 40 คัน (คละสี) คันละ 105"
   },
   {
    "id": "1yXBfheKjhKpn7PuBCsCb6hcD0-NoYyym",
@@ -669,7 +967,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-01"
+   "date": "2025-05-01",
+   "price": 140.0,
+   "note": "ราคาต่อคัน / ยกลัง 30 คัน (คละสี) คันละ 135"
   },
   {
    "id": "1WJJmr4spMJKc5K3xDl1qhh8Z1Ul1HlHf",
@@ -683,7 +983,26 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-06-24"
+   "date": "2026-06-24",
+   "options": [
+    {
+     "name": "B05-02-20 4.6 ฟุต 1 ท่อน",
+     "price": 105.0
+    },
+    {
+     "name": "B05-02-22 5 ฟุต 1 ท่อน",
+     "price": 105.0
+    },
+    {
+     "name": "B05-02-24 5 ฟุต 2 ท่อน",
+     "price": 105.0
+    },
+    {
+     "name": "B05-02-26 5.6 ฟุต 2 ท่อน",
+     "price": 110.0
+    }
+   ],
+   "note": "ราคาต่อคัน / ยกลัง 50 คัน ลดคันละ 5"
   },
   {
    "id": "1EcCeIqz6Hdr-MOxK7sTDeRSgyiDsC3SX",
@@ -697,7 +1016,18 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-01"
+   "date": "2025-05-01",
+   "options": [
+    {
+     "name": "6 ฟุต",
+     "price": 205.0
+    },
+    {
+     "name": "7 ฟุต",
+     "price": 240.0
+    }
+   ],
+   "note": "ราคาต่อคัน"
   },
   {
    "id": "1VPDiLBbjMaXZeeP9_LDnH0-nhd3aNtud",
@@ -711,7 +1041,8 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-29"
+   "date": "2025-05-29",
+   "note": "สินค้าหมด"
   },
   {
    "id": "1MOaYUqozoruaqrh8IvWpn7chtxEpYNol",
@@ -725,7 +1056,26 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-01"
+   "date": "2025-05-01",
+   "options": [
+    {
+     "name": "5.6 ฟุต",
+     "price": 230.0
+    },
+    {
+     "name": "6 ฟุต",
+     "price": 270.0
+    },
+    {
+     "name": "7 ฟุต",
+     "price": 300.0
+    },
+    {
+     "name": "8 ฟุต",
+     "price": 335.0
+    }
+   ],
+   "note": "ราคาต่อคัน"
   },
   {
    "id": "1P8abcBclnIqvx-i_AvjdOuy5duDuxWua",
@@ -739,7 +1089,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-01"
+   "date": "2025-05-01",
+   "price": 245.0,
+   "note": "ขนาด 8 ฟุต"
   },
   {
    "id": "12skHCGWpMy4bvoKvaNArdY0mkPpl7RHe",
@@ -753,7 +1105,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-06"
+   "date": "2025-05-06",
+   "price": 275.0,
+   "note": "ขนาด 8 ฟุต"
   },
   {
    "id": "15PYKin1wc7EZI7x1CBIFruFRtG4E9w58",
@@ -767,7 +1121,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-08-14"
+   "date": "2025-08-14",
+   "price": 350.0,
+   "note": "สินค้าหมด"
   },
   {
    "id": "1q-q03ARpQuU9J8hh9pC9-TJU3O_ASKZi",
@@ -781,7 +1137,8 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-01"
+   "date": "2025-05-01",
+   "price": 395.0
   },
   {
    "id": "1izkQRCL6-C0aDpvJ6LogeGShWho6ndAE",
@@ -795,7 +1152,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-06-10"
+   "date": "2026-06-10",
+   "price": 420.0,
+   "note": "เลิกขาย"
   },
   {
    "id": "1hhn8tRz5f9yLiUJ-M0zktQXfTWduID9k",
@@ -809,7 +1168,8 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-28"
+   "date": "2025-05-28",
+   "price": 420.0
   },
   {
    "id": "1pc-ajWPc0lrKp3ZAOak_JqQyidf_RaeF",
@@ -823,7 +1183,8 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-01"
+   "date": "2025-05-01",
+   "price": 590.0
   },
   {
    "id": "1nhNb3TtrsI06svuSHq7786-hGpv3_AaA",
@@ -837,7 +1198,22 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2024-11-29"
+   "date": "2024-11-29",
+   "options": [
+    {
+     "name": "7 ฟุต",
+     "price": 410.0
+    },
+    {
+     "name": "8 ฟุต",
+     "price": 460.0
+    },
+    {
+     "name": "9 ฟุต",
+     "price": 510.0
+    }
+   ],
+   "note": "ราคาต่อคัน"
   },
   {
    "id": "1sAXR4XfI9VpbFQWrZTJfS8WLm7pSX0E9",
@@ -851,7 +1227,18 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2024-12-03"
+   "date": "2024-12-03",
+   "options": [
+    {
+     "name": "662 (SP)",
+     "price": 380.0
+    },
+    {
+     "name": "662 (BC)",
+     "price": 390.0
+    }
+   ],
+   "note": "ราคาต่อคัน"
   },
   {
    "id": "12hwiYBCxK59qPaT1eOTEf8HPf1fZT_2S",
@@ -865,7 +1252,18 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2024-12-04"
+   "date": "2024-12-04",
+   "options": [
+    {
+     "name": "662 (SP)",
+     "price": 420.0
+    },
+    {
+     "name": "662 (BC)",
+     "price": 430.0
+    }
+   ],
+   "note": "ราคาต่อคัน"
   },
   {
    "id": "1Y3CMhfS38mMp4zFb6mn4QWe-xyE9akmT",
@@ -879,7 +1277,8 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-02"
+   "date": "2025-05-02",
+   "price": 750.0
   },
   {
    "id": "1EyYwUvJ2eOsFfeNUJ6eQXYXx7K3LFQ71",
@@ -893,7 +1292,8 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-02"
+   "date": "2025-05-02",
+   "price": 750.0
   },
   {
    "id": "1VTYf8L2Zq5tUmBHOQjfa9NhKZUWN9Hdo",
@@ -907,7 +1307,8 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-02"
+   "date": "2025-05-02",
+   "price": 830.0
   },
   {
    "id": "1um1YTl8ij7bYf1Te5-fyL-36SL4adIQT",
@@ -921,7 +1322,8 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-02"
+   "date": "2025-05-02",
+   "price": 235.0
   },
   {
    "id": "1QH_1_9Cy8k10Uozu5r5Gspu5TatELEx7",
@@ -935,7 +1337,8 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-02"
+   "date": "2025-05-02",
+   "price": 245.0
   },
   {
    "id": "1C-84v872Gk9sBz04ZTriWnUM2Q8Z1cmT",
@@ -949,7 +1352,8 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-02"
+   "date": "2025-05-02",
+   "price": 260.0
   },
   {
    "id": "1K2EzmyMUB9fx6wBLRL-H2CoCICRgNk4W",
@@ -963,7 +1367,8 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-01-17"
+   "date": "2025-01-17",
+   "price": 160.0
   },
   {
    "id": "1pQk_pfT7RzpUx5FicOX1qcZzyr_Xa2TX",
@@ -977,7 +1382,8 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-02"
+   "date": "2025-05-02",
+   "price": 170.0
   },
   {
    "id": "1N0AG9gGiN64RjMffP4e4Dk7pgyNfpYtY",
@@ -991,7 +1397,8 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-02"
+   "date": "2025-05-02",
+   "price": 225.0
   },
   {
    "id": "1ZVSwLydxq3sm7PN18SLBh2aO40DtSF9c",
@@ -1005,7 +1412,8 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-02"
+   "date": "2025-05-02",
+   "price": 235.0
   },
   {
    "id": "15AZ9IfUU8GSBKPioau-2pn5kgm7ptoMU",
@@ -1019,7 +1427,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-10-04"
+   "date": "2025-10-04",
+   "price": 190.0,
+   "note": "ราคาต่อตัว / ยกลัง 40 ตัว (คละสี) ตัวละ 180"
   },
   {
    "id": "1dfvMAOJvuyP2-0c8ey8ZCnNhdBxK5sBn",
@@ -1033,7 +1443,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-10-04"
+   "date": "2025-10-04",
+   "price": 200.0,
+   "note": "ราคาต่อตัว / ยกลัง 40 ตัว (คละสี) ตัวละ 190"
   },
   {
    "id": "1V1naZhchVOoO2vJz3MFaziFziQZFaneh",
@@ -1047,7 +1459,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-10-04"
+   "date": "2025-10-04",
+   "price": 240.0,
+   "note": "ราคาต่อตัว / ยกลัง 20 ตัว (คละสี) ตัวละ 230"
   },
   {
    "id": "15rRnJtoESgohBuv0CvskLE6VZXbejAtO",
@@ -1061,7 +1475,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-10-04"
+   "date": "2025-10-04",
+   "price": 260.0,
+   "note": "ราคาต่อตัว / ยกลัง 20 ตัว (คละสี) ตัวละ 250"
   },
   {
    "id": "1vveEvrHy258akVLiw3JdPOP0nhg5AxY-",
@@ -1075,7 +1491,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-04-06"
+   "date": "2026-04-06",
+   "price": 290.0,
+   "note": "ราคาต่อตัว / ยกลัง 20 ตัว (คละสี) ตัวละ 280 / สีแดงหมด"
   },
   {
    "id": "1W8_BUnu3J_Fg8-zvqC6_5HFD5KwFGNAQ",
@@ -1089,7 +1507,8 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-02"
+   "date": "2025-05-02",
+   "price": 340.0
   },
   {
    "id": "1b7DsS2dneVCP2PVJT1k30PqJOJiMLGXs",
@@ -1103,7 +1522,8 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-02"
+   "date": "2025-05-02",
+   "price": 355.0
   },
   {
    "id": "1GByc-N8Qnr1oZNwkxM3sUU4bHuY2E1iA",
@@ -1117,7 +1537,8 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-02"
+   "date": "2025-05-02",
+   "price": 370.0
   },
   {
    "id": "1Jr9ouCQ5x4PePHehFQjjCG3yiBggy7Dz",
@@ -1131,7 +1552,8 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-02"
+   "date": "2025-05-02",
+   "price": 345.0
   },
   {
    "id": "1PJSuB3Wnrw6Lvn3jJ3xQjzfhRBzBW7At",
@@ -1145,7 +1567,8 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-02"
+   "date": "2025-05-02",
+   "price": 365.0
   },
   {
    "id": "1z1ZuHwByg0c5-8Tl1YHQSAy8a4hZyiLk",
@@ -1159,7 +1582,8 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-02"
+   "date": "2025-05-02",
+   "price": 385.0
   },
   {
    "id": "1KFbsPPIAeOr3Sder572TjO20B-DmE2qV",
@@ -1173,7 +1597,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-02"
+   "date": "2025-05-02",
+   "price": 130.0,
+   "note": "ราคาต่อตัว / ยกลัง 40 ตัว (คละสี) ตัวละ 125"
   },
   {
    "id": "1Yx15pAysPweQmah8G37N-kXJWsGZn09l",
@@ -1187,7 +1613,8 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-02"
+   "date": "2025-05-02",
+   "price": 140.0
   },
   {
    "id": "1mlnmkXOe8Wo0NoAwlV0K6t-0Gnca1rrX",
@@ -1201,7 +1628,8 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-02"
+   "date": "2025-05-02",
+   "price": 150.0
   },
   {
    "id": "1_5sdcxA0KPTJwRM0Er7lLETLkPanBbF3",
@@ -1215,7 +1643,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-02-19"
+   "date": "2026-02-19",
+   "price": 70.0,
+   "note": "ราคาต่อตัว / ยกลัง 60 ตัว ตัวละ 60"
   },
   {
    "id": "154Tjk2HIEJtB1ep8I3dYxgfrKPAOxwai",
@@ -1229,7 +1659,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-10-04"
+   "date": "2025-10-04",
+   "price": 75.0,
+   "note": "ราคาต่อตัว / ยกลัง 60 ตัว (คละสี) ตัวละ 70"
   },
   {
    "id": "1a88Z6DxavvnPMCYO_6fSLl2y0eJ6lc9d",
@@ -1243,7 +1675,8 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-06-04"
+   "date": "2026-06-04",
+   "price": 580.0
   },
   {
    "id": "1Nnt6HQzehTBlJbNlyf9PHQkigp2odgsA",
@@ -1257,7 +1690,8 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-04-11"
+   "date": "2025-04-11",
+   "price": 580.0
   },
   {
    "id": "1NG0rPBLBuJrIhv9fKeOJg_zeXWFyjl0Y",
@@ -1271,7 +1705,8 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-02"
+   "date": "2025-05-02",
+   "price": 580.0
   },
   {
    "id": "1fniv6BlIKoYvAGPxsSb_-01M8t8UBvBS",
@@ -1285,7 +1720,8 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-02"
+   "date": "2025-05-02",
+   "price": 990.0
   },
   {
    "id": "17eKCI4hpiFi_RdADUmmBWdZfa9dVp9Zf",
@@ -1299,7 +1735,8 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-02"
+   "date": "2025-05-02",
+   "price": 1260.0
   },
   {
    "id": "1tKMrl-Oi_dbN9Df6NtJLIPJ8Cvoo8A0X",
@@ -1313,7 +1750,8 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-02"
+   "date": "2025-05-02",
+   "price": 105.0
   },
   {
    "id": "1X8wBmMBhwF9UoR3TZhCScKWWroVTypOE",
@@ -1327,7 +1765,22 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-02"
+   "date": "2025-05-02",
+   "options": [
+    {
+     "name": "#1000",
+     "price": 35.0
+    },
+    {
+     "name": "#2000/#3000",
+     "price": 45.0
+    },
+    {
+     "name": "#4000/#5000",
+     "price": 45.0
+    }
+   ],
+   "note": "ราคาต่อชิ้น / บรรจุ 10 ชิ้น"
   },
   {
    "id": "14gfs_h27m6VxE70k5q6I0awQEgKCf8Ew",
@@ -1341,7 +1794,26 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-09-08"
+   "date": "2025-09-08",
+   "options": [
+    {
+     "name": "#1000",
+     "price": 35.0
+    },
+    {
+     "name": "#2000/#3000",
+     "price": 40.0
+    },
+    {
+     "name": "#4000",
+     "price": 40.0
+    },
+    {
+     "name": "#5000",
+     "price": 40.0
+    }
+   ],
+   "note": "ราคาต่อชิ้น / บรรจุ 10 ชิ้น"
   },
   {
    "id": "1QyRnA-yXt8gnwbB3o6IOuxCcB3WBDR7f",
@@ -1355,7 +1827,22 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-02"
+   "date": "2025-05-02",
+   "options": [
+    {
+     "name": "#1000/#2000",
+     "price": 35.0
+    },
+    {
+     "name": "#3000/#4000",
+     "price": 45.0
+    },
+    {
+     "name": "#5000",
+     "price": 45.0
+    }
+   ],
+   "note": "สินค้าหมด"
   },
   {
    "id": "1BOxAL0QZFhWiqqMzKDiRq69z7BS3X9QD",
@@ -1369,7 +1856,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-02"
+   "date": "2025-05-02",
+   "price": 40.0,
+   "note": "ใช้กับรอก #1000, #2000 / บรรจุ 10 ชิ้น"
   },
   {
    "id": "1Hlslmyi-ZD0wnl0DpZ3MCOxTz7rJeI09",
@@ -1383,7 +1872,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-02"
+   "date": "2025-05-02",
+   "price": 10.0,
+   "note": "ราคาต่อชิ้น / บรรจุ 10 ชิ้นต่อห่อ"
   },
   {
    "id": "19IM_dJyOCpQEwWn9fCl3kZcIADFPktrP",
@@ -1397,7 +1888,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-02"
+   "date": "2025-05-02",
+   "price": 25.0,
+   "note": "ราคาต่อชิ้น / มีเฉพาะเบอร์ M (เบอร์ S, L หมด) / บรรจุ 5 ซอง"
   },
   {
    "id": "1sdzK2hN4espNDLIG7XlV_kNp1hWrS-Jw",
@@ -1411,7 +1904,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-11-04"
+   "date": "2025-11-04",
+   "price": 10.0,
+   "note": "ราคาต่อชิ้น / บรรจุ 10 ซอง"
   },
   {
    "id": "1JeQJaJUmqTzgxe0NsXQVvyZ73bF-PRqV",
@@ -1425,7 +1920,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-02"
+   "date": "2025-05-02",
+   "price": 60.0,
+   "note": "ราคาต่อชิ้น / บรรจุ 5 ซอง"
   },
   {
    "id": "1HwbNDtCPzLG_A9Zau2GZ7IKsf6ErVKd8",
@@ -1439,7 +1936,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-02"
+   "date": "2025-05-02",
+   "price": 55.0,
+   "note": "ราคาต่อชิ้น / บรรจุ 5 ซอง"
   },
   {
    "id": "1BmnEp5DFV0aY8nWUiI8oknLwpX2n5Ol5",
@@ -1453,7 +1952,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-02"
+   "date": "2025-05-02",
+   "price": 45.0,
+   "note": "ราคาต่อชิ้น / บรรจุ 5 ซอง"
   },
   {
    "id": "1cHc88kb24Y4L2adftLyEzK1wb-pZEHmw",
@@ -1467,7 +1968,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-02-27"
+   "date": "2025-02-27",
+   "price": 10.0,
+   "note": "จุกปิดบน/ล่าง ทุกขนาด ชิ้นละ 10 / บรรจุ 5 ชิ้น"
   },
   {
    "id": "1PZnZ157uYJqrJiq8sonpu97JFfWrpbvC",
@@ -1481,7 +1984,38 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-02-27"
+   "date": "2025-02-27",
+   "options": [
+    {
+     "name": "จุกปิดบน 3-6 ม.",
+     "price": 10.0
+    },
+    {
+     "name": "จุกปิดบน 7-8 ม.",
+     "price": 15.0
+    },
+    {
+     "name": "จุกปิดบน 10 ม.",
+     "price": 20.0
+    },
+    {
+     "name": "จุกปิดล่าง 3-4 ม.",
+     "price": 10.0
+    },
+    {
+     "name": "จุกปิดล่าง 5-6 ม.",
+     "price": 15.0
+    },
+    {
+     "name": "จุกปิดล่าง 7-8 ม.",
+     "price": 20.0
+    },
+    {
+     "name": "จุกปิดล่าง 10 ม.",
+     "price": 25.0
+    }
+   ],
+   "note": "ราคาต่อชิ้น / บรรจุ 5 ชิ้น"
   },
   {
    "id": "1fYZ9dsllbFcJGsSzV0lqnrD0F47ijWhs",
@@ -1495,7 +2029,8 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-02"
+   "date": "2025-05-02",
+   "price": 45.0
   },
   {
    "id": "11HC31--3QyBmZ_78vulOtooGCAjy1pnE",
@@ -1509,7 +2044,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-07-15"
+   "date": "2026-07-15",
+   "price": 10.0,
+   "note": "ราคาต่อชิ้น (2 ชิ้นต่อซอง) / บรรจุ 10 ซอง"
   },
   {
    "id": "1FINlY7s6O3KFPu-ElF6W6xrbUEGq8HQl",
@@ -1523,7 +2060,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-12-08"
+   "date": "2025-12-08",
+   "price": 14.0,
+   "note": "ราคาต่อซอง / บรรจุ 10 ซอง"
   },
   {
    "id": "1jNT76EtY9FSQa-t87TOXZXU18u3ZmXeS",
@@ -1537,7 +2076,70 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-12-08"
+   "date": "2025-12-08",
+   "options": [
+    {
+     "name": "#5",
+     "price": 62.0
+    },
+    {
+     "name": "#6",
+     "price": 64.0
+    },
+    {
+     "name": "#7",
+     "price": 66.0
+    },
+    {
+     "name": "#8",
+     "price": 68.0
+    },
+    {
+     "name": "#9",
+     "price": 70.0
+    },
+    {
+     "name": "#10",
+     "price": 74.0
+    },
+    {
+     "name": "#11",
+     "price": 80.0
+    },
+    {
+     "name": "#12",
+     "price": 86.0
+    },
+    {
+     "name": "#13",
+     "price": 95.0
+    },
+    {
+     "name": "#14",
+     "price": 105.0
+    },
+    {
+     "name": "#15",
+     "price": 130.0
+    },
+    {
+     "name": "#16",
+     "price": 145.0
+    },
+    {
+     "name": "#17",
+     "price": 165.0
+    },
+    {
+     "name": "#18",
+     "price": 185.0
+    },
+    {
+     "name": "#20",
+     "price": 240.0
+    }
+   ],
+   "note": "ราคาต่อกล่อง (100 ตัว)"
   },
   {
    "id": "1v8gzZY6-lAol3qCBWfknBLDT2gP0BPrd",
@@ -1551,7 +2153,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-02-12"
+   "date": "2026-02-12",
+   "price": 7.0,
+   "note": "ราคาต่อซอง / บรรจุ 10 ซอง"
   },
   {
    "id": "1tUf6LsdYpGnJBi3E-uCDms6tt9K_f8FZ",
@@ -1565,7 +2169,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-12-08"
+   "date": "2025-12-08",
+   "price": 18.0,
+   "note": "ราคาต่อกล่อง / บรรจุ 10 กล่อง"
   },
   {
    "id": "1kggo99kpCmHhEyiG_nv7q1CS1ZAfr_pU",
@@ -1579,7 +2185,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-12-08"
+   "date": "2025-12-08",
+   "price": 21.0,
+   "note": "ราคาต่อกล่อง (เบอร์ 3-12 เบอร์ละ 10 ตัว) / บรรจุ 10 กล่อง"
   },
   {
    "id": "1C8O9tvHg2HtCQgc7xTxylpNWl64RA5b4",
@@ -1593,7 +2201,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-07-14"
+   "date": "2025-07-14",
+   "price": 15.0,
+   "note": "ราคาต่อซอง / บรรจุ 10 ซอง"
   },
   {
    "id": "1sCG-z_dUQYfLW4v2FXr9cRcHtE_tAZjU",
@@ -1607,7 +2217,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-12-24"
+   "date": "2025-12-24",
+   "price": 22.0,
+   "note": "ราคาต่อกล่อง / บรรจุ 10 กล่อง"
   },
   {
    "id": "1Jq0x21XRunQoRDygUZuC9sWgecXJ6Z08",
@@ -1621,7 +2233,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-06-09"
+   "date": "2025-06-09",
+   "price": 22.0,
+   "note": "ราคาต่อกล่อง / บรรจุ 10 กล่อง"
   },
   {
    "id": "1l7gvU86lOisPczNfVZ7J3M5jNPQXEdjb",
@@ -1635,7 +2249,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-06-09"
+   "date": "2025-06-09",
+   "price": 22.0,
+   "note": "ราคาต่อกล่อง / บรรจุ 10 กล่อง"
   },
   {
    "id": "1jjL-DE88lPLOQ2RLNX50J0qnWGfejbqv",
@@ -1649,7 +2265,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-06-09"
+   "date": "2025-06-09",
+   "price": 21.0,
+   "note": "ราคาต่อกล่อง (เบอร์ 7-16 เบอร์ละ 10 ตัว) / บรรจุ 10 กล่อง"
   },
   {
    "id": "1arQ-VTbIN1bNbet73_0i-HrvC4CMeGxr",
@@ -1663,7 +2281,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-06-09"
+   "date": "2025-06-09",
+   "price": 10.0,
+   "note": "ราคาต่อซอง / บรรจุ 10 ซอง"
   },
   {
    "id": "1FoOcKE7aSNs4Qp57HWUKWBZgLMH2sJ_k",
@@ -1677,7 +2297,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-06-09"
+   "date": "2025-06-09",
+   "price": 25.0,
+   "note": "ราคาต่อกล่อง (100 ตัว) / บรรจุ 10 กล่อง"
   },
   {
    "id": "161McJQtaFbaHplo28GCGfdcJbygt3mKS",
@@ -1691,7 +2313,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-07-14"
+   "date": "2025-07-14",
+   "price": 18.0,
+   "note": "ราคาต่อซอง / บรรจุ 10 ซอง"
   },
   {
    "id": "1qCCRvosAwxrWK5_TWkcbEYqjR1HOaQNp",
@@ -1705,7 +2329,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-06-30"
+   "date": "2026-06-30",
+   "price": 14.0,
+   "note": "ราคาต่อซอง / บรรจุ 10 ซอง"
   },
   {
    "id": "1RHhW5KSET9go48VlYN8xOnofNJFed1Kl",
@@ -1719,7 +2345,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-06-30"
+   "date": "2026-06-30",
+   "price": 14.0,
+   "note": "ราคาต่อซอง / บรรจุ 10 ซอง"
   },
   {
    "id": "1OP_6GDrXwZ4BXd0UuK4P2s2SE6B8-79L",
@@ -1733,7 +2361,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-11-02"
+   "date": "2025-11-02",
+   "price": 17.0,
+   "note": "ราคาต่อซอง / บรรจุ 10 ซอง"
   },
   {
    "id": "18QNy3HpIcZ571H8935LJT8TZ5fSG0MLj",
@@ -1747,7 +2377,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-03"
+   "date": "2025-05-03",
+   "price": 22.0,
+   "note": "ราคาต่อซอง / บรรจุ 10 ซอง"
   },
   {
    "id": "1f_gj9PWkZTkcWEOaz-U1pwN7jHI80Lpx",
@@ -1761,7 +2393,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-03"
+   "date": "2025-05-03",
+   "price": 22.0,
+   "note": "ราคาต่อซอง / บรรจุ 10 ซอง"
   },
   {
    "id": "1aewhu9HCLLTkYc0dfT-9jZLpaFN50koW",
@@ -1775,7 +2409,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-12-24"
+   "date": "2025-12-24",
+   "price": 10.0,
+   "note": "ราคาต่อซอง / บรรจุ 10 ซอง"
   },
   {
    "id": "1a81wxuvr2zxGLMIu4Dun5xjDNFm9hiPh",
@@ -1789,7 +2425,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-12"
+   "date": "2025-05-12",
+   "price": 15.0,
+   "note": "ราคาต่อซอง / บรรจุ 10 ซอง"
   },
   {
    "id": "15WrUgEI1Veoj4QI9DS82hSW-kbVzqPSX",
@@ -1803,7 +2441,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-03-16"
+   "date": "2026-03-16",
+   "price": 18.0,
+   "note": "ราคาต่อซอง / บรรจุ 10 ซอง"
   },
   {
    "id": "11AdiFDTjQU3dHEIJG_nbnYcwz7H3iJum",
@@ -1817,7 +2457,18 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-12"
+   "date": "2025-05-12",
+   "options": [
+    {
+     "name": "#2 ถึง #5/0",
+     "price": 14.0
+    },
+    {
+     "name": "#6/0",
+     "price": 10.0
+    }
+   ],
+   "note": "ราคาต่อซอง / บรรจุ 10 ซอง / เบอร์ 6/0 ราคาพิเศษ"
   },
   {
    "id": "1JxjO_5Z3Q9STuyjhb3TIqd4o1vF1FeLl",
@@ -1831,7 +2482,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-06-03"
+   "date": "2026-06-03",
+   "price": 22.0,
+   "note": "ราคาต่อซอง / บรรจุ 10 ซอง / เบอร์ 3/0 หมด"
   },
   {
    "id": "1crhhT0UnSeFxzVrYDSKGMAtZndbIlf6w",
@@ -1845,7 +2498,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-10-12"
+   "date": "2025-10-12",
+   "price": 14.0,
+   "note": "ราคาต่อซอง / บรรจุ 10 ซอง"
   },
   {
    "id": "15vMkPlYiuWwoHjAmgApmkFHH2R2qj8qv",
@@ -1859,7 +2514,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-10-12"
+   "date": "2025-10-12",
+   "price": 14.0,
+   "note": "ราคาต่อซอง / บรรจุ 10 ซอง"
   },
   {
    "id": "1mytlApaj-JweekXfnyJmnL6H_eNaJVHe",
@@ -1873,7 +2530,34 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-01-08"
+   "date": "2026-01-08",
+   "options": [
+    {
+     "name": "#1/0",
+     "price": 25.0
+    },
+    {
+     "name": "#2/0",
+     "price": 26.0
+    },
+    {
+     "name": "#3/0",
+     "price": 27.0
+    },
+    {
+     "name": "#4/0",
+     "price": 28.0
+    },
+    {
+     "name": "#5/0",
+     "price": 29.0
+    },
+    {
+     "name": "#6/0",
+     "price": 30.0
+    }
+   ],
+   "note": "ราคาต่อซอง (2 ตัว) / บรรจุ 10 ซอง"
   },
   {
    "id": "1nz6C1JJEwBIaKgZqxatzFCT19D4sCeDM",
@@ -1887,7 +2571,34 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-01-08"
+   "date": "2026-01-08",
+   "options": [
+    {
+     "name": "#1/0",
+     "price": 26.0
+    },
+    {
+     "name": "#2/0",
+     "price": 27.0
+    },
+    {
+     "name": "#3/0",
+     "price": 28.0
+    },
+    {
+     "name": "#4/0",
+     "price": 29.0
+    },
+    {
+     "name": "#5/0",
+     "price": 30.0
+    },
+    {
+     "name": "#6/0",
+     "price": 31.0
+    }
+   ],
+   "note": "ราคาต่อซอง (2 ตัว) / บรรจุ 10 ซอง"
   },
   {
    "id": "1QVKKT31A9vYz5xsucQcjc39m_vDmJoHb",
@@ -1901,7 +2612,74 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-07-16"
+   "date": "2025-07-16",
+   "options": [
+    {
+     "name": "#10",
+     "price": 250.0
+    },
+    {
+     "name": "#8",
+     "price": 275.0
+    },
+    {
+     "name": "#6",
+     "price": 295.0
+    },
+    {
+     "name": "#4",
+     "price": 320.0
+    },
+    {
+     "name": "#2",
+     "price": 340.0
+    },
+    {
+     "name": "#1",
+     "price": 435.0
+    },
+    {
+     "name": "#1/0",
+     "price": 460.0
+    },
+    {
+     "name": "#2/0",
+     "price": 480.0
+    },
+    {
+     "name": "#3/0",
+     "price": 495.0
+    },
+    {
+     "name": "#4/0",
+     "price": 520.0
+    },
+    {
+     "name": "#5/0",
+     "price": 565.0
+    },
+    {
+     "name": "#6/0",
+     "price": 625.0
+    },
+    {
+     "name": "#7/0",
+     "price": 685.0
+    },
+    {
+     "name": "#8/0",
+     "price": 565.0
+    },
+    {
+     "name": "#9/0",
+     "price": 670.0
+    },
+    {
+     "name": "#10/0",
+     "price": 840.0
+    }
+   ],
+   "note": "ราคาต่อกล่อง (100 ตัว) / เบอร์ 8/0-10/0 ราคาพิเศษ"
   },
   {
    "id": "19gzOdjS1LI3a3WaGOMvsr_zCSUaJI9VB",
@@ -1915,7 +2693,8 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-12"
+   "date": "2025-05-12",
+   "note": "สินค้าหมด"
   },
   {
    "id": "1HRAHi09D9eVK5_3-pfT0ZRqBA6vaYMvt",
@@ -1929,7 +2708,38 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-07-16"
+   "date": "2025-07-16",
+   "options": [
+    {
+     "name": "#1",
+     "price": 470.0
+    },
+    {
+     "name": "#1/0",
+     "price": 495.0
+    },
+    {
+     "name": "#2/0",
+     "price": 515.0
+    },
+    {
+     "name": "#3/0",
+     "price": 540.0
+    },
+    {
+     "name": "#4/0",
+     "price": 570.0
+    },
+    {
+     "name": "#5/0",
+     "price": 610.0
+    },
+    {
+     "name": "#6/0",
+     "price": 660.0
+    }
+   ],
+   "note": "ราคาต่อกล่อง (100 ตัว)"
   },
   {
    "id": "1gYlsBVog97bh-W80X7Obufpiv3efSfvv",
@@ -1943,7 +2753,50 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-04-18"
+   "date": "2025-04-18",
+   "options": [
+    {
+     "name": "#10",
+     "price": 150.0
+    },
+    {
+     "name": "#1",
+     "price": 220.0
+    },
+    {
+     "name": "#1/0",
+     "price": 230.0
+    },
+    {
+     "name": "#2/0",
+     "price": 250.0
+    },
+    {
+     "name": "#3/0",
+     "price": 285.0
+    },
+    {
+     "name": "#4/0",
+     "price": 350.0
+    },
+    {
+     "name": "#5/0",
+     "price": 450.0
+    },
+    {
+     "name": "#6/0",
+     "price": 300.0
+    },
+    {
+     "name": "#7/0",
+     "price": 340.0
+    },
+    {
+     "name": "#8/0",
+     "price": 510.0
+    }
+   ],
+   "note": "ราคาต่อกล่อง (100 ตัว) / เบอร์ 9/0, 10/0 หมด / เบอร์ 6/0-8/0 ราคาพิเศษ"
   },
   {
    "id": "1eg0q7clqKzin8CgZbik9WtF0p7L0pGcC",
@@ -1957,7 +2810,34 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-08-15"
+   "date": "2026-08-15",
+   "options": [
+    {
+     "name": "#1/0",
+     "price": 280.0
+    },
+    {
+     "name": "#2/0",
+     "price": 300.0
+    },
+    {
+     "name": "#3/0",
+     "price": 330.0
+    },
+    {
+     "name": "#4/0",
+     "price": 345.0
+    },
+    {
+     "name": "#5/0",
+     "price": 365.0
+    },
+    {
+     "name": "#6/0",
+     "price": 420.0
+    }
+   ],
+   "note": "ราคาต่อกล่อง (100 ตัว)"
   },
   {
    "id": "10gzuN3RwOUExWASXd7TZdfEne0Nyt3mh",
@@ -1971,7 +2851,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-12"
+   "date": "2025-05-12",
+   "price": 20.0,
+   "note": "ราคาต่อซอง / บรรจุ 10 ซอง"
   },
   {
    "id": "1HHpbbJsDhsbJls5Ct6DXlyNGiE51Y8Ly",
@@ -1985,7 +2867,18 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-12"
+   "date": "2025-05-12",
+   "options": [
+    {
+     "name": "#6",
+     "price": 210.0
+    },
+    {
+     "name": "#4",
+     "price": 230.0
+    }
+   ],
+   "note": "ราคาต่อกล่อง (50 ตัว) / ตัวละ 4.2 และ 4.6"
   },
   {
    "id": "1jBZhy4MrEOLifOO2UrrwMvNcm8eVCyZz",
@@ -1999,7 +2892,38 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-12"
+   "date": "2025-05-12",
+   "options": [
+    {
+     "name": "#10",
+     "price": 150.0
+    },
+    {
+     "name": "#8",
+     "price": 180.0
+    },
+    {
+     "name": "#6",
+     "price": 195.0
+    },
+    {
+     "name": "#4",
+     "price": 210.0
+    },
+    {
+     "name": "#2",
+     "price": 250.0
+    },
+    {
+     "name": "#1",
+     "price": 310.0
+    },
+    {
+     "name": "#1/0",
+     "price": 350.0
+    }
+   ],
+   "note": "ราคาต่อกล่อง (100 ตัว)"
   },
   {
    "id": "1Aue82_KjLhe-6saQf49ZxezkZXzdjYUA",
@@ -2013,7 +2937,26 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-12"
+   "date": "2025-05-12",
+   "options": [
+    {
+     "name": "#2",
+     "price": 300.0
+    },
+    {
+     "name": "#1",
+     "price": 320.0
+    },
+    {
+     "name": "#1/0",
+     "price": 350.0
+    },
+    {
+     "name": "#2/0",
+     "price": 380.0
+    }
+   ],
+   "note": "ราคาต่อกล่อง (100 ตัว) / ซื้อ 500 ตัวขึ้นไป ตัวละ 2.5 / 2.7 / 3 / 3.3"
   },
   {
    "id": "1sxO5J856LbMSatRVIg4m_-PgUVEaTK_U",
@@ -2027,7 +2970,38 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-12"
+   "date": "2025-05-12",
+   "options": [
+    {
+     "name": "#1",
+     "price": 250.0
+    },
+    {
+     "name": "#1/0",
+     "price": 300.0
+    },
+    {
+     "name": "#2/0",
+     "price": 350.0
+    },
+    {
+     "name": "#3/0",
+     "price": 400.0
+    },
+    {
+     "name": "#4/0",
+     "price": 450.0
+    },
+    {
+     "name": "#5/0",
+     "price": 500.0
+    },
+    {
+     "name": "#6/0",
+     "price": 550.0
+    }
+   ],
+   "note": "ราคาต่อกล่อง (100 ตัว)"
   },
   {
    "id": "1QpI0uoOcZj5YjrWzm7hMZoxBg-iACwmC",
@@ -2041,7 +3015,22 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-12"
+   "date": "2025-05-12",
+   "options": [
+    {
+     "name": "#1",
+     "price": 380.0
+    },
+    {
+     "name": "#1/0",
+     "price": 450.0
+    },
+    {
+     "name": "#2/0",
+     "price": 500.0
+    }
+   ],
+   "note": "ราคาต่อกล่อง (100 ตัว)"
   },
   {
    "id": "1HLvq1CiqNDrRZrzLKs21ZjzsyL8sgZH-",
@@ -2055,7 +3044,22 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-12"
+   "date": "2025-05-12",
+   "options": [
+    {
+     "name": "#3/0",
+     "price": 165.0
+    },
+    {
+     "name": "#4/0",
+     "price": 175.0
+    },
+    {
+     "name": "#5/0",
+     "price": 185.0
+    }
+   ],
+   "note": "ราคาต่อกล่อง (100 ตัว)"
   },
   {
    "id": "1anL2lz4mwBPrfR1S02Ug8e_UDqtE6MPV",
@@ -2069,7 +3073,30 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-12"
+   "date": "2025-05-12",
+   "options": [
+    {
+     "name": "#8",
+     "price": 13.0
+    },
+    {
+     "name": "#10",
+     "price": 13.0
+    },
+    {
+     "name": "#12",
+     "price": 13.0
+    },
+    {
+     "name": "#14",
+     "price": 14.0
+    },
+    {
+     "name": "#16",
+     "price": 14.0
+    }
+   ],
+   "note": "ราคาต่อซอง / บรรจุ 10 ซอง"
   },
   {
    "id": "1ZbAzogXX8l9fZOdm7HkzjKCoseeo82UQ",
@@ -2083,7 +3110,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-12"
+   "date": "2025-05-12",
+   "price": 18.0,
+   "note": "ราคาต่อซอง / บรรจุ 10 ซอง"
   },
   {
    "id": "1y6BouC7kYY1VfOGoaHIHJgDXdQg-PQSE",
@@ -2097,7 +3126,30 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-12"
+   "date": "2025-05-12",
+   "options": [
+    {
+     "name": "#8",
+     "price": 16.0
+    },
+    {
+     "name": "#10",
+     "price": 16.0
+    },
+    {
+     "name": "#12",
+     "price": 16.0
+    },
+    {
+     "name": "#14",
+     "price": 18.0
+    },
+    {
+     "name": "#16",
+     "price": 18.0
+    }
+   ],
+   "note": "ราคาต่อซอง / บรรจุ 10 ซอง"
   },
   {
    "id": "1e9_OLQAb1kYyqKJ61E321UrNEst0hiq7",
@@ -2111,7 +3163,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-08-31"
+   "date": "2026-08-31",
+   "price": 20.0,
+   "note": "ราคาต่อซอง / บรรจุ 10 ซอง"
   },
   {
    "id": "1W3Q6tujiUwGoYpVaZMehoeni-X9pEIvp",
@@ -2125,7 +3179,42 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-05-22"
+   "date": "2026-05-22",
+   "options": [
+    {
+     "name": "#10",
+     "price": 26.0
+    },
+    {
+     "name": "#12",
+     "price": 26.0
+    },
+    {
+     "name": "#14",
+     "price": 26.0
+    },
+    {
+     "name": "#16",
+     "price": 28.0
+    },
+    {
+     "name": "#18",
+     "price": 28.0
+    },
+    {
+     "name": "#20",
+     "price": 30.0
+    },
+    {
+     "name": "#22",
+     "price": 30.0
+    },
+    {
+     "name": "#24",
+     "price": 34.0
+    }
+   ],
+   "note": "ราคาต่อซอง / บรรจุ 10 ซอง"
   },
   {
    "id": "1Kqf0npMCS5Kxztdq9rRv0NjhybhlPu22",
@@ -2139,7 +3228,34 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-05-22"
+   "date": "2026-05-22",
+   "options": [
+    {
+     "name": "#1/0",
+     "price": 30.0
+    },
+    {
+     "name": "#2/0",
+     "price": 30.0
+    },
+    {
+     "name": "#3/0",
+     "price": 32.0
+    },
+    {
+     "name": "#4/0",
+     "price": 32.0
+    },
+    {
+     "name": "#5/0",
+     "price": 34.0
+    },
+    {
+     "name": "#6/0",
+     "price": 34.0
+    }
+   ],
+   "note": "ราคาต่อซอง / บรรจุ 10 ซอง"
   },
   {
    "id": "1xjhTmDh0htoDZecYVU1HRoqxlLDp48iC",
@@ -2153,7 +3269,34 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-05-22"
+   "date": "2026-05-22",
+   "options": [
+    {
+     "name": "#1/0",
+     "price": 40.0
+    },
+    {
+     "name": "#2/0",
+     "price": 40.0
+    },
+    {
+     "name": "#3/0",
+     "price": 44.0
+    },
+    {
+     "name": "#4/0",
+     "price": 44.0
+    },
+    {
+     "name": "#5/0",
+     "price": 48.0
+    },
+    {
+     "name": "#6/0",
+     "price": 48.0
+    }
+   ],
+   "note": "ราคาต่อซอง / บรรจุ 10 ซอง"
   },
   {
    "id": "12X_kcfirue8bF2ycOX89FkSELkHstQ3K",
@@ -2167,7 +3310,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-12"
+   "date": "2025-05-12",
+   "price": 22.0,
+   "note": "ราคาต่อซอง / บรรจุ 10 ซอง"
   },
   {
    "id": "1sKnatKKhm5mBN6Kc2tx8rYeigVic3k_8",
@@ -2181,7 +3326,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-12"
+   "date": "2025-05-12",
+   "price": 22.0,
+   "note": "ราคาต่อซอง / บรรจุ 10 ซอง / มีเบอร์ 12 และ 14"
   },
   {
    "id": "1Ta7BYwwzpH-ar3VXPqLgzp-7uKQyfp3r",
@@ -2195,7 +3342,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-12"
+   "date": "2025-05-12",
+   "price": 30.0,
+   "note": "ราคาต่อซอง / บรรจุ 10 ซอง"
   },
   {
    "id": "1R5sLs88Zdd4lgHjelgwIdC3mhJE88K0r",
@@ -2209,7 +3358,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-08-20"
+   "date": "2025-08-20",
+   "price": 5.0,
+   "note": "ราคาต่อซอง / บรรจุ 10 ซอง"
   },
   {
    "id": "1evK5U-UfF-3sKOV0YQ_szQK9IhrQ6fPC",
@@ -2223,7 +3374,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-12-08"
+   "date": "2025-12-08",
+   "price": 4.0,
+   "note": "ราคาต่อซอง / บรรจุ 10 ซอง / ซื้อยกชุด 16 เบอร์ (160 ซอง) ซองละ 3"
   },
   {
    "id": "1qV77WPAwcRLCKapb7EEEWLbNWzF2bahO",
@@ -2237,7 +3390,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-10-22"
+   "date": "2025-10-22",
+   "price": 7.5,
+   "note": "ราคาต่อซอง / บรรจุ 30 ซอง"
   },
   {
    "id": "1ivACdvu9QDcY7uCzVf14kCz61_yJzsaX",
@@ -2251,7 +3406,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-03-16"
+   "date": "2025-03-16",
+   "price": 6.5,
+   "note": "ราคาต่อซอง / บรรจุ 30 ซอง"
   },
   {
    "id": "17q5DJv670JKaeRli5giEtUcibPQY1zIX",
@@ -2265,7 +3422,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-03-20"
+   "date": "2025-03-20",
+   "price": 12.0,
+   "note": "ราคาต่อซอง / บรรจุ 30 ซอง (ซองละ 2 พวง)"
   },
   {
    "id": "1wLnVGgDzoDzOFx3fYQH0FzrQWf8EqbGL",
@@ -2279,7 +3438,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-10-22"
+   "date": "2025-10-22",
+   "price": 7.5,
+   "note": "ราคาต่อซอง / บรรจุ 30 ซอง"
   },
   {
    "id": "1WXFlQ1UaPjtv7pMHP1HX31TkrlrwOqQb",
@@ -2293,7 +3454,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-10-22"
+   "date": "2025-10-22",
+   "price": 7.0,
+   "note": "ราคาต่อซอง / บรรจุ 30 ซอง"
   },
   {
    "id": "15p_TiJ0Uh3iNsierKBR4eJKW4Re6tn_3",
@@ -2307,7 +3470,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-08-14"
+   "date": "2025-08-14",
+   "price": 7.5,
+   "note": "ราคาต่อซอง / บรรจุ 30 ซอง"
   },
   {
    "id": "1fDmHTJZ3Hvy9EfWYOnWLxlfvx2pR1-ld",
@@ -2321,7 +3486,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-07-22"
+   "date": "2025-07-22",
+   "price": 4.0,
+   "note": "ราคาต่อซอง / บรรจุเบอร์ละ 100 ซอง"
   },
   {
    "id": "1-5G3vyUMy99jx3blesTGr6QssvHvjVne",
@@ -2335,7 +3502,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-09-19"
+   "date": "2025-09-19",
+   "price": 4.0,
+   "note": "ราคาต่อซอง / บรรจุรวมสีเบอร์ละ 100 ซอง"
   },
   {
    "id": "1vL6nalCLVtfvaeu9jEAEgfYhR3PXg1IK",
@@ -2349,7 +3518,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-03-02"
+   "date": "2025-03-02",
+   "price": 3.0,
+   "note": "ราคาต่อชิ้น / บรรจุคละสี 100 ชิ้น"
   },
   {
    "id": "1yQWBV_YwuJgl7y7xijMSGQgqkkT5YdJk",
@@ -2363,7 +3534,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-08-20"
+   "date": "2026-08-20",
+   "price": 10.0,
+   "note": "ราคาต่อซอง / บรรจุ 10 ซอง"
   },
   {
    "id": "1TVLtAxUadiykeQztNvEY_YDROfwQWIVH",
@@ -2377,7 +3550,70 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-08-20"
+   "date": "2026-08-20",
+   "options": [
+    {
+     "name": "#4/0",
+     "price": 530.0
+    },
+    {
+     "name": "#3/0",
+     "price": 445.0
+    },
+    {
+     "name": "#2/0",
+     "price": 350.0
+    },
+    {
+     "name": "#1/0",
+     "price": 295.0
+    },
+    {
+     "name": "#1",
+     "price": 260.0
+    },
+    {
+     "name": "#2",
+     "price": 235.0
+    },
+    {
+     "name": "#3",
+     "price": 215.0
+    },
+    {
+     "name": "#4",
+     "price": 195.0
+    },
+    {
+     "name": "#5",
+     "price": 180.0
+    },
+    {
+     "name": "#6",
+     "price": 170.0
+    },
+    {
+     "name": "#7",
+     "price": 145.0
+    },
+    {
+     "name": "#8",
+     "price": 130.0
+    },
+    {
+     "name": "#9",
+     "price": 120.0
+    },
+    {
+     "name": "#10",
+     "price": 105.0
+    },
+    {
+     "name": "#12",
+     "price": 100.0
+    }
+   ],
+   "note": "ราคาต่อกล่อง (200 ตัว)"
   },
   {
    "id": "1It4E-1ME-fLDNiJcAKY-bTZrJfvxHSi-",
@@ -2391,7 +3627,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-08-20"
+   "date": "2026-08-20",
+   "price": 10.0,
+   "note": "ราคาต่อซอง / บรรจุ 10 ซอง"
   },
   {
    "id": "1UasUQBeCi3qMEFjIgm6HKCkHP_w3T7tR",
@@ -2405,7 +3643,54 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-08-20"
+   "date": "2026-08-20",
+   "options": [
+    {
+     "name": "#1",
+     "price": 300.0
+    },
+    {
+     "name": "#2",
+     "price": 260.0
+    },
+    {
+     "name": "#3",
+     "price": 240.0
+    },
+    {
+     "name": "#4",
+     "price": 215.0
+    },
+    {
+     "name": "#5",
+     "price": 195.0
+    },
+    {
+     "name": "#6",
+     "price": 180.0
+    },
+    {
+     "name": "#7",
+     "price": 160.0
+    },
+    {
+     "name": "#8",
+     "price": 145.0
+    },
+    {
+     "name": "#9",
+     "price": 135.0
+    },
+    {
+     "name": "#10",
+     "price": 115.0
+    },
+    {
+     "name": "#12",
+     "price": 105.0
+    }
+   ],
+   "note": "ราคาต่อกล่อง (200 ตัว)"
   },
   {
    "id": "18jHyBRH5fjhHSpxVDtfPCFW7moyXftB4",
@@ -2419,7 +3704,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-08-20"
+   "date": "2026-08-20",
+   "price": 13.0,
+   "note": "ราคาต่อซอง / บรรจุ 10 ซอง"
   },
   {
    "id": "1PT_ldwKbudsyrQ74g-8kZEkD3O9dRDV3",
@@ -2433,7 +3720,50 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-08-20"
+   "date": "2026-08-20",
+   "options": [
+    {
+     "name": "#3/0",
+     "price": 475.0
+    },
+    {
+     "name": "#2/0",
+     "price": 395.0
+    },
+    {
+     "name": "#1/0",
+     "price": 325.0
+    },
+    {
+     "name": "#1",
+     "price": 295.0
+    },
+    {
+     "name": "#2",
+     "price": 230.0
+    },
+    {
+     "name": "#3",
+     "price": 210.0
+    },
+    {
+     "name": "#4",
+     "price": 190.0
+    },
+    {
+     "name": "#5",
+     "price": 165.0
+    },
+    {
+     "name": "#6",
+     "price": 155.0
+    },
+    {
+     "name": "#8",
+     "price": 150.0
+    }
+   ],
+   "note": "ราคาต่อกล่อง (200 ตัว)"
   },
   {
    "id": "1t0gVpqNOK30synZc-RdMJcco3iwj2vYL",
@@ -2447,7 +3777,38 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-08-20"
+   "date": "2026-08-20",
+   "options": [
+    {
+     "name": "#1",
+     "price": 275.0
+    },
+    {
+     "name": "#2",
+     "price": 210.0
+    },
+    {
+     "name": "#3",
+     "price": 190.0
+    },
+    {
+     "name": "#4",
+     "price": 170.0
+    },
+    {
+     "name": "#5",
+     "price": 145.0
+    },
+    {
+     "name": "#6",
+     "price": 135.0
+    },
+    {
+     "name": "#8",
+     "price": 130.0
+    }
+   ],
+   "note": "ราคาต่อกล่อง (200 ตัว)"
   },
   {
    "id": "1iApY0oNHRU-jKGjJS2IcCIhR3f_BhOyC",
@@ -2461,7 +3822,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-08-20"
+   "date": "2026-08-20",
+   "price": 14.0,
+   "note": "ราคาต่อซอง / บรรจุ 10 ซอง"
   },
   {
    "id": "1tbN0amZMrGrBaKnhd8C3XMx9bOgsHD-u",
@@ -2475,7 +3838,70 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-08-20"
+   "date": "2026-08-20",
+   "options": [
+    {
+     "name": "#6/0",
+     "price": 680.0
+    },
+    {
+     "name": "#4/0",
+     "price": 590.0
+    },
+    {
+     "name": "#3/0",
+     "price": 500.0
+    },
+    {
+     "name": "#2/0",
+     "price": 395.0
+    },
+    {
+     "name": "#1/0",
+     "price": 340.0
+    },
+    {
+     "name": "#1",
+     "price": 285.0
+    },
+    {
+     "name": "#2",
+     "price": 240.0
+    },
+    {
+     "name": "#3",
+     "price": 225.0
+    },
+    {
+     "name": "#4",
+     "price": 195.0
+    },
+    {
+     "name": "#5",
+     "price": 185.0
+    },
+    {
+     "name": "#6",
+     "price": 175.0
+    },
+    {
+     "name": "#7",
+     "price": 145.0
+    },
+    {
+     "name": "#8",
+     "price": 130.0
+    },
+    {
+     "name": "#9",
+     "price": 120.0
+    },
+    {
+     "name": "#10",
+     "price": 110.0
+    }
+   ],
+   "note": "ราคาต่อกล่อง (200 ตัว) / เบอร์ 7-12 ราคาพิเศษ / เบอร์ 12 หมด"
   },
   {
    "id": "1AMn9WEb3i46i3at1yNFkN2VeCJaY2lPw",
@@ -2489,7 +3915,30 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-08-20"
+   "date": "2026-08-20",
+   "options": [
+    {
+     "name": "#5/0",
+     "price": 890.0
+    },
+    {
+     "name": "#4/0",
+     "price": 710.0
+    },
+    {
+     "name": "#1/0",
+     "price": 485.0
+    },
+    {
+     "name": "#10",
+     "price": 160.0
+    },
+    {
+     "name": "#12",
+     "price": 155.0
+    }
+   ],
+   "note": "ราคาต่อกล่อง (200 ตัว)"
   },
   {
    "id": "1i4DMuiuQ8b3QNyQbSRuNbFsfjXHiTsyQ",
@@ -2503,7 +3952,22 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-08-20"
+   "date": "2026-08-20",
+   "options": [
+    {
+     "name": "#4/0",
+     "price": 710.0
+    },
+    {
+     "name": "#9",
+     "price": 165.0
+    },
+    {
+     "name": "#10",
+     "price": 160.0
+    }
+   ],
+   "note": "ราคาต่อกล่อง (200 ตัว)"
   },
   {
    "id": "1YvaGhfQL_SVRPiBa11DJbohwfDFXL6Nl",
@@ -2517,7 +3981,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-08-20"
+   "date": "2026-08-20",
+   "price": 12.0,
+   "note": "ราคาต่อซอง / บรรจุ 10 ซอง"
   },
   {
    "id": "1yl-0PoxeFiqwYcPfOj6m7TVsONW_SotR",
@@ -2531,7 +3997,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-08-20"
+   "date": "2026-08-20",
+   "price": 12.0,
+   "note": "ราคาต่อซอง / บรรจุ 10 ซอง"
   },
   {
    "id": "1_T754eZm7L3bY3VKA1d6Qp1M2LQgbV-J",
@@ -2545,7 +4013,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-08-20"
+   "date": "2026-08-20",
+   "price": 8.0,
+   "note": "ราคาพิเศษ (ปกติ 12) / สินค้ามีจำนวนจำกัด / บรรจุ 10 ซอง"
   },
   {
    "id": "1m08rosBjkZjU__eaWqGX8H9NCFoSuoqI",
@@ -2559,7 +4029,54 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-08-20"
+   "date": "2026-08-20",
+   "options": [
+    {
+     "name": "#1",
+     "price": 375.0
+    },
+    {
+     "name": "#2",
+     "price": 305.0
+    },
+    {
+     "name": "#3",
+     "price": 285.0
+    },
+    {
+     "name": "#4",
+     "price": 255.0
+    },
+    {
+     "name": "#5",
+     "price": 230.0
+    },
+    {
+     "name": "#6",
+     "price": 220.0
+    },
+    {
+     "name": "#7",
+     "price": 190.0
+    },
+    {
+     "name": "#8",
+     "price": 155.0
+    },
+    {
+     "name": "#9",
+     "price": 145.0
+    },
+    {
+     "name": "#10",
+     "price": 130.0
+    },
+    {
+     "name": "#12",
+     "price": 125.0
+    }
+   ],
+   "note": "ราคาต่อกล่อง (200 ตัว)"
   },
   {
    "id": "1TIL6TUXt5-73ndm-mslHCrd7eOi_mT0-",
@@ -2573,7 +4090,54 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-08-20"
+   "date": "2026-08-20",
+   "options": [
+    {
+     "name": "#1",
+     "price": 375.0
+    },
+    {
+     "name": "#2",
+     "price": 305.0
+    },
+    {
+     "name": "#3",
+     "price": 285.0
+    },
+    {
+     "name": "#4",
+     "price": 255.0
+    },
+    {
+     "name": "#5",
+     "price": 230.0
+    },
+    {
+     "name": "#6",
+     "price": 220.0
+    },
+    {
+     "name": "#7",
+     "price": 190.0
+    },
+    {
+     "name": "#8",
+     "price": 155.0
+    },
+    {
+     "name": "#9",
+     "price": 145.0
+    },
+    {
+     "name": "#10",
+     "price": 130.0
+    },
+    {
+     "name": "#12",
+     "price": 125.0
+    }
+   ],
+   "note": "ราคาต่อกล่อง (200 ตัว)"
   },
   {
    "id": "1G2fRzxQ59mJfF6DPsq4RUJozZa8T_6Uz",
@@ -2587,7 +4151,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-08-20"
+   "date": "2026-08-20",
+   "price": 14.0,
+   "note": "ราคาต่อซอง / บรรจุ 10 ซอง"
   },
   {
    "id": "1g1xDhJTHIC_KJJRFzXr1IYLxCSap0f3j",
@@ -2601,7 +4167,34 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-08-20"
+   "date": "2026-08-20",
+   "options": [
+    {
+     "name": "#1",
+     "price": 330.0
+    },
+    {
+     "name": "#2",
+     "price": 290.0
+    },
+    {
+     "name": "#3",
+     "price": 265.0
+    },
+    {
+     "name": "#4",
+     "price": 245.0
+    },
+    {
+     "name": "#5",
+     "price": 235.0
+    },
+    {
+     "name": "#6",
+     "price": 230.0
+    }
+   ],
+   "note": "ราคาต่อกล่อง (200 ตัว)"
   },
   {
    "id": "1v_xMT-An8dq7s9q0xeJuU1rDPqTWlXE-",
@@ -2615,7 +4208,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-08-20"
+   "date": "2026-08-20",
+   "price": 14.0,
+   "note": "ราคาต่อซอง / บรรจุ 10 ซอง"
   },
   {
    "id": "19VTtt_djdnI9NzFMKHuAqPGRvCyDkCXc",
@@ -2629,7 +4224,34 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-08-20"
+   "date": "2026-08-20",
+   "options": [
+    {
+     "name": "#1",
+     "price": 330.0
+    },
+    {
+     "name": "#2",
+     "price": 290.0
+    },
+    {
+     "name": "#3",
+     "price": 265.0
+    },
+    {
+     "name": "#4",
+     "price": 245.0
+    },
+    {
+     "name": "#5",
+     "price": 235.0
+    },
+    {
+     "name": "#6",
+     "price": 230.0
+    }
+   ],
+   "note": "ราคาต่อกล่อง (200 ตัว)"
   },
   {
    "id": "1xfE92RfeesZuzhSLjiL52sAYYbolvjNq",
@@ -2643,7 +4265,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-08-20"
+   "date": "2026-08-20",
+   "price": 14.0,
+   "note": "ราคาต่อซอง / บรรจุ 10 ซอง"
   },
   {
    "id": "1ACl4VTHi8Cj7SYHj57nFR0tbOARN7gdw",
@@ -2657,7 +4281,34 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-08-20"
+   "date": "2026-08-20",
+   "options": [
+    {
+     "name": "#1",
+     "price": 330.0
+    },
+    {
+     "name": "#2",
+     "price": 290.0
+    },
+    {
+     "name": "#3",
+     "price": 265.0
+    },
+    {
+     "name": "#4",
+     "price": 245.0
+    },
+    {
+     "name": "#5",
+     "price": 235.0
+    },
+    {
+     "name": "#6",
+     "price": 230.0
+    }
+   ],
+   "note": "ราคาต่อกล่อง (200 ตัว)"
   },
   {
    "id": "1DsL-Wv_h2GOvezH0uErF1XahAvZkI25k",
@@ -2671,7 +4322,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-08-20"
+   "date": "2026-08-20",
+   "price": 14.0,
+   "note": "ราคาต่อซอง / บรรจุ 10 ซอง"
   },
   {
    "id": "1nHf_RS9SXnDdQIti2zMY9YmLJmeJR1OM",
@@ -2685,7 +4338,34 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-08-20"
+   "date": "2026-08-20",
+   "options": [
+    {
+     "name": "#1",
+     "price": 335.0
+    },
+    {
+     "name": "#2",
+     "price": 290.0
+    },
+    {
+     "name": "#3",
+     "price": 265.0
+    },
+    {
+     "name": "#4",
+     "price": 245.0
+    },
+    {
+     "name": "#5",
+     "price": 235.0
+    },
+    {
+     "name": "#6",
+     "price": 230.0
+    }
+   ],
+   "note": "ราคาต่อกล่อง (200 ตัว)"
   },
   {
    "id": "199C7ZajR_9h6hmOCy7podQSraVKHeEU_",
@@ -2699,7 +4379,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-08-20"
+   "date": "2026-08-20",
+   "price": 14.0,
+   "note": "ราคาต่อซอง / บรรจุ 10 ซอง"
   },
   {
    "id": "1FQ2svxAurTJ0tLtGWKwQMZdYuwTtuL0U",
@@ -2713,7 +4395,34 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-08-20"
+   "date": "2026-08-20",
+   "options": [
+    {
+     "name": "#1",
+     "price": 335.0
+    },
+    {
+     "name": "#2",
+     "price": 290.0
+    },
+    {
+     "name": "#3",
+     "price": 265.0
+    },
+    {
+     "name": "#4",
+     "price": 245.0
+    },
+    {
+     "name": "#5",
+     "price": 235.0
+    },
+    {
+     "name": "#6",
+     "price": 230.0
+    }
+   ],
+   "note": "ราคาต่อกล่อง (200 ตัว)"
   },
   {
    "id": "1QJu9xwuH347Ohh1UyVJ6_ojrHaiIS3jh",
@@ -2727,7 +4436,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-08-20"
+   "date": "2026-08-20",
+   "price": 14.0,
+   "note": "ราคาต่อซอง / บรรจุ 10 ซอง"
   },
   {
    "id": "1eBgmQCl_-vtZ3GK8_tfPJolap78A8LxH",
@@ -2741,7 +4452,34 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-08-20"
+   "date": "2026-08-20",
+   "options": [
+    {
+     "name": "#1",
+     "price": 330.0
+    },
+    {
+     "name": "#2",
+     "price": 290.0
+    },
+    {
+     "name": "#3",
+     "price": 265.0
+    },
+    {
+     "name": "#4",
+     "price": 245.0
+    },
+    {
+     "name": "#5",
+     "price": 235.0
+    },
+    {
+     "name": "#6",
+     "price": 230.0
+    }
+   ],
+   "note": "ราคาต่อกล่อง (200 ตัว)"
   },
   {
    "id": "1CHvLlsQyyXgueF3yFn3F3SrXC4X0jVxP",
@@ -2755,7 +4493,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-08-20"
+   "date": "2026-08-20",
+   "price": 16.0,
+   "note": "ราคาต่อซอง / บรรจุ 10 ซอง"
   },
   {
    "id": "1-FVgWY1EXCuphiX2Ya48H60aUUONS-DA",
@@ -2769,7 +4509,26 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-08-20"
+   "date": "2026-08-20",
+   "options": [
+    {
+     "name": "#4",
+     "price": 350.0
+    },
+    {
+     "name": "#6",
+     "price": 335.0
+    },
+    {
+     "name": "#8",
+     "price": 325.0
+    },
+    {
+     "name": "#10",
+     "price": 320.0
+    }
+   ],
+   "note": "ราคาต่อกล่อง (200 ตัว)"
   },
   {
    "id": "1WujWhiUKuUjuuQToYOyjnd3gv4qcuflJ",
@@ -2783,7 +4542,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-08-20"
+   "date": "2026-08-20",
+   "price": 15.0,
+   "note": "ราคาต่อซอง / บรรจุ 10 ซอง"
   },
   {
    "id": "1BlwBv49Pe03qsM9epFOaALvjnihtVxem",
@@ -2797,7 +4558,26 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-08-20"
+   "date": "2026-08-20",
+   "options": [
+    {
+     "name": "#4",
+     "price": 300.0
+    },
+    {
+     "name": "#6",
+     "price": 290.0
+    },
+    {
+     "name": "#8",
+     "price": 285.0
+    },
+    {
+     "name": "#10",
+     "price": 280.0
+    }
+   ],
+   "note": "ราคาต่อกล่อง (200 ตัว)"
   },
   {
    "id": "1UMcIBtEC0IMMCyBESGXbO7loGcQnv2mp",
@@ -2811,7 +4591,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-08-23"
+   "date": "2026-08-23",
+   "price": 15.0,
+   "note": "ราคาต่อซอง / บรรจุ 10 ซอง"
   },
   {
    "id": "1simaqJHIbYwA3ICjD7XVgKjNNTqLVQ5c",
@@ -2825,7 +4607,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-08-20"
+   "date": "2026-08-20",
+   "price": 385.0,
+   "note": "ราคาต่อกล่อง (200 ตัว) ราคาเดียวทุกเบอร์ (2, 4, 6, 8)"
   },
   {
    "id": "1M-vechudtYFuEYzF0J5g_pwxjvJstSWh",
@@ -2839,7 +4623,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-08-20"
+   "date": "2026-08-20",
+   "price": 12.0,
+   "note": "ราคาต่อซอง / บรรจุ 10 ซอง"
   },
   {
    "id": "1iMXvXgp9W5hhHVqUnyaeBcwSsW-vDdqX",
@@ -2853,7 +4639,26 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-08-20"
+   "date": "2026-08-20",
+   "options": [
+    {
+     "name": "#1",
+     "price": 115.0
+    },
+    {
+     "name": "#2",
+     "price": 115.0
+    },
+    {
+     "name": "#3",
+     "price": 130.0
+    },
+    {
+     "name": "#4",
+     "price": 155.0
+    }
+   ],
+   "note": "ราคาต่อกล่อง (200 ตัว) / เบอร์ 5 หมด"
   },
   {
    "id": "1BYm7GCzMpZjcuVLpgSubv6kFOaItYBbd",
@@ -2867,7 +4672,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-08-20"
+   "date": "2026-08-20",
+   "price": 12.0,
+   "note": "ราคาต่อซอง / บรรจุ 10 ซอง"
   },
   {
    "id": "1PWqXhVm7Z2SZRUKv2z5Gm6sWPCVJU362",
@@ -2881,7 +4688,18 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-08-20"
+   "date": "2026-08-20",
+   "options": [
+    {
+     "name": "#2",
+     "price": 155.0
+    },
+    {
+     "name": "#5",
+     "price": 200.0
+    }
+   ],
+   "note": "ราคาต่อกล่อง (200 ตัว)"
   },
   {
    "id": "14lkIeIEqaHfkSrS67WdI_oFzcpfmnCVl",
@@ -2895,7 +4713,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-08-20"
+   "date": "2026-08-20",
+   "price": 12.0,
+   "note": "ราคาต่อซอง / บรรจุ 10 ซอง"
   },
   {
    "id": "1K7UdNYG806OI9IbIXD7nPk5oXLdM9VU6",
@@ -2909,7 +4729,30 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-08-20"
+   "date": "2026-08-20",
+   "options": [
+    {
+     "name": "#1",
+     "price": 120.0
+    },
+    {
+     "name": "#2",
+     "price": 130.0
+    },
+    {
+     "name": "#3",
+     "price": 140.0
+    },
+    {
+     "name": "#4",
+     "price": 155.0
+    },
+    {
+     "name": "#5",
+     "price": 170.0
+    }
+   ],
+   "note": "ราคาต่อกล่อง (200 ตัว)"
   },
   {
    "id": "19u2W5UuRUfYvoUI3iXDBp7AfMQjaZpL-",
@@ -2923,7 +4766,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-08-20"
+   "date": "2026-08-20",
+   "price": 12.0,
+   "note": "ราคาต่อซอง / บรรจุ 10 ซอง"
   },
   {
    "id": "1QwzkOoiwE-P5W2WH-AZwVV0Tyx_Lmopg",
@@ -2937,7 +4782,30 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-08-20"
+   "date": "2026-08-20",
+   "options": [
+    {
+     "name": "#1",
+     "price": 145.0
+    },
+    {
+     "name": "#2",
+     "price": 150.0
+    },
+    {
+     "name": "#3",
+     "price": 165.0
+    },
+    {
+     "name": "#4",
+     "price": 180.0
+    },
+    {
+     "name": "#5",
+     "price": 200.0
+    }
+   ],
+   "note": "ราคาต่อกล่อง (200 ตัว)"
   },
   {
    "id": "1zyWd5zITB58ToWvOAGVTSFNctNe7I_lO",
@@ -2951,7 +4819,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-08-20"
+   "date": "2026-08-20",
+   "price": 12.0,
+   "note": "ราคาต่อซอง / บรรจุ 10 ซอง"
   },
   {
    "id": "11duqUMP2WRLi_RzqPh0GkqR7x4SfCxOz",
@@ -2965,7 +4835,22 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-08-20"
+   "date": "2026-08-20",
+   "options": [
+    {
+     "name": "#1",
+     "price": 185.0
+    },
+    {
+     "name": "#4",
+     "price": 240.0
+    },
+    {
+     "name": "#5",
+     "price": 275.0
+    }
+   ],
+   "note": "ราคาต่อกล่อง (200 ตัว)"
   },
   {
    "id": "1YdS_KdMzbqaONHQGNHrrPY6rwoiLJbbT",
@@ -2979,7 +4864,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-08-20"
+   "date": "2026-08-20",
+   "price": 8.0,
+   "note": "ราคาพิเศษ / บรรจุ 10 ซอง"
   },
   {
    "id": "1j5akoYroNboyWhKPDOZysKlw2O6B8fqI",
@@ -2993,7 +4880,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-08-20"
+   "date": "2026-08-20",
+   "price": 8.0,
+   "note": "ราคาพิเศษ / บรรจุ 10 ซอง"
   },
   {
    "id": "1MDT7RHQ3r86G7DyRO8gW0KzpZrN1Qhl1",
@@ -3007,7 +4896,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-08-20"
+   "date": "2026-08-20",
+   "price": 8.0,
+   "note": "ราคาพิเศษ / บรรจุ 10 ซอง"
   },
   {
    "id": "1j5TPfhJijNUixDnoC0wDJQFRTRCdmCg4",
@@ -3021,7 +4912,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-08-20"
+   "date": "2026-08-20",
+   "price": 10.0,
+   "note": "ราคาต่อซอง / บรรจุ 10 ซอง"
   },
   {
    "id": "1sPsKnunqvtmc_5EbUzRGMwaGuc-iw_-7",
@@ -3035,7 +4928,26 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-08-20"
+   "date": "2026-08-20",
+   "options": [
+    {
+     "name": "#0",
+     "price": 130.0
+    },
+    {
+     "name": "#1",
+     "price": 135.0
+    },
+    {
+     "name": "#2",
+     "price": 140.0
+    },
+    {
+     "name": "#3",
+     "price": 145.0
+    }
+   ],
+   "note": "ราคาต่อกล่อง (200 ตัว)"
   },
   {
    "id": "1hJIkTML_CmxF2qGHVXol72URKR4uxdU8",
@@ -3049,7 +4961,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-08-20"
+   "date": "2026-08-20",
+   "price": 10.0,
+   "note": "ราคาต่อซอง / บรรจุ 10 ซอง"
   },
   {
    "id": "1EM7ClLZxq7L8i-P7z7GIQ2umK7OLsZhN",
@@ -3063,7 +4977,30 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-08-20"
+   "date": "2026-08-20",
+   "options": [
+    {
+     "name": "#000",
+     "price": 130.0
+    },
+    {
+     "name": "#00",
+     "price": 135.0
+    },
+    {
+     "name": "#0",
+     "price": 140.0
+    },
+    {
+     "name": "#1",
+     "price": 145.0
+    },
+    {
+     "name": "#2",
+     "price": 150.0
+    }
+   ],
+   "note": "ราคาต่อกล่อง (200 ตัว)"
   },
   {
    "id": "1_ZIyt6TzgD1C3-mzSkHrE3U0_DaYIjGo",
@@ -3077,7 +5014,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-08-20"
+   "date": "2026-08-20",
+   "price": 8.0,
+   "note": "ราคาต่อซอง / บรรจุ 10 ซอง"
   },
   {
    "id": "191evhS8AXpoxVrSkT1_AK5G_PDuJUusx",
@@ -3091,7 +5030,30 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-08-20"
+   "date": "2026-08-20",
+   "options": [
+    {
+     "name": "#5",
+     "price": 230.0
+    },
+    {
+     "name": "#4",
+     "price": 225.0
+    },
+    {
+     "name": "#3",
+     "price": 215.0
+    },
+    {
+     "name": "#2",
+     "price": 205.0
+    },
+    {
+     "name": "#1",
+     "price": 200.0
+    }
+   ],
+   "note": "ราคาต่อกล่อง (1,000 ตัว)"
   },
   {
    "id": "1OyIJBcuPz7qtIGgYD5xsYVpm3PqAw_Lh",
@@ -3105,7 +5067,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-08-20"
+   "date": "2026-08-20",
+   "price": 8.0,
+   "note": "ราคาต่อซอง / บรรจุ 10 ซอง"
   },
   {
    "id": "1QSIfPtmS4uqYrmCtrHsiT6rl6Cf-MUs_",
@@ -3119,7 +5083,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-08-20"
+   "date": "2026-08-20",
+   "price": 8.0,
+   "note": "ราคาต่อซอง / บรรจุ 10 ซอง"
   },
   {
    "id": "1DxkyFEl_rtgs5mil7Lu7g15ZJk8rNnTB",
@@ -3133,7 +5099,38 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-13"
+   "date": "2025-05-13",
+   "options": [
+    {
+     "name": "1.6 มม.",
+     "price": 255.0
+    },
+    {
+     "name": "1.8 มม.",
+     "price": 255.0
+    },
+    {
+     "name": "2.0 มม.",
+     "price": 275.0
+    },
+    {
+     "name": "2.2 มม.",
+     "price": 295.0
+    },
+    {
+     "name": "2.4 มม.",
+     "price": 315.0
+    },
+    {
+     "name": "2.6 มม.",
+     "price": 360.0
+    },
+    {
+     "name": "2.8 มม.",
+     "price": 405.0
+    }
+   ],
+   "note": "ราคาต่อกล่อง (1,000 ตัว)"
   },
   {
    "id": "15HY3K5hWNdzBc1sD_kXKsHMddEcc0ZKs",
@@ -3147,7 +5144,38 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-13"
+   "date": "2025-05-13",
+   "options": [
+    {
+     "name": "1.6 มม.",
+     "price": 255.0
+    },
+    {
+     "name": "1.8 มม.",
+     "price": 255.0
+    },
+    {
+     "name": "2.0 มม.",
+     "price": 275.0
+    },
+    {
+     "name": "2.2 มม.",
+     "price": 295.0
+    },
+    {
+     "name": "2.4 มม.",
+     "price": 315.0
+    },
+    {
+     "name": "2.6 มม.",
+     "price": 360.0
+    },
+    {
+     "name": "2.8 มม.",
+     "price": 405.0
+    }
+   ],
+   "note": "ราคาต่อกล่อง (1,000 ตัว)"
   },
   {
    "id": "1S8HijHszNy0Vx5e7z6bbI21nMYL5qStC",
@@ -3161,7 +5189,38 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-08-20"
+   "date": "2026-08-20",
+   "options": [
+    {
+     "name": "1.6 มม.",
+     "price": 255.0
+    },
+    {
+     "name": "1.8 มม.",
+     "price": 255.0
+    },
+    {
+     "name": "2.0 มม.",
+     "price": 275.0
+    },
+    {
+     "name": "2.2 มม.",
+     "price": 295.0
+    },
+    {
+     "name": "2.4 มม.",
+     "price": 315.0
+    },
+    {
+     "name": "2.6 มม.",
+     "price": 360.0
+    },
+    {
+     "name": "2.8 มม.",
+     "price": 405.0
+    }
+   ],
+   "note": "ราคาต่อกล่อง (1,000 ตัว)"
   },
   {
    "id": "13T9iCFE6eSXDvov6_4McFWYXlAnOQcPo",
@@ -3175,7 +5234,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-02-24"
+   "date": "2026-02-24",
+   "price": 9.0,
+   "note": "ราคาต่อตัว / บรรจุ 10 ตัวต่อซอง"
   },
   {
    "id": "10LODqwO2Ig_ilJc2wsrKtVplXhCInww3",
@@ -3189,7 +5250,22 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-04-08"
+   "date": "2026-04-08",
+   "options": [
+    {
+     "name": "1.8-3.2 มม.",
+     "price": 9.0
+    },
+    {
+     "name": "3.4-3.8 มม.",
+     "price": 10.0
+    },
+    {
+     "name": "4.0-5.0 มม.",
+     "price": 11.0
+    }
+   ],
+   "note": "ราคาต่อตัว / บรรจุ 10 ตัวต่อซอง / เบอร์ 3.4 หมด"
   },
   {
    "id": "1RTjpwEworqa_o5Sr2DVTy1FOKTRYpWW2",
@@ -3203,7 +5279,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-02-24"
+   "date": "2026-02-24",
+   "price": 15.0,
+   "note": "ราคาต่อตัว / บรรจุ 10 ตัวต่อซอง / เบอร์ 4.5 หมด"
   },
   {
    "id": "1F8FXzgnhtpqho0THlWu6IJLo2dtiiD7M",
@@ -3217,7 +5295,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-04-29"
+   "date": "2026-04-29",
+   "price": 9.0,
+   "note": "ราคาต่อตัว / บรรจุ 10 ตัวต่อซอง / เบอร์ 2.4 หมด"
   },
   {
    "id": "1gESPkZVbAC_NhR3AMsPRFeedtf5BdUca",
@@ -3231,7 +5311,22 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-02-24"
+   "date": "2026-02-24",
+   "options": [
+    {
+     "name": "1.8-3.2 มม.",
+     "price": 9.0
+    },
+    {
+     "name": "3.4-3.8 มม.",
+     "price": 10.0
+    },
+    {
+     "name": "4.0-6.0 มม.",
+     "price": 11.0
+    }
+   ],
+   "note": "ราคาต่อตัว / บรรจุ 10 ตัวต่อซอง"
   },
   {
    "id": "12vHRQESuLZIDfDZdB9uM0ykzf3O9D1-z",
@@ -3245,7 +5340,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-02-24"
+   "date": "2026-02-24",
+   "price": 18.0,
+   "note": "ราคาต่อตัว / บรรจุ 10 ตัวต่อซอง"
   },
   {
    "id": "1aNd3ARb2y_zA62XVq7TVbeWjdWUUzduI",
@@ -3259,7 +5356,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-02-24"
+   "date": "2026-02-24",
+   "price": 20.0,
+   "note": "ราคาต่อตัว / บรรจุ 10 ตัวต่อซอง"
   },
   {
    "id": "1U2VT6dUkF6AJbPsdoh4i5xdXFRGAmV13",
@@ -3273,7 +5372,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-02-24"
+   "date": "2026-02-24",
+   "price": 20.0,
+   "note": "ราคาต่อตัว / บรรจุ 10 ตัวต่อซอง"
   },
   {
    "id": "1k2leiIws-jw-McWZ7-fzQ3QFV9RT6MHx",
@@ -3287,7 +5388,46 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-02-24"
+   "date": "2026-02-24",
+   "options": [
+    {
+     "name": "#6",
+     "price": 8.0
+    },
+    {
+     "name": "#8",
+     "price": 10.0
+    },
+    {
+     "name": "#10",
+     "price": 12.0
+    },
+    {
+     "name": "#12",
+     "price": 14.0
+    },
+    {
+     "name": "#16",
+     "price": 16.0
+    },
+    {
+     "name": "#20",
+     "price": 18.0
+    },
+    {
+     "name": "#25",
+     "price": 20.0
+    },
+    {
+     "name": "#30",
+     "price": 25.0
+    },
+    {
+     "name": "#40",
+     "price": 30.0
+    }
+   ],
+   "note": "ราคาต่อตัว / บรรจุ 10 ตัวต่อซอง"
   },
   {
    "id": "1jmQ5ampNGVqgwJImgJ6G5d5mjFWRzVGg",
@@ -3301,7 +5441,46 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-02-24"
+   "date": "2026-02-24",
+   "options": [
+    {
+     "name": "#6",
+     "price": 8.0
+    },
+    {
+     "name": "#8",
+     "price": 10.0
+    },
+    {
+     "name": "#10",
+     "price": 12.0
+    },
+    {
+     "name": "#12",
+     "price": 14.0
+    },
+    {
+     "name": "#16",
+     "price": 16.0
+    },
+    {
+     "name": "#20",
+     "price": 18.0
+    },
+    {
+     "name": "#25",
+     "price": 20.0
+    },
+    {
+     "name": "#30",
+     "price": 25.0
+    },
+    {
+     "name": "#40",
+     "price": 30.0
+    }
+   ],
+   "note": "ราคาต่อตัว / บรรจุ 10 ตัวต่อซอง"
   },
   {
    "id": "1WpYHlSx82tnlqHndMqIqgwmcqeyYCArg",
@@ -3315,7 +5494,34 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-02-24"
+   "date": "2026-02-24",
+   "options": [
+    {
+     "name": "#6",
+     "price": 8.0
+    },
+    {
+     "name": "#8",
+     "price": 10.0
+    },
+    {
+     "name": "#16",
+     "price": 16.0
+    },
+    {
+     "name": "#20",
+     "price": 18.0
+    },
+    {
+     "name": "#25",
+     "price": 20.0
+    },
+    {
+     "name": "#30",
+     "price": 25.0
+    }
+   ],
+   "note": "ราคาต่อตัว / บรรจุ 10 ตัวต่อซอง / เบอร์ 10, 12 หมด"
   },
   {
    "id": "10mh1remzOqVcFw6lZg6id_CaaMW74JGx",
@@ -3329,7 +5535,34 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-02-24"
+   "date": "2026-02-24",
+   "options": [
+    {
+     "name": "#6",
+     "price": 8.0
+    },
+    {
+     "name": "#8",
+     "price": 10.0
+    },
+    {
+     "name": "#12",
+     "price": 14.0
+    },
+    {
+     "name": "#20",
+     "price": 18.0
+    },
+    {
+     "name": "#25",
+     "price": 20.0
+    },
+    {
+     "name": "#30",
+     "price": 25.0
+    }
+   ],
+   "note": "ราคาต่อตัว / บรรจุ 10 ตัวต่อซอง / เบอร์ 10, 16 หมด"
   },
   {
    "id": "1-q8-y6xWml9pJNWoiy_J7pxAe4CT6hwd",
@@ -3343,7 +5576,46 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-02-24"
+   "date": "2026-02-24",
+   "options": [
+    {
+     "name": "#4",
+     "price": 8.0
+    },
+    {
+     "name": "#6",
+     "price": 8.0
+    },
+    {
+     "name": "#8",
+     "price": 10.0
+    },
+    {
+     "name": "#10",
+     "price": 12.0
+    },
+    {
+     "name": "#12",
+     "price": 14.0
+    },
+    {
+     "name": "#16",
+     "price": 16.0
+    },
+    {
+     "name": "#20",
+     "price": 18.0
+    },
+    {
+     "name": "#25",
+     "price": 20.0
+    },
+    {
+     "name": "#30",
+     "price": 25.0
+    }
+   ],
+   "note": "ราคาต่อตัว / บรรจุ 10 ตัวต่อซอง"
   },
   {
    "id": "1f2ByjKzp-BYde5JK_ByDZhqlMRz4mpKC",
@@ -3357,7 +5629,18 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-04-29"
+   "date": "2026-04-29",
+   "options": [
+    {
+     "name": "#4",
+     "price": 8.0
+    },
+    {
+     "name": "#30",
+     "price": 25.0
+    }
+   ],
+   "note": "ราคาต่อตัว / บรรจุ 10 ตัวต่อซอง / เบอร์ 6-25 หมด"
   },
   {
    "id": "1AjoJPFcBNPNPpF9riPHPdJmTlfDGJW7L",
@@ -3371,7 +5654,42 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-02-24"
+   "date": "2026-02-24",
+   "options": [
+    {
+     "name": "#6",
+     "price": 8.0
+    },
+    {
+     "name": "#8",
+     "price": 10.0
+    },
+    {
+     "name": "#10",
+     "price": 12.0
+    },
+    {
+     "name": "#12",
+     "price": 14.0
+    },
+    {
+     "name": "#16",
+     "price": 16.0
+    },
+    {
+     "name": "#20",
+     "price": 18.0
+    },
+    {
+     "name": "#25",
+     "price": 20.0
+    },
+    {
+     "name": "#30",
+     "price": 25.0
+    }
+   ],
+   "note": "ราคาต่อตัว / บรรจุ 10 ตัวต่อซอง"
   },
   {
    "id": "19VxPgSdTE57Tb6y6rZIXJqdYSmKqmrhD",
@@ -3385,7 +5703,26 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-02-24"
+   "date": "2026-02-24",
+   "options": [
+    {
+     "name": "4-8 มม.",
+     "price": 8.0
+    },
+    {
+     "name": "10-12 มม.",
+     "price": 10.0
+    },
+    {
+     "name": "16-20 มม.",
+     "price": 12.0
+    },
+    {
+     "name": "25-30 มม.",
+     "price": 15.0
+    }
+   ],
+   "note": "ราคาต่อตัว / บรรจุ 10 ตัวต่อซอง"
   },
   {
    "id": "1UQZSG6YNzN9UjwjZQTjkK5BpcC1ycjG9",
@@ -3399,7 +5736,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-02-24"
+   "date": "2026-02-24",
+   "price": 6.0,
+   "note": "ราคาต่อตัว / บรรจุ 10 ตัวต่อซอง"
   },
   {
    "id": "1cq727bV2JcEKhVI7re3EOhEoJYOQSlfR",
@@ -3413,7 +5752,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-14"
+   "date": "2025-05-14",
+   "price": 12.0,
+   "note": "ราคาต่อม้วน / บรรจุ 10 ม้วนต่อเนื่องต่อกล่อง / 10 lb หมด"
   },
   {
    "id": "14YfiZ0EAEfEOjtFXDZB71qX3WJabAHP7",
@@ -3427,7 +5768,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-03-16"
+   "date": "2026-03-16",
+   "price": 26.0,
+   "note": "ราคาต่อม้วน / บรรจุ 12 ม้วนต่อกล่อง"
   },
   {
    "id": "1fVV8j65Kf7hGB60CdANZ6Zm2wm1TJei9",
@@ -3441,7 +5784,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-14"
+   "date": "2025-05-14",
+   "price": 28.0,
+   "note": "ราคาต่อม้วน / บรรจุ 12 ม้วนต่อกล่อง"
   },
   {
    "id": "1XcRQkBPiaLomvxiogvIXYQZQUdzABc4l",
@@ -3455,7 +5800,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-14"
+   "date": "2025-05-14",
+   "price": 13.0,
+   "note": "ราคาต่อม้วน / บรรจุ 10 ม้วนต่อกล่อง (คละสี)"
   },
   {
    "id": "1Ql_-U261dow__cdr_QpEwh_vM4jxVVI6",
@@ -3469,7 +5816,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-14"
+   "date": "2025-05-14",
+   "price": 38.0,
+   "note": "ราคาต่อม้วน / บรรจุ 5 ม้วนต่อกล่อง (1/7 lb บรรจุ 6 ม้วน)"
   },
   {
    "id": "1YmWHi7FBQ-_zEvBO0uQLMkvmuLS-rLkl",
@@ -3483,7 +5832,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-14"
+   "date": "2025-05-14",
+   "price": 30.0,
+   "note": "ราคาต่อม้วน / บรรจุ 10 ม้วนต่อเนื่องต่อกล่อง"
   },
   {
    "id": "1wm4g3mNGdpEbAVSeaL1kLrLt34OWxoEf",
@@ -3497,7 +5848,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-14"
+   "date": "2025-05-14",
+   "price": 75.0,
+   "note": "ราคาต่อม้วน / บรรจุ 6 ม้วน"
   },
   {
    "id": "1TqJYWJQ-XdKUJyZA4HluSyPptKmP95Qb",
@@ -3511,7 +5864,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-08-03"
+   "date": "2026-08-03",
+   "price": 32.0,
+   "note": "ราคาต่อม้วน / บรรจุ 10 ม้วนต่อเนื่องต่อกล่อง"
   },
   {
    "id": "1c-XW0XsiuxlnO35wXCY7NTTC7GUOVydX",
@@ -3525,7 +5880,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-14"
+   "date": "2025-05-14",
+   "price": 90.0,
+   "note": "ราคาต่อม้วน / บรรจุ 6 ม้วนต่อกล่อง"
   },
   {
    "id": "1aGJ7rk-dU4ILlVplzDYtC_e6Xk82tQD1",
@@ -3539,7 +5896,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-01-14"
+   "date": "2026-01-14",
+   "price": 55.0,
+   "note": "ราคาต่อม้วน / บรรจุ 10 ม้วนต่อเนื่องต่อกล่อง"
   },
   {
    "id": "1CI31HSyMUBX4WcFsp09URlRXJWo2eB5f",
@@ -3553,7 +5912,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-14"
+   "date": "2025-05-14",
+   "price": 180.0,
+   "note": "ราคาต่อม้วน / บรรจุ 6 ม้วน"
   },
   {
    "id": "18CFwpIJkODLdQi7wL7DgMzzDYPQZ7_ll",
@@ -3567,7 +5928,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-08-03"
+   "date": "2026-08-03",
+   "price": 490.0,
+   "note": "ราคาต่อม้วน / บรรจุ 1 ม้วนต่อกล่อง"
   },
   {
    "id": "1vlIylB9ZlyEA-Rbijr5FurFla4Dzu5E-",
@@ -3581,7 +5944,30 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-05-05"
+   "date": "2026-05-05",
+   "options": [
+    {
+     "name": "30 lb",
+     "price": 70.0
+    },
+    {
+     "name": "40 lb",
+     "price": 75.0
+    },
+    {
+     "name": "60 lb",
+     "price": 85.0
+    },
+    {
+     "name": "80 lb",
+     "price": 90.0
+    },
+    {
+     "name": "100 lb",
+     "price": 114.0
+    }
+   ],
+   "note": "ราคาต่อม้วน / บรรจุ 5 ม้วนต่อกล่อง / 50 lb หมด"
   },
   {
    "id": "1rf9H8bKY5V2VZ5SEu-3wX2mISlAOd3ih",
@@ -3595,7 +5981,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-14"
+   "date": "2025-05-14",
+   "price": 165.0,
+   "note": "ราคาพิเศษ / ราคาต่อม้วน / บรรจุ 3 ม้วนต่อเนื่องต่อกล่อง"
   },
   {
    "id": "1wjh7im9-SuQPHRY-cKkcK-8pH7HzdLrL",
@@ -3609,7 +5997,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-15"
+   "date": "2025-05-15",
+   "price": 65.0,
+   "note": "ราคาต่อม้วน / บรรจุ 5 ม้วนต่อเนื่องต่อกล่อง"
   },
   {
    "id": "1Fu5-ScTwc9gu2SNGYmzczLL0Okij1w4b",
@@ -3623,7 +6013,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-15"
+   "date": "2025-05-15",
+   "price": 65.0,
+   "note": "ราคาต่อม้วน / บรรจุ 5 ม้วนต่อเนื่องต่อกล่อง"
   },
   {
    "id": "12R7kjNiNCd-CJuZRgQy7DtTvDCsyHN6u",
@@ -3637,7 +6029,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-15"
+   "date": "2025-05-15",
+   "price": 17.0,
+   "note": "ราคาต่อม้วน / บรรจุ 10 ม้วนต่อกล่อง (คละสี)"
   },
   {
    "id": "12D2nqvpsDhVYv4IwUyJmCKToOXDMY5ky",
@@ -3651,7 +6045,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-09-05"
+   "date": "2026-09-05",
+   "price": 23.0,
+   "note": "ราคาต่อม้วน / บรรจุ 10 ม้วนต่อเนื่องต่อกล่อง / 2#, 3# หมด"
   },
   {
    "id": "1Pq82Wad5QOfURRI6IOmFcwxg4mUVn1V2",
@@ -3665,7 +6061,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-11-02"
+   "date": "2025-11-02",
+   "price": 140.0,
+   "note": "ราคาต่อม้วน / บรรจุ 3 ม้วนต่อเนื่องต่อกล่อง"
   },
   {
    "id": "1py_RMXJgm2bNyGJWPqKuwivOET2KNZSN",
@@ -3679,7 +6077,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-15"
+   "date": "2025-05-15",
+   "price": 10.0,
+   "note": "ราคาต่อซอง / บรรจุ 10 ซองต่อห่อ"
   },
   {
    "id": "1XlE7oL0zbDfC28lMcfBLj6A8sL3PN0jM",
@@ -3693,7 +6093,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-15"
+   "date": "2025-05-15",
+   "price": 110.0,
+   "note": "ราคาต่อม้วน / บรรจุ 3 ม้วนต่อเนื่องต่อกล่อง"
   },
   {
    "id": "1zoQu-K6bXkMA0D-2vo-0fBTwkHxmJhHK",
@@ -3707,7 +6109,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-15"
+   "date": "2025-05-15",
+   "price": 180.0,
+   "note": "ราคาต่อม้วน / บรรจุ 3 ม้วนต่อเนื่องต่อกล่อง"
   },
   {
    "id": "1CKAjNA93l1WYxBZBtgNNF3Ibs-qeE6Gh",
@@ -3721,7 +6125,30 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-15"
+   "date": "2025-05-15",
+   "options": [
+    {
+     "name": "2#",
+     "price": 340.0
+    },
+    {
+     "name": "3#",
+     "price": 340.0
+    },
+    {
+     "name": "4#",
+     "price": 395.0
+    },
+    {
+     "name": "5#",
+     "price": 405.0
+    },
+    {
+     "name": "8#",
+     "price": 450.0
+    }
+   ],
+   "note": "ราคาต่อม้วน / บรรจุ 3 ม้วนต่อเนื่องต่อกล่อง / 7#, 9#, 10# หมด"
   },
   {
    "id": "1hKD4hDnR5MqGpCHvl6yhEoM_BA4yD7J-",
@@ -3735,7 +6162,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-15"
+   "date": "2025-05-15",
+   "price": 0.5,
+   "note": "ราคาพิเศษ ต่อขด / บรรจุ 10 ขดต่อเนื่องต่อห่อ"
   },
   {
    "id": "1rbRRPrR9RKco3qwnhNJ1b0TqVq6-9XQ7",
@@ -3749,7 +6178,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-16"
+   "date": "2025-05-16",
+   "price": 2.0,
+   "note": "ราคาต่อซอง / บรรจุ 10 ซอง"
   },
   {
    "id": "1tw9Y2WNcbnb0994cuoeQXHOTXqtBknP1",
@@ -3763,7 +6194,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-16"
+   "date": "2025-05-16",
+   "price": 12.0,
+   "note": "ราคาต่อม้วน / บรรจุ 10 ม้วนต่อกล่อง / 10 lb หมด"
   },
   {
    "id": "1UCzjbD6aWpPcQIk7cerRIEEAYlSCo45B",
@@ -3777,7 +6210,26 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-02-05"
+   "date": "2026-02-05",
+   "options": [
+    {
+     "name": "0.9 มม.",
+     "price": 3.25
+    },
+    {
+     "name": "1.1 มม.",
+     "price": 5.0
+    },
+    {
+     "name": "1.2 มม.",
+     "price": 6.25
+    },
+    {
+     "name": "1.3 มม.",
+     "price": 7.5
+    }
+   ],
+   "note": "ราคาพิเศษต่อแผง / บรรจุ 8 แผงต่อกล่อง / ซื้อ 10 กล่องแถม 1 (เฉลี่ย 2.95 / 4.55 / 5.68 / 6.82)"
   },
   {
    "id": "185oZlQf7zOEhsDivmrZKn6IfygZjcz8G",
@@ -3791,7 +6243,54 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-07-25"
+   "date": "2026-07-25",
+   "options": [
+    {
+     "name": "12 lb",
+     "price": 46.0
+    },
+    {
+     "name": "15 lb",
+     "price": 46.0
+    },
+    {
+     "name": "20 lb",
+     "price": 48.0
+    },
+    {
+     "name": "25 lb",
+     "price": 48.0
+    },
+    {
+     "name": "30 lb",
+     "price": 50.0
+    },
+    {
+     "name": "40 lb",
+     "price": 52.0
+    },
+    {
+     "name": "50 lb",
+     "price": 54.0
+    },
+    {
+     "name": "60 lb",
+     "price": 58.0
+    },
+    {
+     "name": "80 lb",
+     "price": 62.0
+    },
+    {
+     "name": "100 lb",
+     "price": 65.0
+    },
+    {
+     "name": "120 lb",
+     "price": 70.0
+    }
+   ],
+   "note": "ราคาต่อซอง / บรรจุ 10 ซอง"
   },
   {
    "id": "1QYI51O3zvYi6RS_9VYCqwOvd6DGTHNBz",
@@ -3805,7 +6304,30 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-16"
+   "date": "2025-05-16",
+   "options": [
+    {
+     "name": "50 lb",
+     "price": 300.0
+    },
+    {
+     "name": "60 lb",
+     "price": 315.0
+    },
+    {
+     "name": "80 lb",
+     "price": 335.0
+    },
+    {
+     "name": "100 lb",
+     "price": 340.0
+    },
+    {
+     "name": "120 lb",
+     "price": 350.0
+    }
+   ],
+   "note": "ราคาต่อม้วน / 20-40 lb หมด"
   },
   {
    "id": "1J9_bAKus_L4uufzgIofqEOFx5qpb1KGH",
@@ -3819,7 +6341,22 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-16"
+   "date": "2025-05-16",
+   "options": [
+    {
+     "name": "20 lb",
+     "price": 190.0
+    },
+    {
+     "name": "25 lb",
+     "price": 185.0
+    },
+    {
+     "name": "30-80 lb",
+     "price": 145.0
+    }
+   ],
+   "note": "ราคาต่อซอง / บรรจุ 5 ซอง"
   },
   {
    "id": "10j1l3hdiJWPrXdDmmc_-aPFIshwhNunG",
@@ -3833,7 +6370,58 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-16"
+   "date": "2025-05-16",
+   "options": [
+    {
+     "name": "12 lb",
+     "price": 24.0
+    },
+    {
+     "name": "15 lb",
+     "price": 24.0
+    },
+    {
+     "name": "20 lb",
+     "price": 25.0
+    },
+    {
+     "name": "25 lb",
+     "price": 26.0
+    },
+    {
+     "name": "30 lb",
+     "price": 28.0
+    },
+    {
+     "name": "40 lb",
+     "price": 30.0
+    },
+    {
+     "name": "50 lb",
+     "price": 31.0
+    },
+    {
+     "name": "60 lb",
+     "price": 32.0
+    },
+    {
+     "name": "80 lb",
+     "price": 33.0
+    },
+    {
+     "name": "100 lb",
+     "price": 35.0
+    },
+    {
+     "name": "120 lb",
+     "price": 38.0
+    },
+    {
+     "name": "150 lb",
+     "price": 42.0
+    }
+   ],
+   "note": "ราคาต่อซอง / บรรจุ 10 ซอง"
   },
   {
    "id": "1owME32TtYpYi44R_Ckpo0Kv_I9BtxJhe",
@@ -3847,7 +6435,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-02-18"
+   "date": "2026-02-18",
+   "price": 25.0,
+   "note": "ราคาพิเศษ / มีแรงดึง 30 และ 50 lb / บรรจุ 10 ซอง"
   },
   {
    "id": "1rLpU34dfCVqtTrOWGc2XcF04kdx2EErC",
@@ -3861,7 +6451,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-02-18"
+   "date": "2026-02-18",
+   "price": 25.0,
+   "note": "ราคาพิเศษ / แรงดึง 80 lb / บรรจุ 10 ซอง"
   },
   {
    "id": "1O-TH6UYwPf8e3S1XFWlFJJksn3721ot6",
@@ -3875,7 +6467,42 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-08-29"
+   "date": "2026-08-29",
+   "options": [
+    {
+     "name": "20 lb",
+     "price": 70.0
+    },
+    {
+     "name": "30 lb",
+     "price": 75.0
+    },
+    {
+     "name": "40 lb",
+     "price": 85.0
+    },
+    {
+     "name": "50 lb",
+     "price": 95.0
+    },
+    {
+     "name": "60 lb",
+     "price": 105.0
+    },
+    {
+     "name": "70 lb",
+     "price": 115.0
+    },
+    {
+     "name": "80 lb",
+     "price": 125.0
+    },
+    {
+     "name": "100 lb",
+     "price": 135.0
+    }
+   ],
+   "note": "ราคาต่อม้วน"
   },
   {
    "id": "1jAR6F8my_VpTFF6PosQwXwlkJAXMSdnW",
@@ -3889,7 +6516,18 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-16"
+   "date": "2025-05-16",
+   "options": [
+    {
+     "name": "สีชา 35 lb",
+     "price": 65.0
+    },
+    {
+     "name": "120 lb",
+     "price": 70.0
+    }
+   ],
+   "note": "ราคาต่อซอง / บรรจุ 10 ซอง"
   },
   {
    "id": "1gMEib_lU94_xxnmYd8ng3W1OK9Gz9Vfe",
@@ -3903,7 +6541,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-10-28"
+   "date": "2025-10-28",
+   "price": 3.5,
+   "note": "ราคาต่อเส้น / บรรจุรวม 60 เส้น (ยาว 26, 31, 37 ซม. อย่างละ 20)"
   },
   {
    "id": "1uwyWXJu8t0eH43njZe3-q7Q8-uDkHhHH",
@@ -3917,7 +6557,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-07-25"
+   "date": "2026-07-25",
+   "price": 3.83,
+   "note": "ราคาต่อเส้น / บรรจุรวม 60 เส้น (ยาว 20, 25, 30 ซม. อย่างละ 20)"
   },
   {
    "id": "1jBbIbOGWFUjKorb4GbIjtcTjxL9RkfR_",
@@ -3931,7 +6573,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-07-25"
+   "date": "2026-07-25",
+   "price": 3.83,
+   "note": "ราคาต่อเส้น / บรรจุรวม 60 เส้น (ยาว 20, 25, 30 ซม. อย่างละ 20)"
   },
   {
    "id": "1mQrocWH9THr2PspyD7Ha5onyRYdL9Bpk",
@@ -3945,7 +6589,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-10-28"
+   "date": "2025-10-28",
+   "price": 3.5,
+   "note": "ราคาต่อเส้น / บรรจุรวม 60 เส้น (ยาว 26, 31, 36 ซม. อย่างละ 20)"
   },
   {
    "id": "1-rWzr-aIwkwi4bLuabKyFLADO372zUQF",
@@ -3959,7 +6605,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-02-09"
+   "date": "2026-02-09",
+   "price": 3.83,
+   "note": "ราคาต่อเส้น / บรรจุรวม 60 เส้น (ยาว 20, 25, 30 ซม. อย่างละ 20)"
   },
   {
    "id": "1GJCZa0_bxu29q1-Vg8lCQIe-DpmzAWHY",
@@ -3973,7 +6621,18 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-08-29"
+   "date": "2026-08-29",
+   "options": [
+    {
+     "name": "A ยาว 25 ซม.",
+     "price": 3.2
+    },
+    {
+     "name": "B ยาว 40 ซม.",
+     "price": 3.5
+    }
+   ],
+   "note": "ราคาต่อเส้น / ซองละ 10 เส้น / บรรจุ 10 ซอง"
   },
   {
    "id": "1U1Iyvkdcd22FBxNBMre6NE4VzBqUHI2y",
@@ -3987,7 +6646,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-07-25"
+   "date": "2026-07-25",
+   "price": 2.0,
+   "note": "ราคาต่อเส้น (ซองละ 40 เส้น 80 บาท) / มีแบบ A, B, C"
   },
   {
    "id": "1G3CYauNjmIjq3Ya46is50V5AiKCGZr6B",
@@ -4001,7 +6662,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-08-19"
+   "date": "2025-08-19",
+   "price": 2.0,
+   "note": "ราคาต่อเส้น (ซองละ 24 เส้น 48 บาท)"
   },
   {
    "id": "1aFHRIdTaf9bXAtruJ9_eX8lmUQWDyMFe",
@@ -4015,7 +6678,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-08-19"
+   "date": "2025-08-19",
+   "price": 2.0,
+   "note": "ราคาต่อเส้น (ซองละ 2 เส้น 4 บาท) / บรรจุ 10 ซอง"
   },
   {
    "id": "1HgTD8CDV-nd3jVZSWcXjIBKqmK2D9wuO",
@@ -4029,7 +6694,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-16"
+   "date": "2025-05-16",
+   "price": 18.0,
+   "note": "ราคาต่อตัว / บรรจุ 12 ตัว"
   },
   {
    "id": "1akO2_BNeIgs31nGf3KgLB-JmxSGd3KHY",
@@ -4043,7 +6710,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-16"
+   "date": "2025-05-16",
+   "price": 18.0,
+   "note": "ราคาต่อตัว / บรรจุ 12 ตัว"
   },
   {
    "id": "1rug_okSm-7M_mZ1vHO2MCSXiPpZPvRGa",
@@ -4057,7 +6726,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-09-19"
+   "date": "2025-09-19",
+   "price": 18.0,
+   "note": "ราคาต่อตัว / บรรจุ 12 ตัว"
   },
   {
    "id": "1AL6RIAx0IUpa9FzwVoC_KoOHnBO0TgIH",
@@ -4071,7 +6742,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-16"
+   "date": "2025-05-16",
+   "price": 18.0,
+   "note": "ราคาต่อตัว / บรรจุ 12 ตัว"
   },
   {
    "id": "1XmxPcStmRCcak3uor1RwAm7c_5sOT_KL",
@@ -4085,7 +6758,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-16"
+   "date": "2025-05-16",
+   "price": 21.0,
+   "note": "ราคาต่อตัว / บรรจุ 12 ตัว"
   },
   {
    "id": "13oMR3hezBuvGDMDG0V1DqY8mNkcd7ZEs",
@@ -4099,7 +6774,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-16"
+   "date": "2025-05-16",
+   "price": 21.0,
+   "note": "ราคาต่อตัว / บรรจุ 12 ตัว"
   },
   {
    "id": "1cPrsLHu6MbhvmBFpM8mrD-Ugz45h6KDW",
@@ -4113,7 +6790,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-09-19"
+   "date": "2025-09-19",
+   "price": 21.0,
+   "note": "ราคาต่อตัว / บรรจุ 12 ตัว"
   },
   {
    "id": "1BWhTtzkyDQ-6cSFhhNwTj2vyiebDgoO7",
@@ -4127,7 +6806,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-16"
+   "date": "2025-05-16",
+   "price": 21.0,
+   "note": "ราคาต่อตัว / บรรจุ 12 ตัว"
   },
   {
    "id": "13uPFrntnpR3Fd_JhILz7o5ociTVltwNL",
@@ -4141,7 +6822,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-16"
+   "date": "2025-05-16",
+   "price": 14.0,
+   "note": "ราคาต่อตัว / บรรจุรวมรุ่น 30 ตัวต่อห่อ"
   },
   {
    "id": "1BL7KSb_I_m9j42YCQmrUsGIFH04Os2Sz",
@@ -4155,7 +6838,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-16"
+   "date": "2025-05-16",
+   "price": 17.0,
+   "note": "ราคาต่อตัว / บรรจุรวมรุ่น 30 ตัวต่อห่อ"
   },
   {
    "id": "1GgRqnfiMG9MFZSwTuFkZ-KT7R9yECPXp",
@@ -4169,7 +6854,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-06-12"
+   "date": "2026-06-12",
+   "price": 18.0,
+   "note": "สินค้าหมด / บรรจุคละสี 10 ตัว"
   },
   {
    "id": "1CBfTmajRRmzRO3qrwOfLsbz_EuIp9A_Y",
@@ -4183,7 +6870,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-06-10"
+   "date": "2026-06-10",
+   "price": 18.0,
+   "note": "สินค้าหมด / บรรจุคละสี 10 ตัว"
   },
   {
    "id": "11VdnjfR1uGoBHoI7ylzvEqfNpCGuW-eo",
@@ -4197,7 +6886,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-07-04"
+   "date": "2025-07-04",
+   "price": 18.0,
+   "note": "สินค้าหมด / บรรจุคละสี 10 ตัว"
   },
   {
    "id": "1_fx7LER5mwvGhGol3F13damHar363rIl",
@@ -4211,7 +6902,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-16"
+   "date": "2025-05-16",
+   "price": 18.0,
+   "note": "บรรจุคละสี 10 ตัว"
   },
   {
    "id": "1TtydtPsBu5UE5PkAdslIhEHUY_W2uyeC",
@@ -4225,7 +6918,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-16"
+   "date": "2025-05-16",
+   "price": 50.0,
+   "note": "ราคาต่อตัว / บรรจุ 14 ตัว คละแบบ"
   },
   {
    "id": "1tY5CbNiOxpftdMl7LB_eUk0ywIgFDMU1",
@@ -4239,7 +6934,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-16"
+   "date": "2025-05-16",
+   "price": 40.0,
+   "note": "ราคาต่อตัว / บรรจุ 14 ตัว คละแบบ"
   },
   {
    "id": "1EhFSOOIMFFgW8z-Cn5ZysgoaljJW8InU",
@@ -4253,7 +6950,22 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-12-17"
+   "date": "2025-12-17",
+   "options": [
+    {
+     "name": "14 กรัม",
+     "price": 42.0
+    },
+    {
+     "name": "28 กรัม",
+     "price": 46.0
+    },
+    {
+     "name": "40 กรัม",
+     "price": 50.0
+    }
+   ],
+   "note": "ราคาต่อตัว / บรรจุ 10 ตัว คละสี"
   },
   {
    "id": "1_NlBsbwfLgS3nD1fV5Are1MHrmUCdPMs",
@@ -4267,7 +6979,22 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-12-17"
+   "date": "2025-12-17",
+   "options": [
+    {
+     "name": "14 กรัม",
+     "price": 48.0
+    },
+    {
+     "name": "28 กรัม",
+     "price": 52.0
+    },
+    {
+     "name": "40 กรัม",
+     "price": 56.0
+    }
+   ],
+   "note": "ราคาต่อตัว / บรรจุ 10 ตัว คละสี"
   },
   {
    "id": "1U4V3_0WuqdBU5dTFREFrxZMLIBJHtq0y",
@@ -4281,7 +7008,22 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-12-17"
+   "date": "2025-12-17",
+   "options": [
+    {
+     "name": "14 กรัม",
+     "price": 48.0
+    },
+    {
+     "name": "28 กรัม",
+     "price": 52.0
+    },
+    {
+     "name": "40 กรัม",
+     "price": 56.0
+    }
+   ],
+   "note": "ราคาต่อตัว / บรรจุ 10 ตัว คละสี"
   },
   {
    "id": "1cR7HgwzDJkYjSAGy2vV-eU60UXFWyke7",
@@ -4295,7 +7037,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-17"
+   "date": "2025-05-17",
+   "price": 12.0,
+   "note": "ราคาต่อตัว / บรรจุ 30 ตัวต่อแผง"
   },
   {
    "id": "1kIy9D-R5fpDRh1svzOxAsth35shpOrDB",
@@ -4309,7 +7053,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-17"
+   "date": "2025-05-17",
+   "price": 12.0,
+   "note": "ราคาต่อตัว / บรรจุ 30 ตัวต่อแผง"
   },
   {
    "id": "1_y74p1olSC5OxR2fbcOMPI0ZdTjFeCmp",
@@ -4323,7 +7069,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-17"
+   "date": "2025-05-17",
+   "price": 12.0,
+   "note": "ราคาต่อตัว / บรรจุ 14 ตัวต่อแผง"
   },
   {
    "id": "1PppM-cAUhYSzlsFsBCmYUTTxLV9eNUdr",
@@ -4337,7 +7085,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-17"
+   "date": "2025-05-17",
+   "price": 12.0,
+   "note": "สินค้าหมด / ราคาต่อตัว / บรรจุ 14 ตัวต่อแผง"
   },
   {
    "id": "1dQBDiNxA8rPvw9XDc9l3HL9_kGLIIKBs",
@@ -4351,7 +7101,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-04-29"
+   "date": "2026-04-29",
+   "price": 13.0,
+   "note": "สินค้าหมด / ราคาต่อตัว / บรรจุ 30 ตัวต่อแผง"
   },
   {
    "id": "1xOD7T6qgXkGKeNetIo6HcLfdNRfrW5VH",
@@ -4365,7 +7117,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-17"
+   "date": "2025-05-17",
+   "price": 13.0,
+   "note": "ราคาต่อตัว / บรรจุ 30 ตัวต่อแผง"
   },
   {
    "id": "1DekqkuE1PBiE08dXC7PHaOD0KDDefXiB",
@@ -4379,7 +7133,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-08-23"
+   "date": "2026-08-23",
+   "price": 18.0,
+   "note": "ราคาต่อตัว / บรรจุ 30 ตัวต่อแผง"
   },
   {
    "id": "1kZpAltcBIIrivgBMKXG3S2OzvUarAtt7",
@@ -4393,7 +7149,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-17"
+   "date": "2025-05-17",
+   "price": 13.0,
+   "note": "ราคาต่อตัว / บรรจุ 30 ตัวต่อแผง"
   },
   {
    "id": "1qPQuScfKolhuxveA0jIzjtrL6sLA_40G",
@@ -4407,7 +7165,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-06-10"
+   "date": "2026-06-10",
+   "price": 23.0,
+   "note": "สินค้าหมด / ราคาต่อตัว / บรรจุ 10 ตัวต่อห่อ"
   },
   {
    "id": "1BkYM7TQApp4CPJFhwajrCpjTB0AquqdU",
@@ -4421,7 +7181,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-17"
+   "date": "2025-05-17",
+   "price": 23.0,
+   "note": "ราคาต่อตัว / บรรจุ 14 ตัวต่อแผง"
   },
   {
    "id": "1i5TAkPMa31Ni49HYH1sbW8p94qjdXKMP",
@@ -4435,7 +7197,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-17"
+   "date": "2025-05-17",
+   "price": 23.0,
+   "note": "ราคาต่อตัว / บรรจุ 14 ตัวต่อแผง"
   },
   {
    "id": "1u9IVahO7AYxQ97ORjHP_f1cRfb6JVibm",
@@ -4449,7 +7213,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-11"
+   "date": "2025-05-11",
+   "price": 27.0,
+   "note": "ราคาต่อตัว / บรรจุ 12 ตัวต่อห่อ"
   },
   {
    "id": "1Y-VFZ1rPST15KCqQ0Z3glxRd3sieqPsp",
@@ -4463,7 +7229,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-30"
+   "date": "2025-05-30",
+   "price": 15.0,
+   "note": "ราคาต่อตัว / บรรจุ 12 ตัว คละแบบ"
   },
   {
    "id": "1Lc08JxdG1NtZnxLHqTlVoM__Uj6l-2Vs",
@@ -4477,7 +7245,8 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-17"
+   "date": "2025-05-17",
+   "note": "สินค้าหมด"
   },
   {
    "id": "1TIetmjmVRARkuuFleHdNDI3KpMgwkzR-",
@@ -4491,7 +7260,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-02-10"
+   "date": "2026-02-10",
+   "price": 15.0,
+   "note": "ราคาต่อตัว / บรรจุ 12 ตัว คละแบบ"
   },
   {
    "id": "1SoJ4X_2k8IJrMhTTkzxtD07ZSRhOJyCO",
@@ -4505,7 +7276,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-04-21"
+   "date": "2025-04-21",
+   "price": 27.0,
+   "note": "ราคาต่อตัว / บรรจุ 12 ตัว คละสี"
   },
   {
    "id": "1EUHpwiTsAt3dUL6g7_c4av6QN_AiW7wh",
@@ -4519,7 +7292,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-17"
+   "date": "2025-05-17",
+   "price": 23.0,
+   "note": "ราคาต่อตัว / บรรจุ 14 ตัว"
   },
   {
    "id": "1lz561_c-gs0jY3X8if2fo4rzdyk79FTC",
@@ -4533,7 +7308,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-17"
+   "date": "2025-05-17",
+   "price": 23.0,
+   "note": "ราคาต่อตัว / บรรจุ 14 ตัว"
   },
   {
    "id": "1drWFHcStEWMpmsdB9bGb1NW45Oqre0wK",
@@ -4547,7 +7324,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-03-02"
+   "date": "2026-03-02",
+   "price": 25.0,
+   "note": "ราคาต่อตัว / บรรจุ 12 ตัวต่อห่อ"
   },
   {
    "id": "1ZgnR1vQ2GI2CLGrIE9TJ1TvIiBngziDj",
@@ -4561,7 +7340,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-17"
+   "date": "2025-05-17",
+   "price": 25.0,
+   "note": "ราคาต่อตัว / บรรจุ 14 ตัว"
   },
   {
    "id": "1v_uORBtcoqK8m2xELPIGmabXZUeZW2ZS",
@@ -4575,7 +7356,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-17"
+   "date": "2025-05-17",
+   "price": 27.0,
+   "note": "ราคาต่อตัว / บรรจุ 14 ตัว"
   },
   {
    "id": "1GULvyzC1StXGbOLEO0PbMoTMEOCh4hfp",
@@ -4589,7 +7372,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-17"
+   "date": "2025-05-17",
+   "price": 27.0,
+   "note": "ราคาต่อตัว / บรรจุ 14 ตัว"
   },
   {
    "id": "1V0ZU_BEYMkpuMnHuZvYK2B-_LByx_p1h",
@@ -4603,7 +7388,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-20"
+   "date": "2025-05-20",
+   "price": 35.0,
+   "note": "ราคาต่อตัว / บรรจุ 12 ตัว"
   },
   {
    "id": "1JrUeEsT8lT2UzIpyoiMo8J_A0nFqD8_U",
@@ -4617,7 +7404,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-18"
+   "date": "2025-05-18",
+   "price": 35.0,
+   "note": "ราคาต่อตัว / บรรจุ 14 ตัว"
   },
   {
    "id": "1Rk47r6NvliiV5x90NrQEq8j4Pg0xqYS8",
@@ -4631,7 +7420,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-18"
+   "date": "2025-05-18",
+   "price": 36.0,
+   "note": "ราคาต่อตัว / บรรจุ 10 ตัวต่อแผง"
   },
   {
    "id": "1CS6IiCYv9Cz_KMSh28kO2Yx0gkT4wPuo",
@@ -4645,7 +7436,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-18"
+   "date": "2025-05-18",
+   "price": 38.0,
+   "note": "ราคาต่อตัว / บรรจุ 10 ตัวต่อแผง"
   },
   {
    "id": "17VPMptIkixfd3J-DlDFU5iwEfaipN9RN",
@@ -4659,7 +7452,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-18"
+   "date": "2025-05-18",
+   "price": 40.0,
+   "note": "ราคาต่อตัว / บรรจุ 10 ตัวต่อแผง"
   },
   {
    "id": "1mQ2O-_pA5mI7q4J5V5wYGpV-q3E3ELA8",
@@ -4673,7 +7468,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-04-07"
+   "date": "2026-04-07",
+   "price": 42.0,
+   "note": "สินค้าหมด / ราคาต่อตัว / บรรจุ 10 ตัวต่อห่อ"
   },
   {
    "id": "1DnT7Ca6KV69Zd3BLjYK8YBFKg_Si_-2C",
@@ -4687,7 +7484,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-18"
+   "date": "2025-05-18",
+   "price": 36.0,
+   "note": "ราคาต่อตัว / บรรจุ 10 ตัวต่อแผง"
   },
   {
    "id": "1MqSQJiMsXLaBw99JCIj9bvJaXNJedLEM",
@@ -4701,7 +7500,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-18"
+   "date": "2025-05-18",
+   "price": 38.0,
+   "note": "ราคาต่อตัว / บรรจุ 10 ตัวต่อห่อ"
   },
   {
    "id": "1zkJoX-eCabtZuISg0SqsXqWzSwms3rOb",
@@ -4715,7 +7516,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-18"
+   "date": "2025-05-18",
+   "price": 40.0,
+   "note": "ราคาต่อตัว / บรรจุ 10 ตัวต่อแผง"
   },
   {
    "id": "1JcZYtEYFR8YtuxY1fkAkbgAMxpI48r75",
@@ -4729,7 +7532,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-18"
+   "date": "2025-05-18",
+   "price": 40.0,
+   "note": "ราคาต่อตัว / บรรจุ 10 ตัวต่อห่อ"
   },
   {
    "id": "1izMdCj09uUWXCnapBGoRmruJyxX9bMi4",
@@ -4743,7 +7548,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-18"
+   "date": "2025-05-18",
+   "price": 37.0,
+   "note": "ราคาต่อตัว / บรรจุ รวมรุ่น 10 ตัวต่อห่อ"
   },
   {
    "id": "1Gw3IGId4Mx_U5kj0vqBy8UxviXx-KWpG",
@@ -4757,7 +7564,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-19"
+   "date": "2025-05-19",
+   "price": 40.0,
+   "note": "ราคาต่อตัว / บรรจุ 10 ตัว"
   },
   {
    "id": "1MfSltclAg8v-_ZpPFIPAzgeGTsPHcyXd",
@@ -4771,7 +7580,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-19"
+   "date": "2025-05-19",
+   "price": 55.0,
+   "note": "ราคาต่อตัว / บรรจุ 10 ตัว (ขนาด 4.0 / 4.5 / 5.0 ซม. ราคาเดียวกัน)"
   },
   {
    "id": "1_F3HapuxT8NV1W8E0txM1HZzTGAW9LJE",
@@ -4785,7 +7596,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-19"
+   "date": "2025-05-19",
+   "price": 37.0,
+   "note": "ราคาต่อตัว / บรรจุ รวมรุ่น 14 ตัวต่อแผง"
   },
   {
    "id": "1YVEHj1MBvgZgNSk3zhLtQ7IQxPK9nra0",
@@ -4799,7 +7612,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-19"
+   "date": "2025-05-19",
+   "price": 38.0,
+   "note": "ราคาต่อตัว / บรรจุ รวมรุ่น 10 ตัวต่อห่อ"
   },
   {
    "id": "12XhpSoJlOHgxyr_18KhFWutqbcIcBiUR",
@@ -4813,7 +7628,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-19"
+   "date": "2025-05-19",
+   "price": 40.0,
+   "note": "ราคาต่อตัว / บรรจุ รวมรุ่น 14 ตัวต่อแผง"
   },
   {
    "id": "1ZGPtMpJQpzziHf2CxHVEcRTwX2z6vgiM",
@@ -4827,7 +7644,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-19"
+   "date": "2025-05-19",
+   "price": 42.0,
+   "note": "ราคาต่อตัว / บรรจุ รวมรุ่น 14 ตัวต่อแผง"
   },
   {
    "id": "1I3lRGhj_a8uE3ui6idbtLJxyRivUadXL",
@@ -4841,7 +7660,18 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-08-17"
+   "date": "2026-08-17",
+   "options": [
+    {
+     "name": "3.5 ซม.",
+     "price": 24.0
+    },
+    {
+     "name": "5.0 ซม.",
+     "price": 26.0
+    }
+   ],
+   "note": "ราคาต่อตัว / บรรจุ 14 ตัวต่อแผง"
   },
   {
    "id": "1tnvqsrOsunP3KoIGPx07OcK-Qk9dUJJg",
@@ -4855,7 +7685,22 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-07-10"
+   "date": "2025-07-10",
+   "options": [
+    {
+     "name": "4 ซม.",
+     "price": 24.0
+    },
+    {
+     "name": "6 ซม.",
+     "price": 26.0
+    },
+    {
+     "name": "7 ซม.",
+     "price": 27.0
+    }
+   ],
+   "note": "ราคาต่อตัว / บรรจุ 14 ตัวต่อแผง (6 ซม. 12 ตัวต่อห่อ)"
   },
   {
    "id": "1y0S41wPh4fT0zRurg-ehH7tlprw5mp_M",
@@ -4869,7 +7714,18 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-19"
+   "date": "2025-05-19",
+   "options": [
+    {
+     "name": "6.5 ซม.",
+     "price": 31.0
+    },
+    {
+     "name": "8.5 ซม.",
+     "price": 41.0
+    }
+   ],
+   "note": "ราคาต่อตัว / บรรจุ 14 ตัวต่อแผง"
   },
   {
    "id": "1g2ZX_DotX5UoT0VbP70vM87_CuXNOllX",
@@ -4883,7 +7739,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-08-17"
+   "date": "2026-08-17",
+   "price": 25.0,
+   "note": "ราคาต่อตัว / บรรจุ 14 ตัวต่อแผง"
   },
   {
    "id": "14dnolHZDkYfrqZqSRRnAQjuZY-cYra-C",
@@ -4897,7 +7755,18 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-19"
+   "date": "2025-05-19",
+   "options": [
+    {
+     "name": "3.5 ซม.",
+     "price": 27.0
+    },
+    {
+     "name": "5.0 ซม.",
+     "price": 30.0
+    }
+   ],
+   "note": "ราคาต่อตัว / บรรจุ 14 ตัว"
   },
   {
    "id": "1jScK2GlGP97JzYkWKVSADW5srYvnHmSB",
@@ -4911,7 +7780,22 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-20"
+   "date": "2025-05-20",
+   "options": [
+    {
+     "name": "4.0 ซม.",
+     "price": 26.0
+    },
+    {
+     "name": "6.0 ซม.",
+     "price": 28.0
+    },
+    {
+     "name": "7.0 ซม.",
+     "price": 29.0
+    }
+   ],
+   "note": "ราคาต่อตัว / บรรจุ 14 ตัว"
   },
   {
    "id": "15zT2KtGxryinM7AabJVFP7JLEZylVX3i",
@@ -4925,7 +7809,18 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-20"
+   "date": "2025-05-20",
+   "options": [
+    {
+     "name": "6.5 ซม.",
+     "price": 34.0
+    },
+    {
+     "name": "8.5 ซม.",
+     "price": 44.0
+    }
+   ],
+   "note": "ราคาต่อตัว / บรรจุ 14 ตัว"
   },
   {
    "id": "1gITYAjSsfN7COAK0zcEiNWS8vcxoPc47",
@@ -4939,7 +7834,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-20"
+   "date": "2025-05-20",
+   "price": 27.0,
+   "note": "ราคาต่อตัว / บรรจุ 14 ตัว"
   },
   {
    "id": "1qTci6CLJm1M2sm8QsTDFE-UJNiNDNyas",
@@ -4953,7 +7850,18 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-20"
+   "date": "2025-05-20",
+   "options": [
+    {
+     "name": "6.5 ซม. (ซองละ 4 ตัว)",
+     "price": 25.0
+    },
+    {
+     "name": "8.5 ซม. (ซองละ 2 ตัว)",
+     "price": 35.0
+    }
+   ],
+   "note": "ราคาต่อตัว / บรรจุ 5 ซอง"
   },
   {
    "id": "1AjAIQ1Zv5oJwEfFk7l9sY1qFPwEOHPTq",
@@ -4967,7 +7875,22 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-07-04"
+   "date": "2025-07-04",
+   "options": [
+    {
+     "name": "4.0 ซม.",
+     "price": 19.0
+    },
+    {
+     "name": "6.0 ซม.",
+     "price": 20.0
+    },
+    {
+     "name": "7.0 ซม.",
+     "price": 21.0
+    }
+   ],
+   "note": "ราคาต่อตัว / บรรจุ 14 ตัวต่อแผง"
   },
   {
    "id": "13lLpMC8wi4si2E5BEfK-qCyJ2-EJQj17",
@@ -4981,7 +7904,18 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-20"
+   "date": "2025-05-20",
+   "options": [
+    {
+     "name": "3.5 ซม.",
+     "price": 21.0
+    },
+    {
+     "name": "5.0 ซม.",
+     "price": 23.0
+    }
+   ],
+   "note": "ราคาต่อตัว / บรรจุ 14 ตัวต่อแผง"
   },
   {
    "id": "1nwcrEX7o1abMQRxFZuDxvMd1-iCneCGv",
@@ -4995,7 +7929,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-06-10"
+   "date": "2026-06-10",
+   "price": 20.0,
+   "note": "ราคาต่อตัว / บรรจุ 14 ตัวต่อห่อ"
   },
   {
    "id": "1O3FKTX-cxyW-FUBInnoBGUFINUPOxuZh",
@@ -5009,7 +7945,18 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-20"
+   "date": "2025-05-20",
+   "options": [
+    {
+     "name": "4.0 ซม.",
+     "price": 40.0
+    },
+    {
+     "name": "5.0 ซม.",
+     "price": 41.0
+    }
+   ],
+   "note": "ราคาต่อตัว / บรรจุ 14 ตัวต่อแผง"
   },
   {
    "id": "1HsPSm0OdJsOTTRNwoijFblWVCDNYtQyB",
@@ -5023,7 +7970,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-09-10"
+   "date": "2025-09-10",
+   "price": 36.0,
+   "note": "ราคาต่อตัว / บรรจุ 14 ตัวต่อแผง"
   },
   {
    "id": "1oed_MXjBFl8cyDNLIJbxJfH4MLATRc1Y",
@@ -5037,7 +7986,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-09-10"
+   "date": "2025-09-10",
+   "price": 36.0,
+   "note": "ราคาต่อตัว / บรรจุ 14 ตัวต่อแผง"
   },
   {
    "id": "14ttwND9BdzSsVllRsmYcjyMzR4QMyftX",
@@ -5051,7 +8002,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-20"
+   "date": "2025-05-20",
+   "price": 45.0,
+   "note": "สินค้าหมด / ราคาต่อตัว / บรรจุ 10 ตัว คละสี"
   },
   {
    "id": "1YJt2vWkcYafb2AsmAGMIwLI3NH7XIjRR",
@@ -5065,7 +8018,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-20"
+   "date": "2025-05-20",
+   "price": 45.0,
+   "note": "สินค้าหมด / ราคาต่อตัว / บรรจุ 10 ตัว คละสี"
   },
   {
    "id": "1_0jqx4MytXX36oXT89xMJg3iiAOrX4Df",
@@ -5079,7 +8034,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-20"
+   "date": "2025-05-20",
+   "price": 45.0,
+   "note": "ราคาต่อตัว / บรรจุ 10 ตัว คละสี"
   },
   {
    "id": "12YbIM4TR6TY99Ki2cso4Dt6S_bj89T4v",
@@ -5093,7 +8050,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-20"
+   "date": "2025-05-20",
+   "price": 45.0,
+   "note": "ราคาต่อตัว / บรรจุ 10 ตัว คละสี"
   },
   {
    "id": "11rML8RKgA9Us_4Sqit5mFsB7r2xebcvW",
@@ -5107,7 +8066,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-28"
+   "date": "2025-05-28",
+   "price": 14.0,
+   "note": "ราคาต่อตัว (ซองละ 40 บาท) / บรรจุ 5 ซอง"
   },
   {
    "id": "18OwgHW0ixlf_EzoS67NYN561NSGT1vkR",
@@ -5121,7 +8082,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-28"
+   "date": "2025-05-28",
+   "price": 14.0,
+   "note": "ราคาต่อตัว (ซองละ 40 บาท) / บรรจุ 5 ซอง"
   },
   {
    "id": "1ji4gqdweNkhf5E9BmFUq8quLfvcRz5im",
@@ -5135,7 +8098,18 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-28"
+   "date": "2025-05-28",
+   "options": [
+    {
+     "name": "6.5 ซม.",
+     "price": 9.0
+    },
+    {
+     "name": "8.5 ซม.",
+     "price": 13.0
+    }
+   ],
+   "note": "ราคาต่อตัว (ซองละ 50 บาท) / บรรจุ 5 ซอง"
   },
   {
    "id": "18q8GBTuMhX1aEQHxpsN9zl6lkd6Fa4Fk",
@@ -5149,7 +8123,18 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-28"
+   "date": "2025-05-28",
+   "options": [
+    {
+     "name": "3.5 ซม.",
+     "price": 9.0
+    },
+    {
+     "name": "5.0 ซม.",
+     "price": 12.0
+    }
+   ],
+   "note": "ราคาต่อตัว (3.5 ซม. ซองละ 50 / 5.0 ซม. ซองละ 60) / บรรจุ 5 ซอง"
   },
   {
    "id": "12FieT0QUVol3vlFgt1IcfLUmc5oV7HbA",
@@ -5163,7 +8148,22 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-28"
+   "date": "2025-05-28",
+   "options": [
+    {
+     "name": "4.0 ซม.",
+     "price": 5.0
+    },
+    {
+     "name": "6.0 ซม.",
+     "price": 7.0
+    },
+    {
+     "name": "7.0 ซม.",
+     "price": 8.0
+    }
+   ],
+   "note": "ราคาต่อตัว (ซองละ 40 บาท) / บรรจุ 5 ซอง"
   },
   {
    "id": "1EC9U_xERdz14sAy7-i3ovQ5l-IlS3EZq",
@@ -5177,7 +8177,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-28"
+   "date": "2025-05-28",
+   "price": 6.0,
+   "note": "ราคาต่อตัว (ซองละ 35 บาท) / บรรจุ 5 ซอง"
   },
   {
    "id": "1Ms7QFMoX390ZMEct-_vtKwHxWlDzcE48",
@@ -5191,7 +8193,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-21"
+   "date": "2025-05-21",
+   "price": 13.0,
+   "note": "ราคาต่อตัว / บรรจุ 10 ตัว คละสี"
   },
   {
    "id": "1-F3R8WQucRnPmnev2BkYJQ78DAi8oHm5",
@@ -5205,7 +8209,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-21"
+   "date": "2025-05-21",
+   "price": 16.0,
+   "note": "ราคาต่อตัว / บรรจุ 10 ตัว คละสี"
   },
   {
    "id": "1kasRuHCPspjHT3UcTGNy055jNM0fkLrA",
@@ -5219,7 +8225,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-21"
+   "date": "2025-05-21",
+   "price": 20.0,
+   "note": "ราคาต่อตัว (ซองละ 100 บาท) / บรรจุ 2 ซอง (ซองละ 5 ตัว คละสี)"
   },
   {
    "id": "1HNwGUq7WhQGjSv-Qzgp_xHyj5Oe-c3YH",
@@ -5233,7 +8241,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-21"
+   "date": "2025-05-21",
+   "price": 25.0,
+   "note": "ราคาต่อตัว (ซองละ 125 บาท) / บรรจุ 2 ซอง (ซองละ 5 ตัว คละสี)"
   },
   {
    "id": "1_PvYk1qxydloIbgPSWg9xVDK1o2aJ6Ix",
@@ -5247,7 +8257,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-21"
+   "date": "2025-05-21",
+   "price": 35.0,
+   "note": "สินค้าหมด / ราคาต่อซอง (15 ตัว) / บรรจุ 5 ซอง"
   },
   {
    "id": "1JMyYhHrHWrLLzzdW2Ikb7Qy8hKOgx1r-",
@@ -5261,7 +8273,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-21"
+   "date": "2025-05-21",
+   "price": 35.0,
+   "note": "ราคาต่อซอง (12 ตัว) / บรรจุ 5 ซอง"
   },
   {
    "id": "1x11cdiG5ApOO4ovulPRgTRpQOvr5eIG5",
@@ -5275,7 +8289,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-21"
+   "date": "2025-05-21",
+   "price": 35.0,
+   "note": "ราคาต่อซอง (8 ตัว) / บรรจุ 5 ซอง"
   },
   {
    "id": "1S_GXivWndQKe7GQd9iuChiOr1Qz3J7y5",
@@ -5289,7 +8305,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-23"
+   "date": "2025-05-23",
+   "price": 35.0,
+   "note": "ราคาต่อซอง (7 ตัว) / บรรจุ 5 ซอง"
   },
   {
    "id": "1IathDNgwPI3tioGIxKlirA2DpdDyO24P",
@@ -5303,7 +8321,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-23"
+   "date": "2025-05-23",
+   "price": 35.0,
+   "note": "ราคาต่อซอง (6 ตัว) / บรรจุ 5 ซอง"
   },
   {
    "id": "1mrj1B6t7Dla_gik0pszv1ra4HS4m_ybU",
@@ -5317,7 +8337,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-23"
+   "date": "2025-05-23",
+   "price": 50.0,
+   "note": "สินค้าหมด / ราคาต่อซอง (50 ตัว) / บรรจุ 3 ซอง"
   },
   {
    "id": "16pcQJKjWxuNyk18o_ANiEkzrukkAT1sy",
@@ -5331,7 +8353,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-23"
+   "date": "2025-05-23",
+   "price": 40.0,
+   "note": "ราคาต่อซอง (15 ตัว) / บรรจุ 5 ซอง"
   },
   {
    "id": "16pdtnI_eKBX9AZClq2R2B90pFt_dEJzp",
@@ -5345,7 +8369,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-23"
+   "date": "2025-05-23",
+   "price": 40.0,
+   "note": "ราคาต่อซอง (12 ตัว) / บรรจุ 5 ซอง"
   },
   {
    "id": "14s_bzSw0rzRQVMjn2yZfQqPH_A9L83Kw",
@@ -5359,7 +8385,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-23"
+   "date": "2025-05-23",
+   "price": 40.0,
+   "note": "ราคาต่อซอง (8 ตัว) / บรรจุ 5 ซอง"
   },
   {
    "id": "11tJx_B_5lBcf0RW1fOaL-mnWHuzU6F3s",
@@ -5373,7 +8401,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-23"
+   "date": "2025-05-23",
+   "price": 40.0,
+   "note": "ราคาต่อซอง (7 ตัว) / บรรจุ 5 ซอง"
   },
   {
    "id": "1_du2O1gt2McHCS5XQtl5WP2RLgDFT1Zg",
@@ -5387,7 +8417,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-23"
+   "date": "2025-05-23",
+   "price": 40.0,
+   "note": "ราคาต่อซอง (6 ตัว) / บรรจุ 5 ซอง"
   },
   {
    "id": "1N3DbUd35_WCPTOavLBxLfhMCd6RSEEmx",
@@ -5401,7 +8433,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-23"
+   "date": "2025-05-23",
+   "price": 35.0,
+   "note": "ราคาต่อซอง (10 ตัว) / บรรจุ 5 ซอง"
   },
   {
    "id": "14yp9HBpbz1UpVv8z8Udy5tqxhvjkSMxj",
@@ -5415,7 +8449,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-23"
+   "date": "2025-05-23",
+   "price": 35.0,
+   "note": "ราคาต่อซอง (7 ตัว) / บรรจุ 5 ซอง"
   },
   {
    "id": "1Dngl6BUp--WXy2Vj_dCnWX0FNYtOe7-z",
@@ -5429,7 +8465,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-23"
+   "date": "2025-05-23",
+   "price": 35.0,
+   "note": "ราคาต่อซอง (6 ตัว) / บรรจุ 5 ซอง"
   },
   {
    "id": "10V_Ui2m4JNEfWTkd9Zba6bsJTy6w6gSo",
@@ -5443,7 +8481,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-23"
+   "date": "2025-05-23",
+   "price": 30.0,
+   "note": "ราคาต่อซอง (6 ตัว) / บรรจุ 5 ซอง"
   },
   {
    "id": "15flO7iBqdFHlgVkYCQvEIxDtIGa6zhJM",
@@ -5457,7 +8497,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-23"
+   "date": "2025-05-23",
+   "price": 35.0,
+   "note": "ราคาต่อซอง (5 ตัว) / บรรจุ 5 ซอง"
   },
   {
    "id": "16KGt8xsIncm8LY-yr-8LfN3-mNVH78_i",
@@ -5471,7 +8513,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-23"
+   "date": "2025-05-23",
+   "price": 35.0,
+   "note": "ในรูปเขียน 35 บาท/ตัว (ซองละ 6 ตัว) — ร้านควรเช็กว่าเป็นราคาต่อซองหรือไม่ / บรรจุ 5 ซอง"
   },
   {
    "id": "1F4u_sUetssnjzZ4NzHme6UW8drQ3H8cL",
@@ -5485,7 +8529,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-23"
+   "date": "2025-05-23",
+   "price": 35.0,
+   "note": "ราคาต่อซอง (5 ตัว) / บรรจุ 5 ซอง"
   },
   {
    "id": "17Ypc2Pg9ROpQPmQj7MU5hc0m29BLNAbl",
@@ -5499,7 +8545,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-23"
+   "date": "2025-05-23",
+   "price": 35.0,
+   "note": "ราคาต่อซอง (5 ตัว) / บรรจุ 5 ซอง"
   },
   {
    "id": "1ypq-5j6xjZAY-g8wJEEjuPnDOmSsSVjZ",
@@ -5513,7 +8561,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-23"
+   "date": "2025-05-23",
+   "price": 35.0,
+   "note": "ราคาต่อซอง (6 ตัว) / บรรจุ 5 ซอง"
   },
   {
    "id": "1mhfucY0_I1hh9FFiWXMzwmHFMATB6mtI",
@@ -5527,7 +8577,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-23"
+   "date": "2025-05-23",
+   "price": 40.0,
+   "note": "ราคาต่อซอง (5 ตัว) / บรรจุ 5 ซอง"
   },
   {
    "id": "1wbB_bOpUAgUCZIQ5CvxEsVX7SBzyaVLa",
@@ -5541,7 +8593,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-23"
+   "date": "2025-05-23",
+   "price": 35.0,
+   "note": "ราคาต่อซอง (5 ตัว) / บรรจุ 5 ซอง"
   },
   {
    "id": "19B5a9hsTzGfxATXb_CLAhaFvjEhGNCoo",
@@ -5555,7 +8609,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-24"
+   "date": "2025-05-24",
+   "price": 40.0,
+   "note": "ราคาต่อซอง (5 ตัว) / บรรจุ 5 ซอง"
   },
   {
    "id": "1ldnOVbeCY2wKP1MaUGOZKYyOf_mfnNyU",
@@ -5569,7 +8625,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-24"
+   "date": "2025-05-24",
+   "price": 40.0,
+   "note": "ราคาต่อซอง (5 ตัว) / บรรจุ 5 ซอง"
   },
   {
    "id": "1ky10mGOq-qQaDzKToZw2miUycX8yHaQN",
@@ -5583,7 +8641,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-24"
+   "date": "2025-05-24",
+   "price": 45.0,
+   "note": "ราคาต่อซอง (10 ตัว) / บรรจุ 5 ซอง"
   },
   {
    "id": "1XjR0aw0w9oPh0L3DLLm3UpwYN1wmWFds",
@@ -5597,7 +8657,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-24"
+   "date": "2025-05-24",
+   "price": 40.0,
+   "note": "ราคาต่อซอง (5 ตัว) / บรรจุ 5 ซอง"
   },
   {
    "id": "1kvXs9fdqbuAKhQA7lEmA8VZ3hZTyslSY",
@@ -5611,7 +8673,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-24"
+   "date": "2025-05-24",
+   "price": 40.0,
+   "note": "ราคาต่อซอง (10 ตัว) / บรรจุ 5 ซอง"
   },
   {
    "id": "1SJ6Q1JLDhL7RgWe96R3FFjVO-QW3cUNd",
@@ -5625,7 +8689,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-24"
+   "date": "2025-05-24",
+   "price": 50.0,
+   "note": "ราคาต่อซอง (10 ตัว) / บรรจุ 5 ซอง"
   },
   {
    "id": "1Qaf5ovIA1nRHgXD4zS32fxaaYG2E7CqP",
@@ -5639,7 +8705,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-24"
+   "date": "2025-05-24",
+   "price": 30.0,
+   "note": "ราคาต่อซอง (5 ตัว) / บรรจุ 5 ซอง"
   },
   {
    "id": "1C6tF45ZjTiRxbw2PPW1_ShHtnA74hbJK",
@@ -5653,7 +8721,38 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-12-09"
+   "date": "2025-12-09",
+   "options": [
+    {
+     "name": "1 นิ้ว",
+     "price": 10.0
+    },
+    {
+     "name": "1.5 นิ้ว",
+     "price": 15.0
+    },
+    {
+     "name": "5 นิ้ว",
+     "price": 28.0
+    },
+    {
+     "name": "7 นิ้ว",
+     "price": 35.0
+    },
+    {
+     "name": "8 นิ้ว",
+     "price": 38.0
+    },
+    {
+     "name": "10 นิ้ว",
+     "price": 38.0
+    },
+    {
+     "name": "12 นิ้ว",
+     "price": 52.0
+    }
+   ],
+   "note": "ราคาพิเศษ ลดล้างสต๊อก ต่อซอง / ขนาด 6 นิ้ว หมด"
   },
   {
    "id": "1OWkw7R_-MsNsm85iaQ15ByTskX8IdfGT",
@@ -5667,7 +8766,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-07-28"
+   "date": "2025-07-28",
+   "price": 16.0,
+   "note": "ราคาต่อตัว / บรรจุ 14 ตัว"
   },
   {
    "id": "1HAs5kpMqUKwQJ9kvQrjrPEAq3ejT4nJk",
@@ -5681,7 +8782,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-24"
+   "date": "2025-05-24",
+   "price": 5.5,
+   "note": "ราคาพิเศษต่อตัว / บรรจุ 30 ตัวต่อห่อ คละสี"
   },
   {
    "id": "1HBnxzbcCs97CU52qSAuA6NSqsqT0xL8x",
@@ -5695,7 +8798,18 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-24"
+   "date": "2025-05-24",
+   "options": [
+    {
+     "name": "C-4 (4 ซม.)",
+     "price": 18.0
+    },
+    {
+     "name": "C-5 (5 ซม.)",
+     "price": 20.0
+    }
+   ],
+   "note": "ราคาต่อใบ / บรรจุ 12 ใบ คละสี / C-6 หมด"
   },
   {
    "id": "1f-2g3cRzSO1puNhq0QkLdcA2CdkGEobi",
@@ -5709,7 +8823,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-19"
+   "date": "2025-05-19",
+   "price": 60.0,
+   "note": "ราคาต่อใบ / บรรจุ 12 ใบ คละสี / แถมแผ่นกั้นช่อง 20 ชิ้น"
   },
   {
    "id": "1KzXUtAv5tiSlE-LMLRI3F9JFm7NThYsp",
@@ -5723,7 +8839,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-04-17"
+   "date": "2025-04-17",
+   "price": 32.0,
+   "note": "ราคาต่อใบ / บรรจุ 12 ใบ คละสี"
   },
   {
    "id": "14VGtnw2MUbUrDeTU8krNhqIYqrwqcypF",
@@ -5737,7 +8855,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-24"
+   "date": "2025-05-24",
+   "price": 28.0,
+   "note": "ราคาต่อใบ / บรรจุ 12 ใบ คละสี"
   },
   {
    "id": "1fZ984PcmRSKmtp8XLLOxjn20jaN5c2B0",
@@ -5751,7 +8871,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-24"
+   "date": "2025-05-24",
+   "price": 145.0,
+   "note": "ราคาต่อใบ / บรรจุ 6 ใบ คละสี"
   },
   {
    "id": "1zWYflTK2sIoWyPsjvBNGL9Gw48VzqAIf",
@@ -5765,7 +8887,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-24"
+   "date": "2025-05-24",
+   "price": 205.0,
+   "note": "ราคาต่อใบ / บรรจุ 6 ใบ คละสี"
   },
   {
    "id": "1kxWFopgaTW2ugBYVKV2FuaE6Hh_3g8eT",
@@ -5779,7 +8903,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-24"
+   "date": "2025-05-24",
+   "price": 290.0,
+   "note": "ราคาต่อใบ / บรรจุ 6 ใบ คละสี"
   },
   {
    "id": "1VVDBtKE8rYu5et3C2dC7Fh4exmv95mu9",
@@ -5793,7 +8919,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-08-18"
+   "date": "2026-08-18",
+   "price": 75.0,
+   "note": "ราคาต่อใบ / บรรจุ 12 ใบ คละสี"
   },
   {
    "id": "1RHDTNv6N_zs86T8wjQjYGwq_IHaMQMxY",
@@ -5807,7 +8935,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-08-18"
+   "date": "2026-08-18",
+   "price": 100.0,
+   "note": "ราคาต่อใบ / บรรจุ 12 ใบ คละสี"
   },
   {
    "id": "1rt0_xbbQ28UN1LBYvWzIeMPcZQzvHIW8",
@@ -5821,7 +8951,30 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-10-20"
+   "date": "2025-10-20",
+   "options": [
+    {
+     "name": "2.5 ซม.",
+     "price": 3.1
+    },
+    {
+     "name": "3.5 ซม.",
+     "price": 3.2
+    },
+    {
+     "name": "4.0 ซม.",
+     "price": 3.4
+    },
+    {
+     "name": "5.0 ซม.",
+     "price": 3.7
+    },
+    {
+     "name": "6.0 ซม.",
+     "price": 3.9
+    }
+   ],
+   "note": "ราคาต่อชิ้น / บรรจุ 50 ชิ้น"
   },
   {
    "id": "194v3d3bJCLDUwFh54SaYph61z1K-hku5",
@@ -5835,7 +8988,30 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-10-20"
+   "date": "2025-10-20",
+   "options": [
+    {
+     "name": "2.5 ซม.",
+     "price": 4.4
+    },
+    {
+     "name": "3.5 ซม.",
+     "price": 4.5
+    },
+    {
+     "name": "4.0 ซม.",
+     "price": 4.7
+    },
+    {
+     "name": "5.0 ซม.",
+     "price": 5.0
+    },
+    {
+     "name": "6.0 ซม.",
+     "price": 5.2
+    }
+   ],
+   "note": "ราคาต่อชิ้น / บรรจุ 50 ชิ้น"
   },
   {
    "id": "1XXEUxC9ZSJKdKWSfd2nlOLf1Cs2pWh2E",
@@ -5849,7 +9025,30 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-10-20"
+   "date": "2025-10-20",
+   "options": [
+    {
+     "name": "2.5 ซม.",
+     "price": 2.8
+    },
+    {
+     "name": "3.5 ซม.",
+     "price": 2.9
+    },
+    {
+     "name": "4.0 ซม.",
+     "price": 3.1
+    },
+    {
+     "name": "5.0 ซม.",
+     "price": 3.4
+    },
+    {
+     "name": "6.0 ซม.",
+     "price": 3.6
+    }
+   ],
+   "note": "ราคาต่อชิ้น / บรรจุ 50 ชิ้น"
   },
   {
    "id": "1f42PMqbgUj3PgMVcSTbq3J65k1PoqFiE",
@@ -5863,7 +9062,30 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-10-20"
+   "date": "2025-10-20",
+   "options": [
+    {
+     "name": "2.5 ซม.",
+     "price": 4.0
+    },
+    {
+     "name": "3.5 ซม.",
+     "price": 4.1
+    },
+    {
+     "name": "4.0 ซม.",
+     "price": 4.3
+    },
+    {
+     "name": "5.0 ซม.",
+     "price": 5.2
+    },
+    {
+     "name": "6.0 ซม.",
+     "price": 6.1
+    }
+   ],
+   "note": "ราคาต่อชิ้น / บรรจุ 50 ชิ้น"
   },
   {
    "id": "17KxK21EEHaBHOk5pRB3_Rm5yGkzuY9ud",
@@ -5877,7 +9099,30 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-10-20"
+   "date": "2025-10-20",
+   "options": [
+    {
+     "name": "2.5 ซม.",
+     "price": 3.8
+    },
+    {
+     "name": "3.5 ซม.",
+     "price": 4.0
+    },
+    {
+     "name": "4.0 ซม.",
+     "price": 4.3
+    },
+    {
+     "name": "5.0 ซม.",
+     "price": 4.6
+    },
+    {
+     "name": "6.0 ซม.",
+     "price": 5.1
+    }
+   ],
+   "note": "ราคาต่อชิ้น / บรรจุ 50 ชิ้น"
   },
   {
    "id": "107xEItv80da6NsnO7gHdfSziHabOHN1a",
@@ -5891,7 +9136,30 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-10-20"
+   "date": "2025-10-20",
+   "options": [
+    {
+     "name": "2.5 ซม.",
+     "price": 3.5
+    },
+    {
+     "name": "3.5 ซม.",
+     "price": 3.7
+    },
+    {
+     "name": "4.0 ซม.",
+     "price": 3.9
+    },
+    {
+     "name": "5.0 ซม.",
+     "price": 4.7
+    },
+    {
+     "name": "6.0 ซม.",
+     "price": 5.5
+    }
+   ],
+   "note": "ราคาต่อชิ้น / บรรจุ 50 ชิ้น"
   },
   {
    "id": "1nTCMAqeb9dHEJzI0dFrErwFMuLHM5Ard",
@@ -5905,7 +9173,34 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-10-20"
+   "date": "2025-10-20",
+   "options": [
+    {
+     "name": "2.0 ซม.",
+     "price": 3.6
+    },
+    {
+     "name": "2.5 ซม.",
+     "price": 3.7
+    },
+    {
+     "name": "3.5 ซม.",
+     "price": 3.9
+    },
+    {
+     "name": "4.0 ซม.",
+     "price": 4.1
+    },
+    {
+     "name": "5.0 ซม.",
+     "price": 4.4
+    },
+    {
+     "name": "6.0 ซม.",
+     "price": 4.7
+    }
+   ],
+   "note": "ราคาต่อชิ้น / บรรจุ 50 ชิ้น"
   },
   {
    "id": "1mle88SmJJyC3xkrMGOx3yplxQlG7J4dF",
@@ -5919,7 +9214,30 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-10-20"
+   "date": "2025-10-20",
+   "options": [
+    {
+     "name": "2.5 ซม.",
+     "price": 6.7
+    },
+    {
+     "name": "3.5 ซม.",
+     "price": 6.7
+    },
+    {
+     "name": "4 ซม.",
+     "price": 6.7
+    },
+    {
+     "name": "5 ซม.",
+     "price": 7.0
+    },
+    {
+     "name": "6 ซม.",
+     "price": 7.5
+    }
+   ],
+   "note": "ราคาต่อชิ้น / บรรจุ 30 ชิ้น (ใส่ถุงซิปล็อคทุกชิ้น)"
   },
   {
    "id": "16C0JBAl61_1_k6DUHZL1Z6a4Xnlsmc9y",
@@ -5933,7 +9251,26 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-10-20"
+   "date": "2025-10-20",
+   "options": [
+    {
+     "name": "3.5 ซม.",
+     "price": 7.5
+    },
+    {
+     "name": "4 ซม.",
+     "price": 7.5
+    },
+    {
+     "name": "5 ซม.",
+     "price": 8.0
+    },
+    {
+     "name": "6 ซม.",
+     "price": 8.5
+    }
+   ],
+   "note": "ราคาต่อชิ้น / บรรจุ 30 ชิ้น (ใส่ถุงซิปล็อคทุกชิ้น)"
   },
   {
    "id": "1skuVCXkxZsOXZ1S1i_u4xzaE_uJGBWLL",
@@ -5947,7 +9284,26 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-10-20"
+   "date": "2025-10-20",
+   "options": [
+    {
+     "name": "3.5 ซม.",
+     "price": 8.0
+    },
+    {
+     "name": "4 ซม.",
+     "price": 8.0
+    },
+    {
+     "name": "5 ซม.",
+     "price": 8.5
+    },
+    {
+     "name": "6 ซม.",
+     "price": 8.5
+    }
+   ],
+   "note": "ราคาต่อชิ้น / บรรจุ 30 ชิ้น (ใส่ถุงซิปล็อคทุกชิ้น)"
   },
   {
    "id": "1oFIReCgrgwQE8ikOKZ9pYNMLsjVIvA7N",
@@ -5961,7 +9317,58 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-06-17"
+   "date": "2026-06-17",
+   "options": [
+    {
+     "name": "#2.5",
+     "price": 4.0
+    },
+    {
+     "name": "#3",
+     "price": 4.5
+    },
+    {
+     "name": "#3.5",
+     "price": 5.0
+    },
+    {
+     "name": "#4",
+     "price": 6.0
+    },
+    {
+     "name": "#5",
+     "price": 6.5
+    },
+    {
+     "name": "#6",
+     "price": 7.0
+    },
+    {
+     "name": "#7",
+     "price": 7.5
+    },
+    {
+     "name": "#8",
+     "price": 8.0
+    },
+    {
+     "name": "#9",
+     "price": 9.5
+    },
+    {
+     "name": "#10",
+     "price": 10.5
+    },
+    {
+     "name": "#11",
+     "price": 11.5
+    },
+    {
+     "name": "#12",
+     "price": 12.0
+    }
+   ],
+   "note": "ราคาต่อชิ้น / บรรจุ 50 ชิ้น / ร้านแจ้งปรับราคาเบอร์ 3.5, 4, 5 ขึ้นชิ้นละ 0.5 (มีผล 1 ก.ค.)"
   },
   {
    "id": "1dADUxrX50BrBgxl8fGIBgUiKONBvCULj",
@@ -5975,7 +9382,58 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-06-17"
+   "date": "2026-06-17",
+   "options": [
+    {
+     "name": "#2.5",
+     "price": 4.0
+    },
+    {
+     "name": "#3",
+     "price": 4.5
+    },
+    {
+     "name": "#3.5",
+     "price": 5.0
+    },
+    {
+     "name": "#4",
+     "price": 6.0
+    },
+    {
+     "name": "#5",
+     "price": 6.5
+    },
+    {
+     "name": "#6",
+     "price": 7.0
+    },
+    {
+     "name": "#7",
+     "price": 7.5
+    },
+    {
+     "name": "#8",
+     "price": 8.0
+    },
+    {
+     "name": "#9",
+     "price": 9.5
+    },
+    {
+     "name": "#10",
+     "price": 10.5
+    },
+    {
+     "name": "#11",
+     "price": 11.5
+    },
+    {
+     "name": "#12",
+     "price": 12.0
+    }
+   ],
+   "note": "ราคาต่อชิ้น / บรรจุ 50 ชิ้น / ร้านแจ้งปรับราคาเบอร์ 3.5, 4, 5 ขึ้นชิ้นละ 0.5 (มีผล 1 ก.ค.)"
   },
   {
    "id": "1croY5PbpJqZDtZBFlE4O-cSvyz4tEScR",
@@ -5989,7 +9447,58 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-06-17"
+   "date": "2026-06-17",
+   "options": [
+    {
+     "name": "#2.5",
+     "price": 4.0
+    },
+    {
+     "name": "#3",
+     "price": 4.5
+    },
+    {
+     "name": "#3.5",
+     "price": 5.0
+    },
+    {
+     "name": "#4",
+     "price": 6.0
+    },
+    {
+     "name": "#5",
+     "price": 6.5
+    },
+    {
+     "name": "#6",
+     "price": 7.0
+    },
+    {
+     "name": "#7",
+     "price": 7.5
+    },
+    {
+     "name": "#8",
+     "price": 8.0
+    },
+    {
+     "name": "#9",
+     "price": 9.5
+    },
+    {
+     "name": "#10",
+     "price": 10.5
+    },
+    {
+     "name": "#11",
+     "price": 11.5
+    },
+    {
+     "name": "#12",
+     "price": 12.0
+    }
+   ],
+   "note": "ราคาต่อชิ้น / บรรจุ 50 ชิ้น / ร้านแจ้งปรับราคาเบอร์ 3.5, 4, 5 ขึ้นชิ้นละ 0.5 (มีผล 1 ก.ค.)"
   },
   {
    "id": "1RXUYY3MoQpyVRb9Xvo_7W3yES0iT-cwa",
@@ -6003,7 +9512,22 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-24"
+   "date": "2025-05-24",
+   "options": [
+    {
+     "name": "#5",
+     "price": 6.0
+    },
+    {
+     "name": "#7",
+     "price": 7.5
+    },
+    {
+     "name": "#9",
+     "price": 9.5
+    }
+   ],
+   "note": "ราคาต่อชิ้น / บรรจุ 50 ชิ้น"
   },
   {
    "id": "1sfjUSAEnP3Rlea7TDu9gIgIiYDfeCQxN",
@@ -6017,7 +9541,22 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-24"
+   "date": "2025-05-24",
+   "options": [
+    {
+     "name": "#5",
+     "price": 6.0
+    },
+    {
+     "name": "#7",
+     "price": 7.5
+    },
+    {
+     "name": "#9",
+     "price": 9.5
+    }
+   ],
+   "note": "ราคาต่อชิ้น / บรรจุ 50 ชิ้น"
   },
   {
    "id": "1hfqDxGzX1O-RSSUka3bo7SRcW5hVjFkR",
@@ -6031,7 +9570,22 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-06-17"
+   "date": "2026-06-17",
+   "options": [
+    {
+     "name": "#11",
+     "price": 28.0
+    },
+    {
+     "name": "#12",
+     "price": 31.0
+    },
+    {
+     "name": "#13",
+     "price": 35.0
+    }
+   ],
+   "note": "ราคาต่อชิ้น / บรรจุ 10 ชิ้น / แจ้งปรับราคาทุกเบอร์ มีผล 1 ก.ค."
   },
   {
    "id": "1GL_7RltSiMSi3Qtz5vrQtK1Ju6ALdz7B",
@@ -6045,7 +9599,30 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-06-17"
+   "date": "2026-06-17",
+   "options": [
+    {
+     "name": "#5",
+     "price": 14.0
+    },
+    {
+     "name": "#6",
+     "price": 15.0
+    },
+    {
+     "name": "#7",
+     "price": 16.0
+    },
+    {
+     "name": "#9",
+     "price": 19.0
+    },
+    {
+     "name": "#11",
+     "price": 20.0
+    }
+   ],
+   "note": "ราคาต่อชิ้น / บรรจุ 10 ชิ้น / แจ้งปรับราคาทุกเบอร์ มีผล 1 ก.ค."
   },
   {
    "id": "1Bpr1mePXQH7oCThlY13BxOh_fPV5wZmj",
@@ -6059,7 +9636,26 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-06-15"
+   "date": "2026-06-15",
+   "options": [
+    {
+     "name": "SS",
+     "price": 12.0
+    },
+    {
+     "name": "S",
+     "price": 13.0
+    },
+    {
+     "name": "M",
+     "price": 14.0
+    },
+    {
+     "name": "L",
+     "price": 16.0
+    }
+   ],
+   "note": "ราคาต่อชิ้น / บรรจุ 10 ชิ้น / แจ้งปรับราคาทุกเบอร์ มีผล 1 ก.ค."
   },
   {
    "id": "1VUVw1ncrJzNVDVrzaa1eSof3Puhknk-D",
@@ -6073,7 +9669,26 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-26"
+   "date": "2025-05-26",
+   "options": [
+    {
+     "name": "SS",
+     "price": 11.0
+    },
+    {
+     "name": "S",
+     "price": 12.0
+    },
+    {
+     "name": "M",
+     "price": 13.0
+    },
+    {
+     "name": "L",
+     "price": 14.0
+    }
+   ],
+   "note": "ราคาต่อชิ้น / บรรจุ 10 ชิ้น"
   },
   {
    "id": "1CoxjpOS-nhAajuWkvAa7LVAtbC79bSpp",
@@ -6087,7 +9702,26 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-06-17"
+   "date": "2026-06-17",
+   "options": [
+    {
+     "name": "SS",
+     "price": 12.0
+    },
+    {
+     "name": "S",
+     "price": 13.0
+    },
+    {
+     "name": "M",
+     "price": 14.0
+    },
+    {
+     "name": "L",
+     "price": 16.0
+    }
+   ],
+   "note": "ราคาต่อชิ้น / บรรจุ 10 ชิ้น / แจ้งปรับราคาทุกเบอร์ มีผล 1 ก.ค."
   },
   {
    "id": "1gmmquBFDwRR6-_YfX5G3mk_388ByK4Zw",
@@ -6101,7 +9735,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-26"
+   "date": "2025-05-26",
+   "price": 40.0,
+   "note": "ราคาต่อชิ้น (แถมถ่าน 2 ก้อน) / บรรจุ 10 ชิ้น"
   },
   {
    "id": "1sEm2iGGBKIOSDsdSTkw8AQhYpjX_E2lM",
@@ -6115,7 +9751,26 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-06-17"
+   "date": "2026-06-17",
+   "options": [
+    {
+     "name": "จิ๋ว",
+     "price": 1.6
+    },
+    {
+     "name": "เล็ก",
+     "price": 1.7
+    },
+    {
+     "name": "กลาง",
+     "price": 2.0
+    },
+    {
+     "name": "ใหญ่",
+     "price": 2.2
+    }
+   ],
+   "note": "ราคาต่อชิ้น / บรรจุ 100 ชิ้น / แจ้งปรับราคาเบอร์จิ๋ว กลาง ใหญ่ ขึ้น 0.1 มีผล 1 ก.ค."
   },
   {
    "id": "15_ic6cImj9mFj5W5rEAF1iZxqb4f1eiH",
@@ -6129,7 +9784,22 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-06-17"
+   "date": "2026-06-17",
+   "options": [
+    {
+     "name": "#3",
+     "price": 2.2
+    },
+    {
+     "name": "#4",
+     "price": 2.5
+    },
+    {
+     "name": "#5",
+     "price": 2.8
+    }
+   ],
+   "note": "ราคาต่อชิ้น / บรรจุ 100 ชิ้น / แจ้งปรับราคาทุกเบอร์ขึ้น 0.2 มีผล 1 ก.ค."
   },
   {
    "id": "1YKhn05hqDuFStm-ZbYDs6lBI2JaHKq-L",
@@ -6143,7 +9813,38 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-06-17"
+   "date": "2026-06-17",
+   "options": [
+    {
+     "name": "#4",
+     "price": 5.5
+    },
+    {
+     "name": "#5",
+     "price": 7.0
+    },
+    {
+     "name": "#6",
+     "price": 7.5
+    },
+    {
+     "name": "#7.5",
+     "price": 8.5
+    },
+    {
+     "name": "#9",
+     "price": 9.5
+    },
+    {
+     "name": "#10",
+     "price": 10.5
+    },
+    {
+     "name": "#12",
+     "price": 12.5
+    }
+   ],
+   "note": "ราคาต่อชิ้น / บรรจุ 50 ชิ้น คละสี / แจ้งปรับราคาเบอร์ 4, 5 ขึ้น 0.5 มีผล 1 ก.ค."
   },
   {
    "id": "1-xVJOeCs3-BaUOd6leZvY0FJcZmgMk5L",
@@ -6157,7 +9858,18 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2024-10-31"
+   "date": "2024-10-31",
+   "options": [
+    {
+     "name": "30 ซม.",
+     "price": 100.0
+    },
+    {
+     "name": "33 ซม.",
+     "price": 130.0
+    }
+   ],
+   "note": "ราคาต่อใบ / บรรจุ 5 ใบ"
   },
   {
    "id": "1u5lmqDTd2LUw7jEw9gT3Lzmn11K_45HM",
@@ -6171,7 +9883,22 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-26"
+   "date": "2025-05-26",
+   "options": [
+    {
+     "name": "34 ซม.",
+     "price": 33.0
+    },
+    {
+     "name": "40 ซม.",
+     "price": 36.0
+    },
+    {
+     "name": "45 ซม.",
+     "price": 42.0
+    }
+   ],
+   "note": "ราคาต่อใบ / บรรจุ 10 ใบ"
   },
   {
    "id": "1w175UmILrIhzLkjZfLpZCTOtnyf__NmO",
@@ -6185,7 +9912,22 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-26"
+   "date": "2025-05-26",
+   "options": [
+    {
+     "name": "34 ซม.",
+     "price": 33.0
+    },
+    {
+     "name": "40 ซม.",
+     "price": 36.0
+    },
+    {
+     "name": "45 ซม.",
+     "price": 42.0
+    }
+   ],
+   "note": "ราคาต่อใบ / บรรจุ 10 ใบ"
   },
   {
    "id": "1gxfWlK4A_DpJlvWSyua5FFY0sDKpoArL",
@@ -6199,7 +9941,26 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-26"
+   "date": "2025-05-26",
+   "options": [
+    {
+     "name": "40 ซม.",
+     "price": 40.0
+    },
+    {
+     "name": "45 ซม.",
+     "price": 55.0
+    },
+    {
+     "name": "52 ซม.",
+     "price": 75.0
+    },
+    {
+     "name": "60 ซม.",
+     "price": 155.0
+    }
+   ],
+   "note": "ราคาต่อใบ / บรรจุ 10 ใบ"
   },
   {
    "id": "1SXXCQjPI6MMhpJej4ITiUhbxgHJG-v4a",
@@ -6213,7 +9974,22 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-06-26"
+   "date": "2026-06-26",
+   "options": [
+    {
+     "name": "3 ชั้น (40 ซม.)",
+     "price": 80.0
+    },
+    {
+     "name": "3 ชั้น (50 ซม.)",
+     "price": 115.0
+    },
+    {
+     "name": "4 ชั้น (50 ซม.)",
+     "price": 150.0
+    }
+   ],
+   "note": "ราคาต่อใบ / บรรจุขนาดละ 5 ใบ"
   },
   {
    "id": "1INZknZq3vekxhbUrRMIfTodqJEtXsCpf",
@@ -6227,7 +10003,22 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-07-01"
+   "date": "2026-07-01",
+   "options": [
+    {
+     "name": "3 ชั้น (40 ซม.)",
+     "price": 80.0
+    },
+    {
+     "name": "3 ชั้น (50 ซม.)",
+     "price": 115.0
+    },
+    {
+     "name": "4 ชั้น (50 ซม.)",
+     "price": 150.0
+    }
+   ],
+   "note": "ราคาต่อใบ / บรรจุขนาดละ 5 ใบ"
   },
   {
    "id": "1qR0XoxOqMI7JNZDhO3uGko6zadHLg_mg",
@@ -6241,7 +10032,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-26"
+   "date": "2025-05-26",
+   "price": 41.0,
+   "note": "ราคาต่อใบ / บรรจุ 10 ใบ"
   },
   {
    "id": "1HxiWGclGKsVXldHyplv_2UTNTzoGjXhH",
@@ -6255,7 +10048,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-26"
+   "date": "2025-05-26",
+   "price": 360.0,
+   "note": "ราคาต่อใบ"
   },
   {
    "id": "12WM_x2QTo856AGJU7ic9CT3cXy-lmAEI",
@@ -6269,7 +10064,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-04-27"
+   "date": "2026-04-27",
+   "price": 95.0,
+   "note": "ราคาต่อชุด / บรรจุ 10 ชุด"
   },
   {
    "id": "1UZCbAwYCJyk2c9RG1IQoJ08tZ_2jQEXw",
@@ -6283,7 +10080,18 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-26"
+   "date": "2025-05-26",
+   "options": [
+    {
+     "name": "สวิง",
+     "price": 60.0
+    },
+    {
+     "name": "ด้ามสวิง 75 ซม.",
+     "price": 35.0
+    }
+   ],
+   "note": "ราคาต่ออัน / บรรจุ 10 อัน"
   },
   {
    "id": "1B-VkERxC2ETLMJSO4g_Oa_nhS-VxdRqQ",
@@ -6297,7 +10105,18 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-04-25"
+   "date": "2026-04-25",
+   "options": [
+    {
+     "name": "ด้าม 1.4 ม. + หัวสวิง 40 ซม.",
+     "price": 135.0
+    },
+    {
+     "name": "ด้าม 1.4 ม. + หัวสวิง 45 ซม.",
+     "price": 145.0
+    }
+   ],
+   "note": "ราคาส่งต่อชุด / บรรจุขนาดละ 5 ชุด"
   },
   {
    "id": "16GYg6DpZG-UJCkQIHrxl67wh6jFbY9NY",
@@ -6311,7 +10130,22 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-04-25"
+   "date": "2026-04-25",
+   "options": [
+    {
+     "name": "หัวสวิง 40 ซม.",
+     "price": 70.0
+    },
+    {
+     "name": "หัวสวิง 45 ซม.",
+     "price": 80.0
+    },
+    {
+     "name": "ด้าม 1.4 ม.",
+     "price": 65.0
+    }
+   ],
+   "note": "ราคาต่ออัน / บรรจุ 5 อัน"
   },
   {
    "id": "1enO-DtFBuDOyT9WgJ0in2PZZxN2wK2n7",
@@ -6325,7 +10159,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-26"
+   "date": "2025-05-26",
+   "price": 120.0,
+   "note": "บรรจุ 1 ชิ้น"
   },
   {
    "id": "1X0jz1RHAinPbG3WQ7TOHyzvEfiprbObK",
@@ -6339,7 +10175,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-26"
+   "date": "2025-05-26",
+   "price": 50.0,
+   "note": "บรรจุ 1 ชิ้น"
   },
   {
    "id": "1EPYgOBcSJioDxEPM4rTAb3KAKvlWoQnS",
@@ -6353,7 +10191,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-27"
+   "date": "2025-05-27",
+   "price": 750.0,
+   "note": "บรรจุ 1 กล่อง"
   },
   {
    "id": "1sXLwySyFE8J7mfJf_X2zCwkqzbs71ofw",
@@ -6367,7 +10207,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-27"
+   "date": "2025-05-27",
+   "price": 5.2,
+   "note": "ราคาต่อชิ้น / บรรจุ 100 ชิ้นต่อกล่อง"
   },
   {
    "id": "15leWDoxZb8fgYwnxCQkQK0hxXgKJLk8A",
@@ -6381,7 +10223,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-27"
+   "date": "2025-05-27",
+   "price": 5.2,
+   "note": "ราคาต่อชิ้น / บรรจุ 100 ชิ้นต่อกล่อง"
   },
   {
    "id": "1lOC3wZb-FTJMkau8yFYP8jI5o_u51yLH",
@@ -6395,7 +10239,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-12-16"
+   "date": "2025-12-16",
+   "price": 14.0,
+   "note": "สินค้าหมด / บรรจุ 20 ชิ้นคละสีต่อกล่อง"
   },
   {
    "id": "1WD3No9Pfl4z95umNz_oL6yltCMPT_ag8",
@@ -6409,7 +10255,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-04-29"
+   "date": "2026-04-29",
+   "price": 14.0,
+   "note": "Y-34 เลิกขาย / บรรจุ 20 ชิ้นคละสีต่อกล่อง"
   },
   {
    "id": "1PCF47mUsSN6lxaLq7cka86LYSf57OHzh",
@@ -6423,7 +10271,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-03-30"
+   "date": "2026-03-30",
+   "price": 14.0,
+   "note": "สินค้าหมด / บรรจุ 20 ชิ้นคละสีต่อกล่อง"
   },
   {
    "id": "1us9vKC1smX_CZE2Rbn1rKGodL0WKhEey",
@@ -6437,7 +10287,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-08-21"
+   "date": "2026-08-21",
+   "price": 12.0,
+   "note": "สินค้าหมด / บรรจุ 10 ชิ้นต่อกล่อง"
   },
   {
    "id": "1ZR0KbUpTE1YRTRk8U7NipDIyMdW8G2mA",
@@ -6451,7 +10303,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-08-21"
+   "date": "2026-08-21",
+   "price": 15.0,
+   "note": "สินค้าหมด / ราคาต่อชิ้น / บรรจุ 10 ชิ้นต่อกล่อง"
   },
   {
    "id": "1Qzggzzo2CgchVQGL30knmIUvTL2Rigqq",
@@ -6465,7 +10319,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-06-26"
+   "date": "2026-06-26",
+   "price": 22.0,
+   "note": "ราคาต่อชิ้น / บรรจุ 10 ชิ้นต่อกล่อง"
   },
   {
    "id": "1jvgjfqzaTsn954NOU1sX6XQq9AKsHxuA",
@@ -6479,7 +10335,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-06-26"
+   "date": "2026-06-26",
+   "price": 22.0,
+   "note": "ราคาต่อชิ้น / บรรจุ 10 ชิ้นต่อกล่อง"
   },
   {
    "id": "1j0sDp6UeTHFzwFzUDellqnJZWMWMfVKF",
@@ -6493,7 +10351,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-08-21"
+   "date": "2026-08-21",
+   "price": 22.0,
+   "note": "สินค้าหมด / ราคาต่อชิ้น / บรรจุ 10 ชิ้นต่อกล่อง"
   },
   {
    "id": "1hGyUiRQHj79SIAuANDNnfdTd5_fLvcD3",
@@ -6507,7 +10367,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-08-21"
+   "date": "2026-08-21",
+   "price": 22.0,
+   "note": "สินค้าหมด / ราคาต่อชิ้น / บรรจุ 10 ชิ้นต่อกล่อง"
   },
   {
    "id": "10NyWqM2UbBi9Tcm6_9dta5eUHw9DFl2Y",
@@ -6521,7 +10383,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-06-26"
+   "date": "2026-06-26",
+   "price": 22.0,
+   "note": "ราคาต่อชิ้น / บรรจุ 10 ชิ้นต่อกล่อง"
   },
   {
    "id": "119GW9rM1q-Fav8ekalu8-z7i-R2p89z8",
@@ -6535,7 +10399,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-06-26"
+   "date": "2026-06-26",
+   "price": 22.0,
+   "note": "ราคาต่อชิ้น / บรรจุ 10 ชิ้นต่อกล่อง"
   },
   {
    "id": "1WDdiyVIGyUPd0DmWGmY6USOmbxK-7kah",
@@ -6549,7 +10415,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-06-26"
+   "date": "2026-06-26",
+   "price": 22.0,
+   "note": "ราคาต่อชิ้น / บรรจุ 10 ชิ้นต่อกล่อง (คละรุ่น)"
   },
   {
    "id": "1ir3YK8JqSoylvSMZ4YENaUmSrxkRNXWM",
@@ -6563,7 +10431,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-06-26"
+   "date": "2026-06-26",
+   "price": 22.0,
+   "note": "ราคาต่อชิ้น / บรรจุ 10 ชิ้นต่อกล่อง (คละรุ่น)"
   },
   {
    "id": "1okCpLhHEbnR9bWsuebxmj9rI-BnNTxXZ",
@@ -6577,7 +10447,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-06-26"
+   "date": "2026-06-26",
+   "price": 22.0,
+   "note": "ราคาต่อชิ้น / บรรจุ 10 ชิ้นต่อกล่อง (คละรุ่น)"
   },
   {
    "id": "1N5DBHfH7GiKtq6qfIhAv_XLI0McZDMeY",
@@ -6591,7 +10463,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-06-26"
+   "date": "2026-06-26",
+   "price": 22.0,
+   "note": "ราคาต่อชิ้น / บรรจุ 10 ชิ้นต่อกล่อง (คละรุ่น)"
   },
   {
    "id": "1aKrK7TcihRfgfS1I9mm-2TvIOsdu2nTl",
@@ -6605,7 +10479,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-06-26"
+   "date": "2026-06-26",
+   "price": 22.0,
+   "note": "ราคาต่อชิ้น / บรรจุ 10 ชิ้นต่อกล่อง (คละรุ่น)"
   },
   {
    "id": "1ewIqS9nFZCU_ckbhmplQtA17FIiFeV2r",
@@ -6619,7 +10495,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-06-26"
+   "date": "2026-06-26",
+   "price": 22.0,
+   "note": "ราคาต่อชิ้น / บรรจุ 10 ชิ้นต่อกล่อง (คละรุ่น)"
   },
   {
    "id": "13Xbu7MHNOi0uYK-zDO5MgrUoNJm55Gd1",
@@ -6633,7 +10511,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-08-21"
+   "date": "2026-08-21",
+   "price": 22.0,
+   "note": "สินค้าหมด / ราคาต่อชิ้น / บรรจุ 10 ชิ้นต่อกล่อง"
   },
   {
    "id": "1L9oww0jxB6vu7RH8ehAkyBo2MMuTOdhW",
@@ -6647,7 +10527,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-06-26"
+   "date": "2026-06-26",
+   "price": 22.0,
+   "note": "ราคาต่อชิ้น / บรรจุ 10 ชิ้นต่อกล่อง (คละรุ่น)"
   },
   {
    "id": "1LwwPoYxI8S11q2vsWpfqVIW1MITKgkey",
@@ -6661,7 +10543,18 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-06-17"
+   "date": "2026-06-17",
+   "options": [
+    {
+     "name": "6 มม.",
+     "price": 210.0
+    },
+    {
+     "name": "8 มม.",
+     "price": 180.0
+    }
+   ],
+   "note": "ราคาต่อกิโลกรัม / แจ้งปรับราคา มีผล 1 ก.ค."
   },
   {
    "id": "1hL8aVtzwYEtGR2JFaTRuD9lB56TTXcZH",
@@ -6675,7 +10568,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-06-17"
+   "date": "2026-06-17",
+   "price": 5.0,
+   "note": "ราคาต่อซอง (6 มม. / 8 มม.) / บรรจุ 30 ซอง / แจ้งปรับราคา มีผล 1 ก.ค."
   },
   {
    "id": "1suzgkuFu96JigFRZMEjhX1DpRsa582sJ",
@@ -6689,7 +10584,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-09-05"
+   "date": "2026-09-05",
+   "price": 3.0,
+   "note": "ราคาต่อซอง / บรรจุชนิดละ 50 ซองต่อแผง / เบอร์ M หมด"
   },
   {
    "id": "1WzgoMckoMma7J6nXLX49OsksqQCeFKBZ",
@@ -6703,7 +10600,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-09-29"
+   "date": "2025-09-29",
+   "price": 10.0,
+   "note": "ราคาต่อซอง (7 ตัว) / บรรจุ 10 ซอง / มีเบอร์ S, M, L"
   },
   {
    "id": "1R8lRkqcr4e2HL8dN15IiV5tYcmTKptdp",
@@ -6717,7 +10616,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-28"
+   "date": "2025-05-28",
+   "price": 6.0,
+   "note": "ราคาต่อซอง (15 เม็ด) / บรรจุ 10 ซอง"
   },
   {
    "id": "1GnnzVZSM3H3ik9q-vmsmBNeqXwEs7XyF",
@@ -6731,7 +10632,38 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-27"
+   "date": "2025-05-27",
+   "options": [
+    {
+     "name": "#2.0",
+     "price": 5.5
+    },
+    {
+     "name": "#2.5",
+     "price": 5.5
+    },
+    {
+     "name": "#2.8",
+     "price": 6.0
+    },
+    {
+     "name": "#3.0",
+     "price": 6.0
+    },
+    {
+     "name": "#3.5",
+     "price": 7.0
+    },
+    {
+     "name": "#4.0",
+     "price": 7.0
+    },
+    {
+     "name": "#4.5",
+     "price": 8.0
+    }
+   ],
+   "note": "ราคาต่อซอง / บรรจุ 10 ซอง"
   },
   {
    "id": "18mfUstrOqkE7bgX4d5wWcVYOHbWTawmf",
@@ -6745,7 +10677,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-07-11"
+   "date": "2026-07-11",
+   "price": 8.0,
+   "note": "ราคาต่อซอง / บรรจุ 10 ซอง"
   },
   {
    "id": "1X3iHgdwlCX8wfzr2PCCHS1BOtUrs_8TS",
@@ -6759,7 +10693,18 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-27"
+   "date": "2025-05-27",
+   "options": [
+    {
+     "name": "สเกิร์ตยาง 8 นิ้ว (ต่อกล่อง)",
+     "price": 10.0
+    },
+    {
+     "name": "สเกิร์ตยาง 50 เมตร (ต่อม้วน)",
+     "price": 1200.0
+    }
+   ],
+   "note": "8 นิ้ว บรรจุสีละ 10 กล่อง / 50 เมตร บรรจุ 1 ม้วน"
   },
   {
    "id": "1LTCESnDV7A3BLm89Td-VCXM-B9Cyh7Oj",
@@ -6773,7 +10718,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-01-19"
+   "date": "2026-01-19",
+   "price": 35.0,
+   "note": "สินค้าหมด / บรรจุ 10 อัน"
   },
   {
    "id": "161v21HgkBO63hUlC9XL32H6Bnxr7nCBv",
@@ -6787,7 +10734,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-08-03"
+   "date": "2026-08-03",
+   "price": 30.0,
+   "note": "สินค้าหมด / บรรจุ 10 อัน"
   },
   {
    "id": "1fmY__eXqHYnqSDm2dPO7y3r7xcAZ-BJ3",
@@ -6801,7 +10750,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-08-03"
+   "date": "2026-08-03",
+   "price": 30.0,
+   "note": "สินค้าหมด / บรรจุ 10 อัน"
   },
   {
    "id": "1dG-9ZHzjI87ot026h-OnOqHz2d4r1yIT",
@@ -6815,7 +10766,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-04-17"
+   "date": "2026-04-17",
+   "price": 135.0,
+   "note": "แถมซองใส่และสายเกี่ยว"
   },
   {
    "id": "1JT11aTGV4UPFl0ISejmIjRGOTENWchjL",
@@ -6829,7 +10782,8 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-04-17"
+   "date": "2026-04-17",
+   "price": 40.0
   },
   {
    "id": "1IKI7nxZ6KdiJ5BNuUjD28qzp0KfY_1oH",
@@ -6843,7 +10797,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-05-12"
+   "date": "2026-05-12",
+   "price": 70.0,
+   "note": "สินค้าหมด / บรรจุ 1 ชิ้น"
   },
   {
    "id": "1tvNO0ixrSdr964rHTvXzwsMlbN367620",
@@ -6857,7 +10813,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-08-31"
+   "date": "2026-08-31",
+   "price": 45.0,
+   "note": "ราคาต่ออัน / บรรจุคละสี 5 ชิ้น"
   },
   {
    "id": "17VHbMwNLbg9mCPRanPAL22tK3Pu9TGHq",
@@ -6871,7 +10829,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-05-14"
+   "date": "2026-05-14",
+   "price": 13.0,
+   "note": "ราคาต่อชิ้น / บรรจุคละสี 12 อัน"
   },
   {
    "id": "1Nt4NZrYZcTDMJwj_3xrPe12THPAPN5eD",
@@ -6885,7 +10845,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-05-15"
+   "date": "2026-05-15",
+   "price": 10.0,
+   "note": "ราคาต่อชิ้น / บรรจุคละสี 12 อัน"
   },
   {
    "id": "1zALlX5BhXaqN30xT_bOb1JY1gXczh9gs",
@@ -6899,7 +10861,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-05-14"
+   "date": "2026-05-14",
+   "price": 20.0,
+   "note": "ราคาต่อชิ้น / บรรจุ 10 ชิ้น"
   },
   {
    "id": "1u36QtriWd3sp2hZfqndgFUJqEdNdmRRP",
@@ -6913,7 +10877,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-04-28"
+   "date": "2026-04-28",
+   "price": 115.0,
+   "note": "ราคาต่อตัว / ยกลัง 60 ตัว ตัวละ 110 / ไม่มีถ่านแถม"
   },
   {
    "id": "18jC63gpW_6vffkd98ouRr3nfx_HfmFGs",
@@ -6927,7 +10893,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-04-25"
+   "date": "2026-04-25",
+   "price": 160.0,
+   "note": "ราคาต่อตัว"
   },
   {
    "id": "1OHNn-di2f2uy2Oiqchy40jlHSsg7C_6N",
@@ -6941,7 +10909,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-08-26"
+   "date": "2026-08-26",
+   "price": 240.0,
+   "note": "ราคาต่อตัว / มีสีเหลือง ขาว ฟ้า"
   },
   {
    "id": "11Hncgss1lGCSH-oKRIigAz-W6EtyB9_b",
@@ -6955,7 +10925,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-27"
+   "date": "2025-05-27",
+   "price": 40.0,
+   "note": "ราคาต่อขวด / บรรจุ 8 ขวด"
   },
   {
    "id": "1FMtZE5wegAKcCrTAn2czxN1fC4-nsQxL",
@@ -6969,7 +10941,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-06-23"
+   "date": "2026-06-23",
+   "price": 55.0,
+   "note": "ราคาต่อหลอด / บรรจุ 6 หลอด"
   },
   {
    "id": "1G_wv3C7uC5P-X1281xdReJSN1oNiwu-2",
@@ -6983,7 +10957,26 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-11-27"
+   "date": "2025-11-27",
+   "options": [
+    {
+     "name": "เดี่ยว SB2 (M)",
+     "price": 2.1
+    },
+    {
+     "name": "เดี่ยว SB3 (L)",
+     "price": 2.5
+    },
+    {
+     "name": "คู่ DB2 (M)",
+     "price": 3.1
+    },
+    {
+     "name": "คู่ DB3 (L)",
+     "price": 3.6
+    }
+   ],
+   "note": "ราคาต่อชิ้น / บรรจุ 100 ชิ้น"
   },
   {
    "id": "1uQ4qV_V9QSkD8cVq-Gk0OJWfxYsPwahT",
@@ -6997,7 +10990,26 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-11-02"
+   "date": "2025-11-02",
+   "options": [
+    {
+     "name": "เดี่ยว SB2 (M)",
+     "price": 2.1
+    },
+    {
+     "name": "เดี่ยว SB3 (L)",
+     "price": 2.5
+    },
+    {
+     "name": "คู่ DB2 (M)",
+     "price": 3.1
+    },
+    {
+     "name": "คู่ DB3 (L)",
+     "price": 3.6
+    }
+   ],
+   "note": "ราคาต่อชิ้น / บรรจุ 100 ชิ้น"
   },
   {
    "id": "1YNeRoU_q1rQJyJk63m7LykzRfErU6nqi",
@@ -7011,7 +11023,22 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-27"
+   "date": "2025-05-27",
+   "options": [
+    {
+     "name": "เดี่ยว SB2 (M)",
+     "price": 2.6
+    },
+    {
+     "name": "เดี่ยว SB3 (L)",
+     "price": 3.0
+    },
+    {
+     "name": "คู่ DB2 (M)",
+     "price": 3.6
+    }
+   ],
+   "note": "ราคาต่อชิ้น / บรรจุ 100 ชิ้น"
   },
   {
    "id": "1jPp7nzIv5hY41BhtZEDZw-aixyGp5Ykb",
@@ -7025,7 +11052,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-27"
+   "date": "2025-05-27",
+   "price": 53.0,
+   "note": "ราคาต่อชิ้น / บรรจุ 10 ชิ้น"
   },
   {
    "id": "1SFJaYof-PvBhEdRcpstNFhBvZTwDvpmX",
@@ -7039,7 +11068,8 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-06-20"
+   "date": "2025-06-20",
+   "price": 65.0
   },
   {
    "id": "1Xto2dT1bxy_IYJLXNoQg-RnVo50oaC5M",
@@ -7053,7 +11083,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-06-03"
+   "date": "2026-06-03",
+   "price": 75.0,
+   "note": "สินค้าหมด / ราคาต่อชุด"
   },
   {
    "id": "1bR8EOfLMwYXeNNpzn_FCDpZZ0B0gyXqe",
@@ -7067,7 +11099,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-27"
+   "date": "2025-05-27",
+   "price": 1350.0,
+   "note": "บรรจุ 1 ชุด"
   },
   {
    "id": "1PBLDeQg-h1IfC8k9N8TTgvFXnSRiiCy1",
@@ -7081,7 +11115,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-27"
+   "date": "2025-05-27",
+   "price": 280.0,
+   "note": "บรรจุ 1 ชิ้น"
   },
   {
    "id": "1Hvj-081IJF2tRdtVNNfVh-ayaeInGTC-",
@@ -7095,7 +11131,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-04-25"
+   "date": "2025-04-25",
+   "price": 14.0,
+   "note": "ราคาต่อชิ้น / บรรจุ 10 ชิ้น"
   },
   {
    "id": "1rX-SYBJOGkxh--p9ehyCc1T9U74f0wdy",
@@ -7109,7 +11147,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-04-25"
+   "date": "2025-04-25",
+   "price": 14.0,
+   "note": "ราคาต่อชิ้น / บรรจุ 10 ชิ้น"
   },
   {
    "id": "1M-_o_xzXcrwZHK7v0anPb5vB6g5fCL6h",
@@ -7123,7 +11163,34 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-01-14"
+   "date": "2026-01-14",
+   "options": [
+    {
+     "name": "#6",
+     "price": 17.0
+    },
+    {
+     "name": "#8",
+     "price": 10.0
+    },
+    {
+     "name": "#10",
+     "price": 17.0
+    },
+    {
+     "name": "#12",
+     "price": 10.0
+    },
+    {
+     "name": "#14",
+     "price": 19.0
+    },
+    {
+     "name": "#16",
+     "price": 20.0
+    }
+   ],
+   "note": "ราคาต่อซอง / บรรจุ 10 ซอง / เบอร์ 8, 12 ราคาพิเศษ (สินค้ามีตำหนิ)"
   },
   {
    "id": "1voOAyBNM3qE7AUOD-UlejgjBhvLSXvHq",
@@ -7137,7 +11204,42 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-27"
+   "date": "2025-05-27",
+   "options": [
+    {
+     "name": "#10",
+     "price": 12.0
+    },
+    {
+     "name": "#8",
+     "price": 12.0
+    },
+    {
+     "name": "#6",
+     "price": 12.0
+    },
+    {
+     "name": "#4",
+     "price": 12.0
+    },
+    {
+     "name": "#2",
+     "price": 12.0
+    },
+    {
+     "name": "#1",
+     "price": 12.0
+    },
+    {
+     "name": "#1/0",
+     "price": 15.0
+    },
+    {
+     "name": "#3/0",
+     "price": 15.0
+    }
+   ],
+   "note": "ราคาต่อซอง / บรรจุ 10 ซอง / เบอร์ 2/0 หมด"
   },
   {
    "id": "13iWqF-Q4qVnWl1i34llE_2XKRtVF9gQH",
@@ -7151,7 +11253,30 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-03-30"
+   "date": "2026-03-30",
+   "options": [
+    {
+     "name": "#5 ถึง #12",
+     "price": 22.0
+    },
+    {
+     "name": "#14",
+     "price": 24.0
+    },
+    {
+     "name": "#16",
+     "price": 24.0
+    },
+    {
+     "name": "#18",
+     "price": 24.0
+    },
+    {
+     "name": "#20",
+     "price": 26.0
+    }
+   ],
+   "note": "ราคาต่อซอง / บรรจุ 10 ซอง"
   },
   {
    "id": "1WbXddADXrN-Dz0Rj_EqZhVe8nJa1PMEh",
@@ -7165,7 +11290,46 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-07-23"
+   "date": "2026-07-23",
+   "options": [
+    {
+     "name": "#5",
+     "price": 16.0
+    },
+    {
+     "name": "#6",
+     "price": 16.0
+    },
+    {
+     "name": "#7",
+     "price": 16.0
+    },
+    {
+     "name": "#10",
+     "price": 16.0
+    },
+    {
+     "name": "#12",
+     "price": 16.0
+    },
+    {
+     "name": "#14",
+     "price": 18.0
+    },
+    {
+     "name": "#16",
+     "price": 18.0
+    },
+    {
+     "name": "#18",
+     "price": 18.0
+    },
+    {
+     "name": "#20",
+     "price": 19.0
+    }
+   ],
+   "note": "ราคาต่อซอง / บรรจุ 10 ซอง / เบอร์ 8 หมด"
   },
   {
    "id": "1GydV976TKH3ei1c1dQ5JRKX3YYnVsiYb",
@@ -7179,7 +11343,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-27"
+   "date": "2025-05-27",
+   "price": 18.0,
+   "note": "ราคาต่อซอง / บรรจุ 10 ซอง (เบอร์ 16)"
   },
   {
    "id": "19NnnyPhx41LUw0qIChku6qUXCbLHi05y",
@@ -7193,7 +11359,38 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-03-16"
+   "date": "2025-03-16",
+   "options": [
+    {
+     "name": "3 นิ้ว",
+     "price": 7.0
+    },
+    {
+     "name": "4 นิ้ว",
+     "price": 8.0
+    },
+    {
+     "name": "5 นิ้ว",
+     "price": 10.0
+    },
+    {
+     "name": "6 นิ้ว",
+     "price": 12.0
+    },
+    {
+     "name": "7 นิ้ว",
+     "price": 16.0
+    },
+    {
+     "name": "8 นิ้ว",
+     "price": 20.0
+    },
+    {
+     "name": "9 นิ้ว",
+     "price": 24.0
+    }
+   ],
+   "note": "ราคาต่อชิ้น / บรรจุ 10 ชิ้นคละสี"
   },
   {
    "id": "1_-r2_CTHUBtRG-Ar4tJp5GByQ8NsLdVu",
@@ -7207,7 +11404,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-05-12"
+   "date": "2026-05-12",
+   "price": 5.0,
+   "note": "สินค้าหมด / ราคาพิเศษ (เดิม 8) / บรรจุ 20 ชิ้น"
   },
   {
    "id": "1WY0jEGDg_7JELIdoB13A5F4oeCEqV07E",
@@ -7221,7 +11420,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-27"
+   "date": "2025-05-27",
+   "price": 0.28,
+   "note": "ราคาต่อตัว / บรรจุ 2,000 ตัวต่อถุง / มี #5-2, #6-2, #6-3"
   },
   {
    "id": "18HgIRPBRo2E-y9nIeAxNNop0775XmReq",
@@ -7235,7 +11436,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-27"
+   "date": "2025-05-27",
+   "price": 4.45,
+   "note": "ราคาต่อซอง / บรรจุ 28 ซอง"
   },
   {
    "id": "1umYeqpE3osJhJWfv2IIQIaHM3elYA7m5",
@@ -7249,7 +11452,38 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-27"
+   "date": "2025-05-27",
+   "options": [
+    {
+     "name": "0.2 กรัม",
+     "price": 30.0
+    },
+    {
+     "name": "0.4 กรัม",
+     "price": 40.0
+    },
+    {
+     "name": "0.6 กรัม",
+     "price": 45.0
+    },
+    {
+     "name": "0.8 กรัม",
+     "price": 45.0
+    },
+    {
+     "name": "1.0 กรัม",
+     "price": 45.0
+    },
+    {
+     "name": "1.5 กรัม",
+     "price": 45.0
+    },
+    {
+     "name": "2.0 กรัม",
+     "price": 45.0
+    }
+   ],
+   "note": "ราคาต่อซอง (0.2-1.0 กรัม ซองละ 100 ลูก / 1.5 กรัม 70 ลูก / 2.0 กรัม 50 ลูก) / บรรจุ 5 ซอง"
   },
   {
    "id": "10mkENDkiaWHALxPUj8_eOQbIMYDoyjTq",
@@ -7263,7 +11497,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-28"
+   "date": "2025-05-28",
+   "price": 45.0,
+   "note": "ราคาต่อซอง (เบอร์ 0.2 กรัม) / บรรจุ 5 ซอง"
   },
   {
    "id": "1L5z5MVZsn0siVemHM7MzkYwbJpTglZnO",
@@ -7277,7 +11513,18 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-29"
+   "date": "2025-05-29",
+   "options": [
+    {
+     "name": "25 กรัม",
+     "price": 30.0
+    },
+    {
+     "name": "30 กรัม",
+     "price": 35.0
+    }
+   ],
+   "note": "ราคาต่อซอง (2 ลูก) / บรรจุ 5 ซอง"
   },
   {
    "id": "10b6mp7AFjiG6JlE2RDl3JjkXVs9UJPaJ",
@@ -7291,7 +11538,18 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-28"
+   "date": "2025-05-28",
+   "options": [
+    {
+     "name": "25 กรัม",
+     "price": 30.0
+    },
+    {
+     "name": "30 กรัม",
+     "price": 35.0
+    }
+   ],
+   "note": "ราคาต่อซอง (2 ลูก) / บรรจุ 5 ซอง"
   },
   {
    "id": "1LD3ebEuZ2Ahh680IY7v-7DroAIJHq9on",
@@ -7305,7 +11563,22 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-28"
+   "date": "2025-05-28",
+   "options": [
+    {
+     "name": "2 กรัม (100 เม็ด)",
+     "price": 85.0
+    },
+    {
+     "name": "3 กรัม (100 เม็ด)",
+     "price": 110.0
+    },
+    {
+     "name": "5 กรัม (60 เม็ด)",
+     "price": 110.0
+    }
+   ],
+   "note": "ราคาต่อซอง"
   },
   {
    "id": "1A8PHMoggr-hGzkFBwod7DURdUzbcE_QS",
@@ -7319,7 +11592,22 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-04-23"
+   "date": "2026-04-23",
+   "options": [
+    {
+     "name": "2 กรัม",
+     "price": 85.0
+    },
+    {
+     "name": "3 กรัม",
+     "price": 110.0
+    },
+    {
+     "name": "5 กรัม",
+     "price": 160.0
+    }
+   ],
+   "note": "ราคาต่อซอง (100 เม็ด) / 5 กรัม ปรับราคาจาก 155 เป็น 160"
   },
   {
    "id": "1fBL31vZ0rT_YqP8iZ41f9PNssLdnaqbR",
@@ -7333,7 +11621,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-09-19"
+   "date": "2025-09-19",
+   "price": 28.0,
+   "note": "ราคาต่อตลับ / บรรจุ 10 ตลับ"
   },
   {
    "id": "1RJaxHktSiPx7PKnrgAepaadS4aMcDSxC",
@@ -7347,7 +11637,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-28"
+   "date": "2025-05-28",
+   "price": 12.0,
+   "note": "ราคาต่อตลับ / มีเบอร์ 16, 18, 19 / บรรจุ 13 ตลับ"
   },
   {
    "id": "1wgpZAp_nc4Cksjhojaf1wOMfT-vgqtnh",
@@ -7361,7 +11653,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-07-02"
+   "date": "2026-07-02",
+   "price": 7.0,
+   "note": "ราคาต่อม้วน / บรรจุ 20 ม้วน"
   },
   {
    "id": "1X2MU3FvygonlSd2LCOVSkfU11YjUwl28",
@@ -7375,7 +11669,8 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2024-10-21"
+   "date": "2024-10-21",
+   "note": "รูปแสดงขนาด — ราคาดูที่รายการตะกั่วทรงลูกปืนแบบต่อกิโล / ต่อถุง"
   },
   {
    "id": "1dLhuxFehOsLKWRyEIYSePTyiO3__KHDV",
@@ -7389,7 +11684,22 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-07-02"
+   "date": "2026-07-02",
+   "options": [
+    {
+     "name": "5 กรัม",
+     "price": 127.0
+    },
+    {
+     "name": "10 กรัม",
+     "price": 117.0
+    },
+    {
+     "name": "15-300 กรัม",
+     "price": 100.0
+    }
+   ],
+   "note": "ราคาต่อกิโลกรัม / บรรจุเบอร์ละ 10 กิโลกรัม"
   },
   {
    "id": "1YbbG2psjCl7t3A1dD9dw7jvD_PefaBab",
@@ -7403,7 +11713,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-07-02"
+   "date": "2026-07-02",
+   "price": 100.0,
+   "note": "ราคาต่อถุง ทุกเบอร์ (5 กรัม 110 ลูก ถึง 120 กรัม 6 ลูก)"
   },
   {
    "id": "1H8zz7h4CoX6tQ77RRgv-_mXYkHgQtiZ2",
@@ -7417,7 +11729,8 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2024-10-21"
+   "date": "2024-10-21",
+   "note": "รูปแสดงขนาด — ราคาดูที่รายการตะกั่วทรงมะเฟืองแบบต่อกิโล / ต่อถุง"
   },
   {
    "id": "1Qdy3usFOUyPgy1xczGO3ozpVaHfP08Ba",
@@ -7431,7 +11744,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-07-02"
+   "date": "2026-07-02",
+   "price": 100.0,
+   "note": "ราคาต่อกิโลกรัม ทุกเบอร์ (20-120 กรัม) / บรรจุเบอร์ละ 10 กิโลกรัม"
   },
   {
    "id": "1QHu_MptCdRw9dl3hx3zI0eKB6LRgtcbH",
@@ -7445,7 +11760,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-07-02"
+   "date": "2026-07-02",
+   "price": 100.0,
+   "note": "ราคาต่อถุง ทุกเบอร์ (20 กรัม 34 ลูก ถึง 120 กรัม 6 ลูก)"
   },
   {
    "id": "1F1X966bkG1ajTm1_yFeFkOB4moIoNmBh",
@@ -7459,7 +11776,8 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2024-10-21"
+   "date": "2024-10-21",
+   "note": "รูปแสดงขนาด — ราคาดูที่รายการตะกั่วทรงสามเหลี่ยมแบบต่อกิโล / ต่อถุง"
   },
   {
    "id": "1gIfa2Hv7vI7hTxsJJ0JaQmI50kL_kQ6K",
@@ -7473,7 +11791,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-07-02"
+   "date": "2026-07-02",
+   "price": 100.0,
+   "note": "ราคาต่อกิโลกรัม ทุกเบอร์ (30-70 กรัม) / บรรจุกระสอบละ 10 กิโลกรัม"
   },
   {
    "id": "1KcY8z5A_NwDbxjVpDvW2FMrbJue-F3gM",
@@ -7487,7 +11807,9 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-07-02"
+   "date": "2026-07-02",
+   "price": 100.0,
+   "note": "ราคาต่อถุง ทุกเบอร์ (30 กรัม 27 ลูก ถึง 70 กรัม 10 ลูก)"
   }
  ],
  "skipped": []
