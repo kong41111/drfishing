@@ -1,0 +1,735 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DR.FISHING — รายการสินค้าราคาส่ง</title>
+<meta name="description" content="รายการสินค้าอุปกรณ์ตกปลาราคาส่ง ร้าน DR.FISHING — เหยื่อ คันเบ็ด รอก เบ็ด ลูกหมุน เอ็น เหยื่อปลอม และอุปกรณ์ตกปลา">
+<meta property="og:title" content="DR.FISHING — รายการสินค้าราคาส่ง">
+<meta property="og:description" content="รายการสินค้าอุปกรณ์ตกปลาราคาส่ง ร้าน DR.FISHING — เหยื่อ คันเบ็ด รอก เบ็ด ลูกหมุน เอ็น เหยื่อปลอม และอุปกรณ์ตกปลา">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://kong41111.github.io/drfishing/">
+<meta name="theme-color" content="#0c2340">
+<link rel="icon" id="favicon" href="data:,">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Prompt:wght@500;700;800&family=Sarabun:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --navy: #0c2340;
+    --navy-2: #143559;
+    --accent: #ff7a1a;
+    --accent-soft: #fff1e6;
+    --open: #1c9a55;
+    --bg: #f3f5f8;
+    --card: #ffffff;
+    --ink: #17212b;
+    --muted: #66727f;
+    --line: #e1e6ec;
+    --radius: 12px;
+    --head: "Prompt", "Leelawadee UI", "Noto Sans Thai", Tahoma, sans-serif;
+    --body: "Sarabun", "Leelawadee UI", "Noto Sans Thai", Tahoma, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.5 var(--body); }
+  button, input, select { font: inherit; color: inherit; }
+
+  /* ---------- ส่วนหัว ---------- */
+  .top { position: sticky; top: 0; z-index: 20; background: var(--navy); color: #fff; box-shadow: 0 2px 10px rgba(0,0,0,.18); }
+  .bar { max-width: 1280px; margin: 0 auto; padding: 10px 16px; display: flex; gap: 14px; align-items: center; }
+  .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; color: inherit; flex-shrink: 0; }
+  .logo { font: 800 26px/1 var(--head); letter-spacing: .04em; background: #fff; color: var(--navy); padding: 6px 10px 5px; border-radius: 8px; position: relative; }
+  .logo::after { content: ""; position: absolute; left: 10px; right: 10px; bottom: 2px; height: 3px; border-radius: 2px; background: var(--accent); }
+  .brand small { display: block; font: 500 12px/1.3 var(--head); opacity: .75; }
+  .brand b { display: block; font: 700 15px/1.3 var(--head); }
+  .search { flex: 1; position: relative; max-width: 520px; margin-left: auto; }
+  .search input { width: 100%; border: 0; border-radius: 999px; padding: 10px 38px 10px 40px; background: rgba(255,255,255,.12); color: #fff; outline: none; transition: background .15s; }
+  .search input::-webkit-search-cancel-button { display: none; }
+  .search input::placeholder { color: rgba(255,255,255,.6); }
+  .search input:focus { background: #fff; color: var(--ink); }
+  .search input:focus::placeholder { color: var(--muted); }
+  .search svg { position: absolute; left: 13px; top: 50%; transform: translateY(-50%); width: 17px; height: 17px; opacity: .7; pointer-events: none; }
+  .search input:focus ~ svg { color: var(--muted); }
+  .search .clear { position: absolute; right: 6px; top: 50%; transform: translateY(-50%); border: 0; background: none; width: 30px; height: 30px; border-radius: 50%; cursor: pointer; color: var(--muted); font-size: 18px; }
+
+  /* ---------- แท็บหมวดหมู่ ---------- */
+  .tabs { background: var(--navy-2); }
+  .scroller { max-width: 1280px; margin: 0 auto; padding: 0 12px; display: flex; gap: 4px; overflow-x: auto; scrollbar-width: none; }
+  .scroller::-webkit-scrollbar { display: none; }
+  .tab { flex-shrink: 0; border: 0; background: none; color: rgba(255,255,255,.72); padding: 11px 12px 9px; cursor: pointer; font: 500 14px/1.2 var(--head); border-bottom: 3px solid transparent; white-space: nowrap; }
+  .tab:hover { color: #fff; }
+  .tab[aria-selected="true"] { color: #fff; border-bottom-color: var(--accent); }
+  .tab .n { font-size: 11px; opacity: .65; margin-left: 4px; }
+  .tab.new { color: #ffc28f; }
+  .tab.open { color: #8fe3b0; }
+
+  main { max-width: 1280px; margin: 0 auto; padding: 14px 16px 80px; }
+
+  /* ---------- ชิปประเภท ---------- */
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 10px; }
+  .chips:empty { display: none; }
+  .chip { border: 1px solid var(--line); background: var(--card); border-radius: 999px; padding: 6px 13px; cursor: pointer; font-size: 14px; white-space: nowrap; transition: border-color .15s, background .15s; }
+  .chip:hover { border-color: #b9c3ce; }
+  .chip[aria-pressed="true"] { background: var(--navy); border-color: var(--navy); color: #fff; }
+  .chip .n { color: var(--muted); font-size: 12px; margin-left: 3px; }
+  .chip[aria-pressed="true"] .n { color: rgba(255,255,255,.7); }
+  .chips.sub .chip { font-size: 13px; padding: 4px 11px; }
+  .chips.sub .chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); }
+  .sub-label { font-size: 13px; color: var(--muted); align-self: center; margin-right: 2px; }
+
+  .toolbar { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin: 4px 0 14px; color: var(--muted); font-size: 14px; }
+  .toolbar b { color: var(--ink); }
+  .toolbar select { border: 1px solid var(--line); background: var(--card); border-radius: 8px; padding: 5px 8px; cursor: pointer; }
+
+  /* ---------- กริดสินค้า ---------- */
+  .section-title { font: 700 18px/1.3 var(--head); margin: 22px 0 10px; display: flex; align-items: baseline; gap: 8px; }
+  .section-title:first-child { margin-top: 4px; }
+  .section-title span { font: 400 13px var(--body); color: var(--muted); }
+  .type-title { font: 500 14px/1.3 var(--head); color: var(--navy-2); margin: 14px 0 8px; padding-left: 9px; border-left: 3px solid var(--accent); }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); gap: 12px; }
+  .card { background: var(--card); border-radius: var(--radius); overflow: hidden; cursor: pointer; border: 1px solid var(--line); display: flex; flex-direction: column; transition: transform .15s, box-shadow .15s; text-align: left; padding: 0; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(12,35,64,.12); }
+  .card:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+  .thumb { position: relative; aspect-ratio: 1; background: #e9edf2; }
+  .thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .badges { position: absolute; top: 8px; left: 8px; display: flex; gap: 4px; }
+  .badge { background: var(--accent); color: #fff; font: 700 11px/1 var(--head); padding: 5px 7px; border-radius: 6px; letter-spacing: .03em; }
+  .badge.open { background: var(--open); }
+  .info { padding: 8px 10px 10px; display: flex; flex-direction: column; gap: 2px; min-height: 64px; }
+  .code { font: 700 11px/1.2 var(--head); color: var(--navy-2); background: #e8eef6; align-self: flex-start; padding: 2px 6px; border-radius: 4px; margin-bottom: 2px; }
+  .name { font-weight: 600; font-size: 14px; line-height: 1.35; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; word-break: break-word; }
+  .name.dim { color: var(--muted); font-weight: 400; font-style: italic; }
+  .meta { font-size: 12px; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .price { margin-top: auto; padding-top: 3px; font: 700 16px/1.2 var(--head); color: #d45a00; }
+  .price small { font: 400 11px var(--body); color: var(--muted); }
+  .price.none { font: 400 12px var(--body); color: var(--muted); }
+  .v-price { font: 700 20px/1.3 var(--head); color: #ffa05c; margin-top: 2px; }
+  .v-opts { font: 400 13px/1.5 var(--body); color: #ffd2b0; }
+  .empty { text-align: center; color: var(--muted); padding: 60px 0; }
+  .empty b { display: block; font: 700 18px var(--head); color: var(--ink); margin-bottom: 4px; }
+  mark { background: #ffe3b3; color: inherit; border-radius: 2px; }
+
+  footer { text-align: center; color: var(--muted); font-size: 13px; padding: 10px 16px 30px; }
+  footer a { color: var(--navy-2); }
+
+  /* ---------- ดูรูปใหญ่ ---------- */
+  .viewer { position: fixed; inset: 0; z-index: 50; background: rgba(6,14,24,.94); display: flex; flex-direction: column; color: #fff; }
+  .viewer[hidden] { display: none; }
+  .v-top { display: flex; align-items: center; gap: 10px; padding: 10px 14px; }
+  .v-count { font-size: 13px; opacity: .7; }
+  .v-close { margin-left: auto; }
+  .v-stage { flex: 1; min-height: 0; display: flex; align-items: center; justify-content: center; position: relative; padding: 0 56px; touch-action: pan-y; }
+  .v-stage img { max-width: 100%; max-height: 100%; object-fit: contain; border-radius: 6px; user-select: none; -webkit-user-drag: none; }
+  .v-nav { position: absolute; top: 50%; transform: translateY(-50%); }
+  .v-prev { left: 8px; } .v-next { right: 8px; }
+  .icon-btn { border: 0; width: 42px; height: 42px; border-radius: 50%; background: rgba(255,255,255,.12); color: #fff; cursor: pointer; font-size: 22px; line-height: 1; display: grid; place-items: center; }
+  .icon-btn:hover { background: rgba(255,255,255,.24); }
+  .icon-btn[hidden] { display: none; }
+  .v-info { padding: 12px 16px 18px; text-align: center; }
+  .v-name { font: 700 18px/1.35 var(--head); word-break: break-word; }
+  .v-path { font-size: 13px; opacity: .7; margin-top: 2px; }
+  .v-actions { display: flex; gap: 8px; justify-content: center; margin-top: 10px; flex-wrap: wrap; }
+  .v-actions a, .v-actions button { border: 1px solid rgba(255,255,255,.25); background: none; color: #fff; border-radius: 999px; padding: 6px 14px; font-size: 13px; text-decoration: none; cursor: pointer; }
+  .v-actions a:hover, .v-actions button:hover { background: rgba(255,255,255,.1); }
+  .v-actions button.primary { background: var(--accent); border-color: var(--accent); font-weight: 600; }
+  .v-actions button.primary:hover { background: #ff8c3a; }
+
+  /* ---------- ปุ่มใส่ตะกร้าบนการ์ด ---------- */
+  .add { position: absolute; right: 8px; bottom: 8px; min-width: 36px; height: 36px; padding: 0 10px; border-radius: 999px; border: 0; background: rgba(255,255,255,.95); color: var(--navy); font: 700 20px/1 var(--head); cursor: pointer; box-shadow: 0 2px 8px rgba(0,0,0,.25); display: grid; place-items: center; }
+  .add:hover { background: #fff; transform: scale(1.06); }
+  .add.in { background: var(--accent); color: #fff; font-size: 14px; }
+
+  /* ---------- ตะกร้า ---------- */
+  .fab { position: fixed; right: 16px; bottom: 16px; z-index: 30; border: 0; border-radius: 999px; background: var(--accent); color: #fff; padding: 12px 18px; font: 700 15px/1 var(--head); cursor: pointer; box-shadow: 0 6px 20px rgba(255,122,26,.45); display: flex; align-items: center; gap: 8px; }
+  .fab[hidden] { display: none; }
+  .fab .n { background: #fff; color: var(--accent); border-radius: 999px; padding: 3px 7px; font-size: 13px; }
+  .fab .t:not(:empty) { border-left: 1px solid rgba(255,255,255,.5); padding-left: 9px; font-size: 16px; }
+  .cart-bg { position: fixed; inset: 0; z-index: 40; background: rgba(6,14,24,.45); }
+  .cart { position: fixed; top: 0; right: 0; bottom: 0; z-index: 45; width: min(440px, 100%); background: var(--bg); display: flex; flex-direction: column; box-shadow: -8px 0 30px rgba(0,0,0,.2); }
+  .cart[hidden], .cart-bg[hidden] { display: none; }
+  .c-head { display: flex; align-items: center; gap: 10px; padding: 12px 14px; background: var(--navy); color: #fff; }
+  .c-head h2 { margin: 0; font: 700 17px var(--head); flex: 1; }
+  .c-hint { font-size: 13px; color: var(--muted); padding: 10px 14px 0; }
+  .c-list { flex: 1; overflow-y: auto; padding: 8px 14px; }
+  .line { display: grid; grid-template-columns: 64px 1fr auto; gap: 4px 10px; background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 8px; margin-bottom: 8px; }
+  .line img { width: 64px; height: 64px; object-fit: cover; border-radius: 6px; grid-row: span 3; cursor: zoom-in; background: #e9edf2; }
+  .line .l-name { font-weight: 600; font-size: 14px; line-height: 1.3; word-break: break-word; }
+  .line .l-del { border: 0; background: none; color: var(--muted); font-size: 20px; cursor: pointer; line-height: 1; padding: 0 2px; align-self: start; }
+  .line .l-del:hover { color: #d33; }
+  .line input { border: 1px solid var(--line); border-radius: 6px; padding: 5px 7px; background: #fff; min-width: 0; }
+  .line input:focus { outline: 2px solid var(--accent); border-color: transparent; }
+  .l-variant { grid-column: 2 / 4; font-size: 13px; }
+  .l-row { grid-column: 2 / 4; display: flex; align-items: center; gap: 6px; font-size: 14px; flex-wrap: wrap; }
+  .step { display: flex; align-items: center; border: 1px solid var(--line); border-radius: 6px; overflow: hidden; background: #fff; }
+  .step button { border: 0; background: #f1f4f7; width: 28px; height: 30px; cursor: pointer; font-size: 17px; }
+  .step input { border: 0; border-radius: 0; width: 44px; text-align: center; padding: 5px 2px; }
+  .l-price { width: 78px; text-align: right; }
+  .l-price.missing { border-color: var(--accent); background: var(--accent-soft); }
+  .l-total { margin-left: auto; font-weight: 700; white-space: nowrap; }
+  .c-empty { text-align: center; color: var(--muted); padding: 50px 10px; }
+  .c-foot { border-top: 1px solid var(--line); background: var(--card); padding: 12px 14px 14px; }
+  .c-foot label { font-size: 13px; color: var(--muted); }
+  .c-sum { margin: 4px 0 10px; background: #f6f8fa; border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; font: 13px/1.55 var(--body); white-space: pre-wrap; max-height: 150px; overflow-y: auto; }
+  .c-total { display: flex; justify-content: space-between; align-items: baseline; font: 700 18px var(--head); margin-bottom: 10px; }
+  .c-total small { font: 400 12px var(--body); color: #c25500; }
+  .c-btns { display: flex; gap: 8px; }
+  .c-btns button, .c-btns a { flex: 1; border: 0; border-radius: 10px; padding: 11px 8px; font: 700 14px var(--head); cursor: pointer; text-align: center; text-decoration: none; }
+  .btn-copy { background: var(--navy); color: #fff; }
+  .btn-line { background: #06c755; color: #fff; }
+  .btn-clear { flex: 0 0 auto !important; background: none; color: var(--muted); font-weight: 400 !important; text-decoration: underline !important; }
+  .toast { position: fixed; left: 50%; bottom: 80px; transform: translateX(-50%); z-index: 60; background: rgba(12,35,64,.95); color: #fff; padding: 9px 16px; border-radius: 999px; font-size: 14px; pointer-events: none; transition: opacity .2s; max-width: 90vw; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .toast[hidden] { display: block; opacity: 0; }
+
+  @media (max-width: 640px) {
+    .bar { flex-wrap: wrap; gap: 8px; padding: 8px 12px; }
+    .search { max-width: none; flex-basis: 100%; }
+    .logo { font-size: 22px; }
+    main { padding: 12px 10px 80px; }
+    .grid { grid-template-columns: repeat(2, 1fr); gap: 8px; }
+    .info { padding: 7px 8px 9px; min-height: 58px; }
+    .name { font-size: 13px; }
+    .v-stage { padding: 0 8px; }
+    .v-nav { display: none; }
+    .toolbar { font-size: 13px; }
+    .add { min-width: 32px; height: 32px; right: 6px; bottom: 6px; }
+    .fab { right: 12px; bottom: 12px; }
+    .c-sum { max-height: 110px; }
+  }
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="bar">
+    <a class="brand" href="#" data-home>
+      <span class="logo" id="logo"></span>
+      <span><b>รายการสินค้าราคาส่ง</b><small id="subtitle"></small></span>
+    </a>
+    <div class="search">
+      <input id="q" type="search" placeholder="ค้นหาสินค้า เช่น กบยาง, AIRGEAR, รอกหยดน้ำ" autocomplete="off" aria-label="ค้นหาสินค้า">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <button class="clear" id="clear" hidden aria-label="ล้างคำค้น">×</button>
+    </div>
+  </div>
+  <nav class="tabs" aria-label="หมวดหมู่สินค้า"><div class="scroller" id="tabs" role="tablist"></div></nav>
+</header>
+
+<main>
+  <div class="chips" id="types"></div>
+  <div class="chips sub" id="subs"></div>
+  <div class="toolbar">
+    <div id="count"></div>
+    <label>เรียง
+      <select id="sort">
+        <option value="cat">ตามหมวดหมู่</option>
+        <option value="date">อัปเดตล่าสุด</option>
+        <option value="name">ชื่อ ก–ฮ / A–Z</option>
+        <option value="price">ราคา ต่ำ → สูง</option>
+        <option value="price-desc">ราคา สูง → ต่ำ</option>
+      </select>
+    </label>
+  </div>
+  <div id="list"></div>
+</main>
+
+<footer id="footer"></footer>
+
+<div class="viewer" id="viewer" hidden role="dialog" aria-modal="true" aria-label="ดูรูปสินค้า">
+  <div class="v-top">
+    <span class="v-count" id="vCount"></span>
+    <button class="icon-btn v-close" id="vClose" aria-label="ปิด">×</button>
+  </div>
+  <div class="v-stage" id="vStage">
+    <button class="icon-btn v-nav v-prev" id="vPrev" aria-label="ก่อนหน้า">‹</button>
+    <img id="vImg" alt="">
+    <button class="icon-btn v-nav v-next" id="vNext" aria-label="ถัดไป">›</button>
+  </div>
+  <div class="v-info">
+    <div class="v-name" id="vName"></div>
+    <div class="v-price" id="vPrice"></div>
+    <div class="v-path" id="vPath"></div>
+    <div class="v-actions">
+      <button id="vAdd" class="primary">+ ใส่ตะกร้า</button>
+      <button id="vCopy">คัดลอกชื่อ</button>
+      <a id="vDrive" target="_blank" rel="noopener">เปิดใน Google Drive</a>
+    </div>
+  </div>
+</div>
+
+<button class="fab" id="fab" hidden aria-label="เปิดตะกร้า">🛒 ตะกร้า <span class="n" id="fabN">0</span><span class="t" id="fabT"></span></button>
+<div class="cart-bg" id="cartBg" hidden></div>
+<aside class="cart" id="cart" hidden role="dialog" aria-modal="true" aria-label="ตะกร้าสั่งของ">
+  <div class="c-head">
+    <h2>🛒 ตะกร้าสั่งของ</h2>
+    <button class="icon-btn" id="cClose" aria-label="ปิดตะกร้า">×</button>
+  </div>
+  <div class="c-hint">ดูราคาจากรูปสินค้า (กดที่รูปเล็กเพื่อดูรูปใหญ่) แล้วใส่จำนวนกับราคาต่อชิ้น</div>
+  <div class="c-list" id="cList"></div>
+  <div class="c-foot" id="cFoot">
+    <label>ข้อความสรุปรายการ</label>
+    <div class="c-sum" id="cSum"></div>
+    <div class="c-total"><span>ยอดเงินรวม</span><span id="cTotal"></span></div>
+    <div class="c-btns">
+      <button class="btn-copy" id="cCopy">คัดลอกข้อความ</button>
+      <a class="btn-line" id="cLine" target="_blank" rel="noopener">ส่งทาง LINE</a>
+      <button class="btn-clear" id="cClear">ล้าง</button>
+    </div>
+  </div>
+</aside>
+<div class="toast" id="toast" hidden></div>
+
+<script src="data/products.js?v=202609111534"></script>
+<script>
+(() => {
+  const D = window.BPO_DATA;
+  const $ = (id) => document.getElementById(id);
+  if (!D) {
+    $("list").innerHTML = '<div class="empty"><b>ยังไม่มีข้อมูลสินค้า</b>ดับเบิลคลิก "อัปเดตสินค้า.bat" เพื่อดึงรายการจาก Google Drive</div>';
+    return;
+  }
+
+  // เมนูพิเศษ: รวมสินค้าที่ติดป้าย (flag) จากหลายหมวด; group = หมวดของโฟลเดอร์ชื่อเดียวกัน ซึ่งไม่ต้องแสดงเป็นแท็บซ้ำ
+  const SPECIAL = [
+    { key: "__open__", name: "สินค้าที่เปิดรับ", flag: "open", group: "สินค้าที่เปิดรับ", cls: "open", badge: "เปิดรับ" },
+    { key: "__new__", name: "★ สินค้าเข้าใหม่", flag: "new", group: "สินค้าเข้าใหม่", cls: "new", badge: "ใหม่" },
+  ];
+  const special = (key) => SPECIAL.find((m) => m.key === key);
+  const products = D.products.map((p, i) => ({
+    ...p, idx: i,
+    label: p.noname ? `${p.type} (ไม่มีชื่อ)` : p.name,
+    hay: [p.code, p.name, p.file, p.type, p.sub, p.folder, p.group].join(" ").toLowerCase(),
+  }));
+  const groupOrder = D.groups.map((g) => g.name);
+  const typeOrder = D.groups.flatMap((g) => g.types.map((t) => g.name + "|" + t.name));
+  const collator = new Intl.Collator("th", { numeric: true, sensitivity: "base" });
+
+  const thumbUrl = (p) => D.localImages ? `data/images/${p.id}.jpg` : `https://lh3.googleusercontent.com/d/${p.id}=w400`;
+  const driveThumb = (p, w) => `https://lh3.googleusercontent.com/d/${p.id}=w${w}`;
+  const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const fmtDate = (iso) => iso ? new Date(iso + "T00:00").toLocaleDateString("th-TH", { day: "numeric", month: "short", year: "2-digit" }) : "";
+
+  // ---------- สถานะ (เก็บใน URL hash เพื่อแชร์ลิงก์ได้) ----------
+  const state = { g: "", t: "", s: "", q: "", sort: "cat" };
+  function readHash() {
+    const h = new URLSearchParams(location.hash.slice(1));
+    for (const k of ["g", "t", "s", "q"]) state[k] = (h.get(k) || "").trim();
+    state.sort = h.get("sort") || "cat";
+  }
+  function writeHash() {
+    const h = new URLSearchParams();
+    for (const k of ["g", "t", "s", "q"]) if (state[k]) h.set(k, state[k]);
+    if (state.sort !== "cat") h.set("sort", state.sort);
+    const str = h.toString();
+    history.replaceState(null, "", str ? "#" + str : location.pathname + location.search);
+  }
+
+  const inGroup = (p) => !state.g || (special(state.g) ? p[special(state.g).flag] : p.group === state.g);
+  function matchesQuery(p, terms) { return terms.every((t) => p.hay.includes(t)); }
+
+  // ---------- วาดแท็บ/ชิป ----------
+  function renderTabs(terms) {
+    // ตัวเลขบนแท็บ = จำนวนที่ตรงกับคำค้น (ถ้ามี)
+    const pool = products.filter((p) => matchesQuery(p, terms));
+    const tabs = [{ key: "", name: "ทั้งหมด", n: pool.length }];
+    for (const m of SPECIAL) {
+      if (products.some((p) => p[m.flag])) tabs.push({ key: m.key, name: m.name, n: pool.filter((p) => p[m.flag]).length, cls: m.cls });
+    }
+    for (const g of D.groups) if (!SPECIAL.some((m) => m.group === g.name)) tabs.push({ key: g.name, name: g.name, n: pool.filter((p) => p.group === g.name).length });
+    $("tabs").innerHTML = tabs.map((t) =>
+      `<button class="tab ${t.cls || ""}" role="tab" data-g="${esc(t.key)}" aria-selected="${state.g === t.key}"${terms.length && !t.n ? ' style="opacity:.45"' : ""}>${esc(t.name)}<span class="n">${t.n}</span></button>`
+    ).join("");
+    const active = $("tabs").querySelector('[aria-selected="true"]');
+    if (active) active.scrollIntoView({ block: "nearest", inline: "nearest" });
+  }
+
+  function renderChips(terms) {
+    // ชิปประเภท: แสดงเมื่อเลือกหมวดแล้ว และหมวดนั้นมีมากกว่า 1 ประเภท
+    let typesHtml = "", subsHtml = "";
+    if (state.g) {
+      const pool = products.filter((p) => inGroup(p) && matchesQuery(p, terms));
+      const counts = new Map();
+      for (const p of pool) counts.set(p.type, (counts.get(p.type) || 0) + 1);
+      const types = [...counts.keys()].sort((a, b) => typeOrder.indexOf(pool.find((p) => p.type === a).group + "|" + a) - typeOrder.indexOf(pool.find((p) => p.type === b).group + "|" + b));
+      if (types.length > 1 || state.t) {
+        typesHtml = `<button class="chip" data-t="" aria-pressed="${!state.t}">ทั้งหมด<span class="n">${pool.length}</span></button>` +
+          types.map((t) => `<button class="chip" data-t="${esc(t)}" aria-pressed="${state.t === t}">${esc(t)}<span class="n">${counts.get(t)}</span></button>`).join("");
+      }
+      // ชิปรุ่น/ยี่ห้อ (โฟลเดอร์ย่อยชั้นที่ 2 เช่น กบยางแต่ละเจ้า)
+      if (state.t) {
+        const subCounts = new Map();
+        for (const p of pool) if (p.type === state.t && p.sub) subCounts.set(p.sub, (subCounts.get(p.sub) || 0) + 1);
+        if (subCounts.size) {
+          const subs = [...subCounts.keys()].sort(collator.compare);
+          subsHtml = `<span class="sub-label">รุ่น/เจ้า:</span><button class="chip" data-s="" aria-pressed="${!state.s}">ทั้งหมด</button>` +
+            subs.map((s) => `<button class="chip" data-s="${esc(s)}" aria-pressed="${state.s === s}">${esc(s)}<span class="n">${subCounts.get(s)}</span></button>`).join("");
+        }
+      }
+    }
+    $("types").innerHTML = typesHtml;
+    $("subs").innerHTML = subsHtml;
+  }
+
+  // ---------- วาดรายการสินค้า ----------
+  let visible = [];
+  function highlight(text, terms) {
+    let out = esc(text);
+    for (const t of terms) {
+      if (!t) continue;
+      const re = new RegExp(esc(t).replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), "gi");
+      out = out.replace(re, (m) => `<mark>${m}</mark>`);
+    }
+    return out;
+  }
+  function card(p, terms) {
+    const meta = [p.type, p.sub].filter(Boolean).join(" · ");
+    return `<div class="card" data-i="${p.idx}" tabindex="0" role="button">
+      <div class="thumb"><img loading="lazy" src="${thumbUrl(p)}" alt="${esc(p.label)}" data-id="${p.id}"><span class="badges">${SPECIAL.filter((m) => p[m.flag]).map((m) => `<span class="badge ${m.cls}">${m.badge}</span>`).join("")}</span>${addBtn(p.id)}</div>
+      <div class="info">${p.code ? `<div class="code">${highlight(p.code, terms)}</div>` : ""}<div class="name${p.noname ? " dim" : ""}">${highlight(p.label, terms)}</div><div class="meta">${esc(meta)}</div>${priceHtml(p)}</div>
+    </div>`;
+  }
+  // ราคาที่แสดง: ราคาเดียว "280 ฿" หรือหลายรุ่น "118 – 144 ฿"
+  function priceRange(p) {
+    const list = p.options ? p.options.map((o) => o.price) : p.price != null ? [p.price] : [];
+    if (!list.length) return "";
+    const lo = Math.min(...list), hi = Math.max(...list);
+    return lo === hi ? `${money(lo)} ฿` : `${money(lo)} – ${money(hi)} ฿`;
+  }
+  const priceHtml = (p) => priceRange(p)
+    ? `<div class="price">${priceRange(p)}${p.options ? ` <small>${p.options.length} รุ่น</small>` : ""}</div>`
+    : `<div class="price none">ดูราคาในรูป</div>`;
+  function addBtn(id) {
+    const n = qtyInCart(id);
+    return `<button class="add${n ? " in" : ""}" data-add="${id}" aria-label="ใส่ตะกร้า" title="ใส่ตะกร้า">${n ? "🛒" + n : "+"}</button>`;
+  }
+
+  function render() {
+    const terms = state.q.toLowerCase().split(/\s+/).filter(Boolean);
+    renderTabs(terms);
+    renderChips(terms);
+    $("clear").hidden = !state.q;
+
+    visible = products.filter((p) => inGroup(p) && (!state.t || p.type === state.t) && (!state.s || p.sub === state.s) && matchesQuery(p, terms));
+    const byCat = (a, b) =>
+      groupOrder.indexOf(a.group) - groupOrder.indexOf(b.group) ||
+      typeOrder.indexOf(a.group + "|" + a.type) - typeOrder.indexOf(b.group + "|" + b.type) ||
+      collator.compare(a.sub, b.sub) || collator.compare(a.label, b.label);
+    if (state.sort === "date") visible.sort((a, b) => (b.date || "").localeCompare(a.date || "") || byCat(a, b));
+    else if (state.sort === "name") visible.sort((a, b) => collator.compare(a.label, b.label));
+    else if (state.sort.startsWith("price")) {
+      // สินค้าที่ยังไม่มีราคาอยู่ท้ายสุดเสมอ
+      const low = (p) => p.options ? Math.min(...p.options.map((o) => o.price)) : p.price;
+      const dir = state.sort === "price-desc" ? -1 : 1;
+      visible.sort((a, b) => (low(a) == null) - (low(b) == null) || dir * ((low(a) ?? 0) - (low(b) ?? 0)) || byCat(a, b));
+    }
+    else visible.sort(byCat);
+
+    const where = special(state.g) ? special(state.g).name.replace("★ ", "") : state.g || "ทุกหมวด";
+    $("count").innerHTML = `<b>${visible.length.toLocaleString()}</b> รายการ · ${esc([where, state.t, state.s].filter(Boolean).join(" › "))}${state.q ? ` · ค้นหา “${esc(state.q)}”` : ""}`;
+
+    if (!visible.length) {
+      const elsewhere = state.g ? products.filter((p) => matchesQuery(p, terms)).length : 0;
+      $("list").innerHTML = elsewhere
+        ? `<div class="empty"><b>ไม่พบในหมวดนี้</b>แต่พบ ${elsewhere} รายการในหมวดอื่น<br><br><button class="chip" data-g="">ค้นหาทุกหมวด</button></div>`
+        : `<div class="empty"><b>ไม่พบสินค้า</b>ลองค้นด้วยคำอื่น หรือเลือกหมวด “ทั้งหมด”</div>`;
+      return;
+    }
+    let html = "";
+    if (state.sort === "cat") {
+      // แบ่งหัวข้อตามหมวด/ประเภท
+      const showGroup = !state.g || !!special(state.g);
+      let lastG = null, lastT = null, open = false;
+      for (const p of visible) {
+        if (showGroup && p.group !== lastG) {
+          if (open) html += "</div>";
+          const n = visible.filter((x) => x.group === p.group).length;
+          html += `<h2 class="section-title">${esc(p.group)}<span>${n} รายการ</span></h2>`;
+          lastG = p.group; lastT = null; open = false;
+        }
+        if (!state.t && p.type !== lastT) {
+          if (open) html += "</div>";
+          html += `<h3 class="type-title">${esc(p.type)}</h3><div class="grid">`;
+          lastT = p.type; open = true;
+        } else if (!open) {
+          html += `<div class="grid">`; open = true;
+        }
+        html += card(p, terms);
+      }
+      if (open) html += "</div>";
+    } else {
+      html = `<div class="grid">${visible.map((p) => card(p, terms)).join("")}</div>`;
+    }
+    $("list").innerHTML = html;
+  }
+
+  // รูปย่อโหลดไม่ขึ้น -> สลับไปใช้อีกแหล่ง (ไฟล์ในเครื่อง <-> Google Drive)
+  document.addEventListener("error", (e) => {
+    const img = e.target;
+    if (img.tagName !== "IMG" || !img.dataset.id || img.dataset.retried) return;
+    img.dataset.retried = "1";
+    img.src = D.localImages ? `https://lh3.googleusercontent.com/d/${img.dataset.id}=w400` : `data/images/${img.dataset.id}.jpg`;
+  }, true);
+
+  // ---------- ตัวดูรูปใหญ่ ----------
+  let cur = -1, vlist = [];
+  function openViewer(pos, list = visible) {
+    vlist = list;
+    cur = (pos + vlist.length) % vlist.length;
+    const p = vlist[cur];
+    const img = $("vImg");
+    img.src = thumbUrl(p);             // แสดงรูปย่อก่อนทันที
+    img.alt = p.label;
+    const full = new Image();          // แล้วค่อยเปลี่ยนเป็นรูปชัดจาก Drive
+    full.onload = () => { if (vlist[cur] === p) img.src = full.src; };
+    full.src = driveThumb(p, 1600);
+    $("vName").textContent = [p.code, p.label].filter(Boolean).join("  ");
+    $("vPrice").innerHTML = priceRange(p)
+      ? `ราคาส่ง ${esc(priceRange(p))}` +
+        (p.options ? `<div class="v-opts">${p.options.map((o) => `${esc(o.name)} ${money(o.price)} ฿`).join(" · ")}</div>` : "") +
+        (p.note ? `<div class="v-opts">${esc(p.note)}</div>` : "")
+      : "";
+    $("vPath").textContent = [p.group, p.type, p.sub].filter(Boolean).join(" › ") + (p.date ? ` · อัปเดต ${fmtDate(p.date)}` : "");
+    $("vCount").textContent = `${cur + 1} / ${vlist.length}`;
+    $("vDrive").href = `https://drive.google.com/file/d/${p.id}/view`;
+    $("vCopy").textContent = "คัดลอกชื่อ";
+    $("vPrev").hidden = $("vNext").hidden = vlist.length < 2;
+    updateViewerAdd();
+    $("viewer").hidden = false;
+    lockScroll();
+  }
+  function closeViewer() {
+    $("viewer").hidden = true;
+    lockScroll();
+    if (!$("cart").hidden) return;
+    const el = document.querySelector(`.card[data-i="${vlist[cur]?.idx}"]`);
+    if (el) el.focus({ preventScroll: false });
+  }
+  function updateViewerAdd() {
+    const n = qtyInCart(vlist[cur]?.id);
+    $("vAdd").textContent = n ? `+ ใส่ตะกร้าเพิ่ม (มี ${n})` : "+ ใส่ตะกร้า";
+  }
+  const lockScroll = () => { document.body.style.overflow = $("viewer").hidden && $("cart").hidden ? "" : "hidden"; };
+
+  // ---------- ตะกร้าสั่งของ (เก็บในเครื่องของผู้ใช้เอง) ----------
+  const byId = new Map(products.map((p) => [p.id, p]));
+  const store = {
+    get(k, d) { try { return JSON.parse(localStorage.getItem(k)) ?? d; } catch { return d; } },
+    set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} },
+  };
+  // บรรทัดในตะกร้า: { id, name, variant, qty, price }  (price = ราคาต่อชิ้น, "" = ยังไม่ใส่)
+  let cart = store.get("bpo-cart", []).filter((l) => l && l.id);
+  const lastPrice = store.get("bpo-prices", {});   // จำราคาที่เคยใส่ไว้ของแต่ละสินค้า
+  const num = (v) => { const n = parseFloat(String(v).replace(/,/g, "")); return isFinite(n) ? n : NaN; };
+  const money = (n) => n.toLocaleString("en-US", { maximumFractionDigits: 2 });
+  const orderName = (p) => [p.code, p.noname ? `${p.type} (${p.name.slice(0, 20)})` : p.name].filter(Boolean).join(" ");
+  const qtyInCart = (id) => cart.filter((l) => l.id === id).reduce((s, l) => s + (num(l.qty) || 0), 0);
+
+  function addToCart(p) {
+    const line = cart.find((l) => l.id === p.id && !l.variant);
+    if (line) line.qty = (num(line.qty) || 0) + 1;
+    else cart.push({ id: p.id, name: orderName(p), variant: "", qty: 1, price: p.price ?? lastPrice[p.id] ?? "" });
+    saveCart();
+    renderCartList();
+    refreshAddButtons();
+    toast(`ใส่ตะกร้าแล้ว: ${orderName(p)} (${qtyInCart(p.id)} ชิ้น)`);
+  }
+  function saveCart() { store.set("bpo-cart", cart); }
+
+  function summaryText() {
+    let total = 0, pieces = 0, missing = 0;
+    const lines = cart.map((l) => {
+      const q = num(l.qty) || 0, pr = num(l.price);
+      pieces += q;
+      const name = l.name + (l.variant.trim() ? ` (${l.variant.trim()})` : "");
+      if (isNaN(pr)) { missing++; return `${name} ${money(q)} x ? : ?`; }
+      total += q * pr;
+      return `${name} ${money(q)} x ${money(pr)} : ${money(q * pr)}`;
+    });
+    const text = [
+      `รายการสั่งซื้อ ร้าน ${D.shop}`,
+      ...lines,
+      `รวม ${cart.length} รายการ ${money(pieces)} ชิ้น`,
+      `ยอดเงินรวม : ${money(total)} บาท` + (missing ? ` (ยังไม่ใส่ราคา ${missing} รายการ)` : ""),
+    ].join("\n");
+    return { text, total, missing };
+  }
+
+  function renderCartList() {
+    $("cList").innerHTML = cart.length ? cart.map((l, i) => {
+      const p = byId.get(l.id);
+      return `<div class="line" data-l="${i}">
+        <img src="${p ? thumbUrl(p) : ""}" data-id="${esc(l.id)}" data-zoom alt="">
+        <div class="l-name">${esc(l.name)}</div>
+        <button class="l-del" data-del aria-label="ลบรายการนี้">×</button>
+        <input class="l-variant" data-f="variant" value="${esc(l.variant)}" placeholder="${p?.options ? "เลือกรุ่น (แตะเพื่อดูรายการ)" : "รุ่น / สี / ขนาด (ถ้ามี)"}"${p?.options ? ` list="dl-${i}"` : ""}>
+        ${p?.options ? `<datalist id="dl-${i}">${p.options.map((o) => `<option value="${esc(o.name)}">${money(o.price)} ฿</option>`).join("")}</datalist>` : ""}
+        <div class="l-row">
+          <div class="step"><button data-step="-1" aria-label="ลด">−</button><input data-f="qty" value="${esc(l.qty)}" inputmode="numeric" aria-label="จำนวน"><button data-step="1" aria-label="เพิ่ม">+</button></div>
+          x <input class="l-price" data-f="price" value="${esc(l.price)}" inputmode="decimal" placeholder="ราคา" aria-label="ราคาต่อชิ้น"> ฿
+          <span class="l-total" data-total></span>
+        </div>
+      </div>`;
+    }).join("") : `<div class="c-empty">ยังไม่มีสินค้าในตะกร้า<br>กดปุ่ม <b>+</b> ที่รูปสินค้าเพื่อเพิ่ม</div>`;
+    $("cFoot").hidden = !cart.length;
+    updateCartTotals();
+  }
+  // อัปเดตยอด/ข้อความโดยไม่วาดรายการใหม่ (ช่องที่กำลังพิมพ์จะได้ไม่หลุดโฟกัส)
+  function updateCartTotals() {
+    $("cList").querySelectorAll(".line").forEach((row) => {
+      const l = cart[+row.dataset.l], q = num(l.qty) || 0, pr = num(l.price);
+      row.querySelector("[data-total]").textContent = isNaN(pr) ? "" : money(q * pr) + " ฿";
+      row.querySelector(".l-price").classList.toggle("missing", isNaN(pr));
+    });
+    const s = summaryText();
+    $("cSum").textContent = s.text;
+    $("cTotal").innerHTML = `${money(s.total)} บาท${s.missing ? `<br><small>ยังไม่ใส่ราคา ${s.missing} รายการ</small>` : ""}`;
+    $("cLine").href = "https://line.me/R/share?text=" + encodeURIComponent(s.text);
+    const pieces = cart.reduce((a, l) => a + (num(l.qty) || 0), 0);
+    $("fab").hidden = !cart.length;
+    $("fabN").textContent = money(pieces);
+    $("fabT").textContent = s.total ? `${money(s.total)} ฿` : "";
+  }
+  function refreshAddButtons() {
+    document.querySelectorAll("#list [data-add]").forEach((b) => { b.outerHTML = addBtn(b.dataset.add); });
+    if (!$("viewer").hidden) updateViewerAdd();
+  }
+  function openCart() { renderCartList(); $("cart").hidden = $("cartBg").hidden = false; lockScroll(); }
+  function closeCart() { $("cart").hidden = $("cartBg").hidden = true; lockScroll(); refreshAddButtons(); }
+
+  let toastTimer;
+  function toast(msg) {
+    const t = $("toast");
+    t.textContent = msg; t.hidden = false;
+    clearTimeout(toastTimer); toastTimer = setTimeout(() => { t.hidden = true; }, 1800);
+  }
+  async function copyText(text) {
+    try { await navigator.clipboard.writeText(text); return true; }
+    catch {
+      const ta = Object.assign(document.createElement("textarea"), { value: text });
+      document.body.appendChild(ta); ta.select();
+      const ok = document.execCommand("copy"); ta.remove(); return ok;
+    }
+  }
+
+  $("fab").addEventListener("click", openCart);
+  $("cClose").addEventListener("click", closeCart);
+  $("cartBg").addEventListener("click", closeCart);
+  $("vAdd").addEventListener("click", () => { addToCart(vlist[cur]); updateViewerAdd(); });
+  $("cList").addEventListener("input", (e) => {
+    const f = e.target.dataset.f; if (!f) return;
+    const row = e.target.closest(".line"), l = cart[+row.dataset.l];
+    l[f] = e.target.value;
+    // เลือกรุ่นที่มีราคากำหนดไว้ -> ใส่ราคาให้เอง
+    const opt = f === "variant" && byId.get(l.id)?.options?.find((o) => o.name === l.variant.trim());
+    if (opt) { l.price = opt.price; row.querySelector('[data-f="price"]').value = money(opt.price).replace(/,/g, ""); }
+    if (f === "price" && !isNaN(num(l.price))) { lastPrice[l.id] = l.price; store.set("bpo-prices", lastPrice); }
+    saveCart(); updateCartTotals();
+  });
+  $("cList").addEventListener("click", (e) => {
+    const row = e.target.closest(".line"); if (!row) return;
+    const i = +row.dataset.l;
+    if (e.target.closest("[data-del]")) { cart.splice(i, 1); saveCart(); renderCartList(); return; }
+    const step = e.target.closest("[data-step]");
+    if (step) {
+      cart[i].qty = Math.max(1, (num(cart[i].qty) || 0) + +step.dataset.step);
+      row.querySelector('[data-f="qty"]').value = cart[i].qty;
+      saveCart(); updateCartTotals(); return;
+    }
+    if (e.target.matches("[data-zoom]")) { const p = byId.get(cart[i].id); if (p) openViewer(0, [p]); }
+  });
+  $("cCopy").addEventListener("click", async () => {
+    const ok = await copyText(summaryText().text);
+    toast(ok ? "คัดลอกข้อความแล้ว วางในแชทร้านได้เลย" : "คัดลอกไม่ได้ ลองกดค้างที่ข้อความเพื่อคัดลอก");
+  });
+  $("cClear").addEventListener("click", () => {
+    if (!confirm("ล้างสินค้าทั้งหมดในตะกร้า?")) return;
+    cart = []; saveCart(); renderCartList(); refreshAddButtons();
+  });
+
+  // ---------- เหตุการณ์ ----------
+  $("tabs").addEventListener("click", (e) => {
+    const b = e.target.closest("[data-g]"); if (!b) return;
+    state.g = b.dataset.g; state.t = ""; state.s = "";
+    update(true);
+  });
+  $("types").addEventListener("click", (e) => {
+    const b = e.target.closest("[data-t]"); if (!b) return;
+    state.t = b.dataset.t; state.s = "";
+    update();
+  });
+  $("subs").addEventListener("click", (e) => {
+    const b = e.target.closest("[data-s]"); if (!b) return;
+    state.s = b.dataset.s;
+    update();
+  });
+  let timer;
+  $("q").addEventListener("input", (e) => {
+    clearTimeout(timer);
+    timer = setTimeout(() => { state.q = e.target.value.trim(); state.t = ""; state.s = ""; update(); }, 180);
+  });
+  $("clear").addEventListener("click", () => { $("q").value = ""; state.q = ""; update(); $("q").focus(); });
+  $("sort").addEventListener("change", (e) => { state.sort = e.target.value; update(); });
+  document.querySelector("[data-home]").addEventListener("click", (e) => {
+    e.preventDefault();
+    Object.assign(state, { g: "", t: "", s: "", q: "" }); $("q").value = "";
+    update(true);
+  });
+  $("list").addEventListener("click", (e) => {
+    if (e.target.closest("[data-g]")) { state.g = ""; state.t = ""; state.s = ""; update(true); return; }
+    const add = e.target.closest("[data-add]");
+    if (add) { addToCart(byId.get(add.dataset.add)); return; }
+    const c = e.target.closest(".card"); if (!c) return;
+    openViewer(visible.findIndex((p) => p.idx === +c.dataset.i));
+  });
+  $("list").addEventListener("keydown", (e) => {
+    if ((e.key === "Enter" || e.key === " ") && e.target.classList.contains("card")) { e.preventDefault(); e.target.click(); }
+  });
+  $("vClose").addEventListener("click", closeViewer);
+  $("vPrev").addEventListener("click", () => openViewer(cur - 1, vlist));
+  $("vNext").addEventListener("click", () => openViewer(cur + 1, vlist));
+  $("vStage").addEventListener("click", (e) => { if (e.target === $("vStage")) closeViewer(); });
+  $("vCopy").addEventListener("click", async () => {
+    $("vCopy").textContent = (await copyText(vlist[cur].label)) ? "คัดลอกแล้ว ✓" : "คัดลอกไม่ได้";
+  });
+  document.addEventListener("keydown", (e) => {
+    if ($("viewer").hidden) {
+      if (!$("cart").hidden) { if (e.key === "Escape") closeCart(); return; }
+      if (e.key === "/" && document.activeElement !== $("q")) { e.preventDefault(); $("q").focus(); }
+      return;
+    }
+    if (e.key === "Escape") closeViewer();
+    else if (e.key === "ArrowLeft") openViewer(cur - 1, vlist);
+    else if (e.key === "ArrowRight") openViewer(cur + 1, vlist);
+  });
+  let touchX = null;
+  $("vStage").addEventListener("touchstart", (e) => { touchX = e.touches[0].clientX; }, { passive: true });
+  $("vStage").addEventListener("touchend", (e) => {
+    if (touchX === null) return;
+    const dx = e.changedTouches[0].clientX - touchX; touchX = null;
+    if (Math.abs(dx) > 50) openViewer(cur + (dx < 0 ? 1 : -1), vlist);
+  });
+  window.addEventListener("hashchange", () => { readHash(); $("q").value = state.q; $("sort").value = state.sort; render(); });
+
+  function update(toTop) {
+    writeHash();
+    render();
+    if (toTop) window.scrollTo({ top: 0 });
+  }
+
+  // ---------- เริ่มต้น ----------
+  readHash();
+  $("q").value = state.q;
+  $("sort").value = state.sort;
+  // ชื่อร้าน: โลโก้ ชื่อแท็บ และไอคอนแท็บ (ตัวอักษรแรกของชื่อร้าน)
+  $("logo").textContent = D.shop;
+  document.title = `${D.shop} — รายการสินค้าราคาส่ง`;
+  const mark = D.shop.split(/[.\s]/)[0].slice(0, 3);
+  $("favicon").href = "data:image/svg+xml," + encodeURIComponent(`<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='#0c2340'/><text x='32' y='41' font-family='Arial' font-weight='900' font-size='${mark.length > 2 ? 22 : 28}' fill='white' text-anchor='middle'>${esc(mark)}</text><rect x='14' y='47' width='36' height='4' rx='2' fill='#ff7a1a'/></svg>`);
+  $("subtitle").textContent = `${D.total.toLocaleString()} รายการ · ${D.groups.length} หมวดหมู่`;
+  $("footer").innerHTML = `ร้าน ${esc(D.shop)} · อัปเดตข้อมูลล่าสุด ${esc(D.updated)} · <a href="${esc(D.source)}" target="_blank" rel="noopener">โฟลเดอร์รูปใน Google Drive</a>`;
+  render();
+  renderCartList();
+})();
+</script>
+</body>
+</html>
