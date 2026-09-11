@@ -92,7 +92,7 @@
   .card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(12,35,64,.12); }
   .card:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
   .thumb { position: relative; aspect-ratio: 1; background: #e9edf2; }
-  .thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .thumb img { width: 100%; height: 100%; object-fit: contain; display: block; background: #fff; }
   .badges { position: absolute; top: 8px; left: 8px; display: flex; gap: 4px; }
   .badge { background: var(--accent); color: #fff; font: 700 11px/1 var(--head); padding: 5px 7px; border-radius: 6px; letter-spacing: .03em; }
   .badge.open { background: var(--open); }
@@ -207,7 +207,7 @@
       <span><b>รายการสินค้าราคาส่ง</b><small id="subtitle"></small></span>
     </a>
     <div class="search">
-      <input id="q" type="search" placeholder="ค้นหาสินค้า เช่น กบยาง, AIRGEAR, รอกหยดน้ำ" autocomplete="off" aria-label="ค้นหาสินค้า">
+      <input id="q" type="search" placeholder="ค้นหาชื่อสินค้า ยี่ห้อ หรือรหัสสินค้า" autocomplete="off" aria-label="ค้นหาสินค้า">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
       <button class="clear" id="clear" hidden aria-label="ล้างคำค้น">×</button>
     </div>
@@ -279,7 +279,7 @@
 </aside>
 <div class="toast" id="toast" hidden></div>
 
-<script src="data/products.js?v=202609111534"></script>
+<script src="data/products.js?v=202609111536"></script>
 <script>
 (() => {
   const D = window.BPO_DATA;
@@ -413,7 +413,7 @@
     const byCat = (a, b) =>
       groupOrder.indexOf(a.group) - groupOrder.indexOf(b.group) ||
       typeOrder.indexOf(a.group + "|" + a.type) - typeOrder.indexOf(b.group + "|" + b.type) ||
-      collator.compare(a.sub, b.sub) || collator.compare(a.label, b.label);
+      collator.compare(a.sub, b.sub) || collator.compare(a.code || a.label, b.code || b.label);
     if (state.sort === "date") visible.sort((a, b) => (b.date || "").localeCompare(a.date || "") || byCat(a, b));
     else if (state.sort === "name") visible.sort((a, b) => collator.compare(a.label, b.label));
     else if (state.sort.startsWith("price")) {
