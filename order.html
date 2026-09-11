@@ -1,0 +1,484 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DR.FISHING — หน้าสั่งรายการ</title>
+<meta name="description" content="รายการสินค้าอุปกรณ์ตกปลาราคาส่ง ร้าน DR.FISHING — เหยื่อ คันเบ็ด รอก เบ็ด ลูกหมุน เอ็น เหยื่อปลอม และอุปกรณ์ตกปลา">
+<meta property="og:title" content="DR.FISHING — หน้าสั่งรายการ">
+<meta property="og:description" content="เลือกสินค้า ใส่จำนวน ได้ยอดเงินทันที แล้วส่งรายการให้ร้านทาง LINE">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://kong41111.github.io/drfishing/order.html">
+<meta name="theme-color" content="#0c2340">
+<link rel="icon" id="favicon" href="data:,">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Prompt:wght@500;700;800&family=Sarabun:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --navy: #0c2340;
+    --navy-2: #143559;
+    --accent: #ff7a1a;
+    --accent-soft: #fff1e6;
+    --bg: #f3f5f8;
+    --card: #ffffff;
+    --ink: #17212b;
+    --muted: #66727f;
+    --line: #e1e6ec;
+    --ok: #1c9a55;
+    --head: "Prompt", "Leelawadee UI", "Noto Sans Thai", Tahoma, sans-serif;
+    --body: "Sarabun", "Leelawadee UI", "Noto Sans Thai", Tahoma, sans-serif;
+    --top: 58px;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.5 var(--body); }
+  button, input, select, textarea { font: inherit; color: inherit; }
+  [hidden] { display: none !important; }
+
+  /* ---------- ส่วนหัว ---------- */
+  .top { position: sticky; top: 0; z-index: 20; background: var(--navy); color: #fff; height: var(--top); box-shadow: 0 2px 10px rgba(0,0,0,.18); }
+  .bar { max-width: 1400px; margin: 0 auto; height: 100%; padding: 0 16px; display: flex; gap: 12px; align-items: center; }
+  .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; color: inherit; min-width: 0; }
+  .logo { font: 800 22px/1 var(--head); letter-spacing: .03em; background: #fff; color: var(--navy); padding: 6px 9px 5px; border-radius: 8px; position: relative; white-space: nowrap; }
+  .logo::after { content: ""; position: absolute; left: 9px; right: 9px; bottom: 2px; height: 3px; border-radius: 2px; background: var(--accent); }
+  .brand b { display: block; font: 700 15px/1.3 var(--head); }
+  .brand small { display: block; font: 500 12px/1.3 var(--head); opacity: .75; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .back { margin-left: auto; color: #fff; text-decoration: none; font: 500 14px var(--head); border: 1px solid rgba(255,255,255,.35); padding: 7px 12px; border-radius: 999px; white-space: nowrap; }
+  .back:hover { background: rgba(255,255,255,.1); }
+
+  .layout { max-width: 1400px; margin: 0 auto; display: grid; grid-template-columns: minmax(0, 1fr) 420px; gap: 16px; padding: 14px 16px 30px; align-items: start; }
+
+  /* ---------- ฝั่งเลือกสินค้า ---------- */
+  .tools { position: sticky; top: var(--top); z-index: 10; background: var(--bg); padding: 4px 0 10px; display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+  .search { position: relative; flex: 1 1 260px; }
+  .search input { width: 100%; border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px 10px 38px; background: #fff; outline: none; }
+  .search input:focus { border-color: var(--navy-2); box-shadow: 0 0 0 3px rgba(20,53,89,.12); }
+  .search svg { position: absolute; left: 12px; top: 50%; transform: translateY(-50%); width: 17px; height: 17px; color: var(--muted); pointer-events: none; }
+  .tools select { border: 1px solid var(--line); border-radius: 10px; padding: 9px 10px; background: #fff; max-width: 100%; }
+  .only { display: flex; align-items: center; gap: 6px; font-size: 14px; color: var(--muted); cursor: pointer; white-space: nowrap; }
+  .count { font-size: 13px; color: var(--muted); margin: 0 0 8px; }
+  .g-head { font: 700 15px/1.3 var(--head); margin: 16px 0 6px; color: var(--navy-2); }
+  .g-head:first-child { margin-top: 0; }
+
+  .row { display: grid; grid-template-columns: 64px minmax(0, 1fr) auto; gap: 10px; align-items: center; background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 7px 10px 7px 7px; margin-bottom: 6px; }
+  .row.in { border-color: var(--ok); box-shadow: inset 4px 0 0 var(--ok); }
+  .r-img { width: 64px; height: 64px; object-fit: contain; background: #fff; border-radius: 6px; cursor: zoom-in; border: 1px solid var(--line); }
+  .r-name { font-weight: 600; font-size: 14px; line-height: 1.3; word-break: break-word; }
+  .code { display: inline-block; font: 700 11px/1.2 var(--head); color: var(--navy-2); background: #e8eef6; padding: 2px 6px; border-radius: 4px; margin-right: 4px; vertical-align: 1px; }
+  .r-meta { font-size: 12px; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .r-price { font: 700 14px/1.3 var(--head); color: #d45a00; }
+  .r-price small { font: 400 12px var(--body); color: var(--muted); }
+  .r-price.none { font: 400 12px var(--body); color: var(--muted); }
+  .r-side { display: flex; flex-direction: column; align-items: flex-end; gap: 4px; }
+  .in-badge { font: 700 11px var(--head); color: var(--ok); white-space: nowrap; }
+  .r-opts { border: 1px solid var(--navy-2); background: #fff; color: var(--navy-2); border-radius: 8px; padding: 6px 10px; cursor: pointer; font: 600 13px var(--head); white-space: nowrap; }
+  .r-opts[aria-expanded="true"] { background: var(--navy-2); color: #fff; }
+  .opts { margin: -2px 0 8px 36px; background: #fbfcfd; border: 1px dashed #c9d3de; border-radius: 10px; padding: 6px 8px; display: grid; gap: 4px; }
+  .opt { display: grid; grid-template-columns: minmax(0, 1fr) auto auto; gap: 8px; align-items: center; padding: 3px 4px; border-radius: 6px; }
+  .opt.in { background: #e9f7ef; }
+  .opt-name { font-size: 14px; word-break: break-word; }
+  .opt-price { font: 700 13px var(--head); color: #d45a00; white-space: nowrap; }
+
+  .step { display: flex; align-items: center; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; background: #fff; }
+  .step button { border: 0; background: #f1f4f7; width: 32px; height: 34px; cursor: pointer; font-size: 18px; line-height: 1; }
+  .step button:hover { background: #e3e8ee; }
+  .step input { border: 0; width: 48px; height: 34px; text-align: center; padding: 0 2px; outline: none; font-weight: 700; }
+  .step input::placeholder { color: #b7c0ca; font-weight: 400; }
+  .step.has { border-color: var(--ok); }
+  .step.has input { color: var(--ok); }
+  .empty { text-align: center; color: var(--muted); padding: 50px 10px; }
+
+  /* ---------- ฝั่งรายการสั่ง ---------- */
+  .sheet { position: sticky; top: calc(var(--top) + 14px); }
+  .s-body { background: var(--card); border: 1px solid var(--line); border-radius: 14px; display: flex; flex-direction: column; max-height: calc(100vh - var(--top) - 28px); overflow: hidden; box-shadow: 0 6px 20px rgba(12,35,64,.06); }
+  .s-head { display: flex; align-items: center; gap: 8px; padding: 12px 14px; background: var(--navy); color: #fff; }
+  .s-head h2 { margin: 0; font: 700 17px var(--head); flex: 1; }
+  .s-head .n { font: 500 13px var(--head); opacity: .8; }
+  .s-close { display: none; border: 0; background: rgba(255,255,255,.14); color: #fff; width: 34px; height: 34px; border-radius: 50%; font-size: 20px; cursor: pointer; }
+  .bulk { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; padding: 10px 14px; border-bottom: 1px solid var(--line); font-size: 14px; background: #fafbfc; }
+  .bulk input { width: 56px; border: 1px solid var(--line); border-radius: 6px; padding: 5px 6px; text-align: center; font-weight: 700; }
+  .bulk button { border: 0; background: var(--navy-2); color: #fff; border-radius: 8px; padding: 6px 12px; cursor: pointer; font: 600 13px var(--head); }
+  .lines { overflow-y: auto; padding: 8px 12px; flex: 1; min-height: 80px; }
+  .line { display: grid; grid-template-columns: 48px 1fr auto; gap: 3px 8px; padding: 8px 0; border-bottom: 1px solid var(--line); }
+  .line:last-child { border-bottom: 0; }
+  .line img { width: 48px; height: 48px; object-fit: contain; background: #fff; border: 1px solid var(--line); border-radius: 6px; grid-row: span 3; cursor: zoom-in; }
+  .l-name { font-weight: 600; font-size: 13px; line-height: 1.3; word-break: break-word; }
+  .l-del { border: 0; background: none; color: var(--muted); font-size: 18px; cursor: pointer; line-height: 1; align-self: start; }
+  .l-del:hover { color: #d33; }
+  .line input { border: 1px solid var(--line); border-radius: 6px; padding: 4px 6px; background: #fff; min-width: 0; font-size: 13px; }
+  .l-variant { grid-column: 2 / 4; }
+  .l-row { grid-column: 2 / 4; display: flex; align-items: center; gap: 5px; font-size: 13px; flex-wrap: wrap; }
+  .line .step button { width: 26px; height: 28px; font-size: 15px; }
+  .line .step input { width: 42px; height: 28px; border: 0; border-radius: 0; font-size: 13px; }
+  .l-price { width: 70px; text-align: right; }
+  .l-price.missing { border-color: var(--accent) !important; background: var(--accent-soft) !important; }
+  .l-total { margin-left: auto; font-weight: 700; white-space: nowrap; }
+  .s-empty { text-align: center; color: var(--muted); padding: 30px 10px; font-size: 14px; }
+  .s-foot { border-top: 1px solid var(--line); padding: 10px 14px 14px; display: grid; grid-template-columns: minmax(0, 1fr); gap: 8px; background: #fff; }
+  .total { display: flex; justify-content: space-between; align-items: baseline; font: 700 20px var(--head); }
+  .total small { display: block; font: 400 12px var(--body); color: #c25500; text-align: right; }
+  .s-foot textarea { width: 100%; border: 1px solid var(--line); border-radius: 8px; padding: 6px 8px; resize: vertical; font-size: 14px; }
+  .chk { font-size: 13px; color: var(--muted); display: flex; gap: 6px; align-items: center; cursor: pointer; }
+  details summary { font-size: 13px; color: var(--navy-2); cursor: pointer; }
+  .sum { margin: 6px 0 0; background: #f6f8fa; border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; font: 13px/1.55 var(--body); white-space: pre-wrap; overflow-wrap: anywhere; max-height: 170px; overflow-y: auto; }
+  .btns { display: flex; gap: 8px; }
+  .btns button, .btns a { flex: 1; border: 0; border-radius: 10px; padding: 11px 8px; font: 700 14px var(--head); cursor: pointer; text-align: center; text-decoration: none; }
+  .b-copy { background: var(--navy); color: #fff; }
+  .b-line { background: #06c755; color: #fff; }
+  .b-clear { flex: 0 0 auto !important; background: none; color: var(--muted); font-weight: 400 !important; text-decoration: underline !important; }
+  .s-bar { display: none; }
+
+  /* ---------- ดูรูปใหญ่ ---------- */
+  .zoom { position: fixed; inset: 0; z-index: 60; background: rgba(6,14,24,.94); color: #fff; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 16px; gap: 10px; }
+  .zoom img { max-width: 100%; max-height: calc(100% - 140px); object-fit: contain; border-radius: 6px; }
+  .z-cap { text-align: center; max-width: 720px; }
+  .z-cap b { display: block; font: 700 17px var(--head); }
+  .z-cap .z-price { color: #ffa05c; font: 700 17px var(--head); }
+  .z-cap .z-note { font-size: 13px; color: #ffd2b0; }
+  .z-close { position: absolute; top: 12px; right: 12px; border: 0; width: 42px; height: 42px; border-radius: 50%; background: rgba(255,255,255,.15); color: #fff; font-size: 22px; cursor: pointer; }
+  .toast { position: fixed; left: 50%; bottom: 90px; transform: translateX(-50%); z-index: 70; background: rgba(12,35,64,.95); color: #fff; padding: 9px 16px; border-radius: 999px; font-size: 14px; pointer-events: none; max-width: 90vw; }
+
+  /* ---------- มือถือ ---------- */
+  @media (max-width: 900px) {
+    .layout { grid-template-columns: 1fr; padding: 10px 10px 90px; }
+    .brand small { display: none; }
+    .sheet { position: static; }
+    .s-bar { display: flex; position: fixed; left: 10px; right: 10px; bottom: 10px; z-index: 30; align-items: center; gap: 8px; border: 0; border-radius: 14px; background: var(--navy); color: #fff; padding: 12px 16px; font: 600 15px var(--head); box-shadow: 0 6px 20px rgba(0,0,0,.3); cursor: pointer; }
+    .s-bar b { color: #ffc28f; }
+    .s-bar .t { margin-left: auto; font: 700 17px var(--head); color: #fff; }
+    .s-body { display: none; }
+    .sheet.open .s-body { display: flex; position: fixed; inset: 0; z-index: 50; max-height: none; border-radius: 0; }
+    .sheet.open .s-bar { display: none; }
+    .s-close { display: block; }
+    .opts { margin-left: 0; }
+    .row { grid-template-columns: 56px minmax(0, 1fr); }
+    .r-img { width: 56px; height: 56px; }
+    .r-side { grid-column: 1 / 3; flex-direction: row; justify-content: flex-end; align-items: center; }
+  }
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="bar">
+    <a class="brand" href="index.html">
+      <span class="logo" id="logo"></span>
+      <span><b>หน้าสั่งรายการ</b><small>เลือกสินค้า ใส่จำนวน ได้ยอดเงินทันที</small></span>
+    </a>
+    <a class="back" href="index.html">← ดูแคตตาล็อก</a>
+  </div>
+</header>
+
+<div class="layout">
+  <section>
+    <div class="tools">
+      <div class="search">
+        <input id="q" type="search" placeholder="ค้นหาชื่อ ยี่ห้อ หรือรหัสสินค้า" autocomplete="off" aria-label="ค้นหาสินค้า">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      </div>
+      <select id="cat" aria-label="หมวดหมู่"></select>
+      <label class="only"><input type="checkbox" id="only"> เฉพาะที่เลือก</label>
+    </div>
+    <div class="count" id="count"></div>
+    <div id="rows"></div>
+  </section>
+
+  <aside class="sheet" id="sheet">
+    <button class="s-bar" id="sBar">🧾 รายการสั่ง <b id="barN">0</b> รายการ <span class="t" id="barT">0 ฿</span></button>
+    <div class="s-body">
+      <div class="s-head">
+        <h2>🧾 รายการสั่ง</h2><span class="n" id="headN"></span>
+        <button class="s-close" id="sClose" aria-label="ปิด">×</button>
+      </div>
+      <div class="bulk">
+        ตั้งจำนวน อย่างละ <input id="bulkN" value="10" inputmode="numeric" aria-label="จำนวนอย่างละ">
+        <button id="bulkGo">ใช้กับทุกรายการ</button>
+      </div>
+      <div class="lines" id="lines"></div>
+      <div class="s-foot">
+        <div class="total"><span>ยอดเงินรวม</span><span id="total"></span></div>
+        <textarea id="note" rows="2" placeholder="หมายเหตุถึงร้าน (ถ้ามี) เช่น ส่งขนส่งเจ้าไหน"></textarea>
+        <label class="chk"><input type="checkbox" id="links"> แนบลิงก์รูปสินค้าในข้อความ (ร้านกดดูรูปได้)</label>
+        <details><summary>ดูข้อความที่จะส่งให้ร้าน</summary><div class="sum" id="sum"></div></details>
+        <div class="btns">
+          <button class="b-copy" id="copy">คัดลอกข้อความ</button>
+          <a class="b-line" id="line" target="_blank" rel="noopener">ส่งทาง LINE</a>
+          <button class="b-clear" id="clear">ล้าง</button>
+        </div>
+      </div>
+    </div>
+  </aside>
+</div>
+
+<div class="zoom" id="zoom" hidden role="dialog" aria-modal="true" aria-label="ดูรูปสินค้า">
+  <button class="z-close" id="zClose" aria-label="ปิด">×</button>
+  <img id="zImg" alt="">
+  <div class="z-cap" id="zCap"></div>
+</div>
+<div class="toast" id="toast" hidden></div>
+
+<script src="data/products.js?v=202609120036"></script>
+<script src="shared.js?v=202609120036"></script>
+<script>
+(() => {
+  const K = window.ShopKit;
+  const $ = (id) => document.getElementById(id);
+  if (!K) { $("rows").innerHTML = '<div class="empty">ยังไม่มีข้อมูลสินค้า</div>'; return; }
+  const { D, esc, num, money, byId } = K;
+
+  $("logo").textContent = D.shop;
+  K.brandPage("หน้าสั่งรายการ");
+
+  // ---------- ข้อมูลสินค้า / ตัวกรอง ----------
+  const SPECIAL = [["__open__", "สินค้าที่เปิดรับ", "open"], ["__new__", "★ สินค้าเข้าใหม่", "new"]];
+  const products = D.products.map((p) => ({
+    ...p, hay: [p.code, p.name, p.file, p.type, p.sub, p.folder, p.group].join(" ").toLowerCase(),
+  }));
+  const specialGroups = new Set(["สินค้าที่เปิดรับ", "สินค้าเข้าใหม่"]);
+  $("cat").innerHTML = `<option value="">ทุกหมวด (${products.length})</option>` +
+    SPECIAL.filter(([, , f]) => products.some((p) => p[f])).map(([k, n, f]) => `<option value="${k}">${n} (${products.filter((p) => p[f]).length})</option>`).join("") +
+    D.groups.filter((g) => !specialGroups.has(g.name)).map((g) => `<option value="${esc(g.name)}">${esc(g.name)} (${g.count})</option>`).join("");
+
+  let cart = K.loadCart();
+  const expanded = new Set();
+  const store = K.store;
+  $("links").checked = !!store.get(K.key("orderLinks"), false);
+  $("note").value = store.get(K.key("orderNote"), "");
+
+  const lineOf = (id, v) => cart.find((l) => l.id === id && l.variant === v);
+  const qtyOf = (id, v) => num(lineOf(id, v)?.qty) || 0;
+  const totalQtyOf = (id) => cart.filter((l) => l.id === id).reduce((s, l) => s + (num(l.qty) || 0), 0);
+
+  function setQty(id, variant, q) {
+    const p = byId.get(id);
+    const i = cart.findIndex((l) => l.id === id && l.variant === variant);
+    if (!(q > 0)) { if (i >= 0) cart.splice(i, 1); }
+    else if (i >= 0) cart[i].qty = q;
+    else cart.push({ id, name: K.orderName(p), variant, qty: q, price: K.defaultPrice(p, variant) });
+    save();
+    renderLines();
+    syncPicker(id);
+  }
+  const save = () => K.saveCart(cart);
+
+  // ---------- ฝั่งเลือกสินค้า ----------
+  const stepHtml = (id, v) => {
+    const q = qtyOf(id, v);
+    return `<div class="step${q ? " has" : ""}" data-id="${esc(id)}" data-v="${esc(v)}">
+      <button data-d="-1" aria-label="ลด">−</button><input value="${q || ""}" placeholder="0" inputmode="numeric" aria-label="จำนวน"><button data-d="1" aria-label="เพิ่ม">+</button></div>`;
+  };
+  function rowHtml(p) {
+    const range = K.priceRange(p);
+    const meta = [p.type, p.sub].filter(Boolean).join(" · ");
+    const total = totalQtyOf(p.id);
+    const open = expanded.has(p.id);
+    const side = (p.options
+      ? `<button class="r-opts" data-expand="${esc(p.id)}" aria-expanded="${open}">เลือกรุ่น/เบอร์ (${p.options.length}) ${open ? "▴" : "▾"}</button>`
+      : stepHtml(p.id, "")) + `<span class="in-badge" data-badge>${badgeText(p)}</span>`;
+    return `<div class="row${total ? " in" : ""}" data-row="${esc(p.id)}">
+      <img class="r-img" loading="lazy" src="${K.thumbUrl(p)}" data-zoom="${esc(p.id)}" alt="">
+      <div class="r-info">
+        <div class="r-name">${p.code ? `<span class="code">${esc(p.code)}</span>` : ""}${esc(K.label(p))}</div>
+        <div class="r-meta">${esc(meta)}</div>
+        <div class="r-price${range ? "" : " none"}">${range || "ดูราคาในรูป"}${p.note ? ` <small>· ${esc(p.note.split(" / ")[0])}</small>` : ""}</div>
+      </div>
+      <div class="r-side">${side}</div>
+    </div>` + (p.options && open ? optsHtml(p) : "");
+  }
+  // ป้ายข้างแถว: สินค้าหลายรุ่น = เลือกไปกี่รุ่น, สินค้าเดียว = จำนวนที่ระบุรุ่นเองในรายการสั่ง
+  function badgeText(p) {
+    const total = totalQtyOf(p.id);
+    if (p.options) {
+      const picked = cart.filter((l) => l.id === p.id).length;
+      return picked ? `✓ เลือกแล้ว ${picked} รุ่น · ${money(total)} ชิ้น` : "";
+    }
+    const extra = total - qtyOf(p.id, "");
+    return extra > 0 ? `+ อีก ${money(extra)} ชิ้น (ระบุรุ่น)` : "";
+  }
+  const optsHtml = (p) => `<div class="opts" data-opts="${esc(p.id)}">${p.options.map((o) =>
+    `<div class="opt${qtyOf(p.id, o.name) ? " in" : ""}"><span class="opt-name">${esc(o.name)}</span><span class="opt-price">${money(o.price)} ฿</span>${stepHtml(p.id, o.name)}</div>`).join("")}</div>`;
+
+  let visible = [];
+  function renderRows() {
+    const terms = $("q").value.trim().toLowerCase().split(/\s+/).filter(Boolean);
+    const cat = $("cat").value, only = $("only").checked;
+    const flag = SPECIAL.find(([k]) => k === cat)?.[2];
+    visible = products.filter((p) =>
+      (!cat || (flag ? p[flag] : p.group === cat)) &&
+      terms.every((t) => p.hay.includes(t)) &&
+      (!only || totalQtyOf(p.id)));
+    $("count").textContent = `${visible.length.toLocaleString()} รายการ` + (only ? " (เฉพาะที่เลือก)" : "");
+    if (!visible.length) {
+      $("rows").innerHTML = `<div class="empty">${only ? "ยังไม่ได้เลือกสินค้า" : "ไม่พบสินค้า ลองค้นด้วยคำอื่น"}</div>`;
+      return;
+    }
+    let html = "", lastG = null;
+    for (const p of visible) {
+      if (!cat && p.group !== lastG) { html += `<div class="g-head">${esc(p.group)}</div>`; lastG = p.group; }
+      html += rowHtml(p);
+    }
+    $("rows").innerHTML = html;
+  }
+  // อัปเดตตัวเลข/สี/ป้ายของสินค้าเดียว โดยไม่วาดแถวใหม่ (ช่องที่กำลังพิมพ์และปุ่มที่กำลังกดจะไม่หาย)
+  function syncPicker(id) {
+    const row = document.querySelector(`[data-row="${CSS.escape(id)}"]`);
+    if (!row) return;
+    const active = document.activeElement;
+    row.classList.toggle("in", totalQtyOf(id) > 0);
+    row.querySelector("[data-badge]").textContent = badgeText(byId.get(id));
+    document.querySelectorAll(`.step[data-id="${CSS.escape(id)}"]`).forEach((st) => {
+      const q = qtyOf(id, st.dataset.v);
+      st.classList.toggle("has", q > 0);
+      st.closest(".opt")?.classList.toggle("in", q > 0);
+      const inp = st.querySelector("input");
+      if (inp !== active) inp.value = q || "";
+    });
+  }
+  // เปิด/ปิดรายการรุ่นของสินค้า (วาดแถวนั้นใหม่)
+  function toggleExpand(id) {
+    expanded.has(id) ? expanded.delete(id) : expanded.add(id);
+    const row = document.querySelector(`[data-row="${CSS.escape(id)}"]`);
+    document.querySelector(`[data-opts="${CSS.escape(id)}"]`)?.remove();
+    row.outerHTML = rowHtml(byId.get(id));
+  }
+
+  // ---------- ฝั่งรายการสั่ง ----------
+  function renderLines() {
+    $("lines").innerHTML = cart.length ? cart.map((l, i) => {
+      const p = byId.get(l.id);
+      return `<div class="line" data-l="${i}">
+        <img src="${K.thumbUrl(p)}" data-zoom="${esc(l.id)}" alt="">
+        <div class="l-name">${esc(l.name)}</div>
+        <button class="l-del" data-del aria-label="ลบรายการนี้">×</button>
+        <input class="l-variant" data-f="variant" value="${esc(l.variant)}" placeholder="${p.options ? "เลือกรุ่น/เบอร์" : "รุ่น / สี / ขนาด (ถ้ามี)"}"${p.options ? ` list="dl-${i}"` : ""}>
+        ${p.options ? `<datalist id="dl-${i}">${p.options.map((o) => `<option value="${esc(o.name)}">${money(o.price)} ฿</option>`).join("")}</datalist>` : ""}
+        <div class="l-row">
+          <div class="step"><button data-ls="-1" aria-label="ลด">−</button><input data-f="qty" value="${esc(l.qty)}" inputmode="numeric" aria-label="จำนวน"><button data-ls="1" aria-label="เพิ่ม">+</button></div>
+          x <input class="l-price" data-f="price" value="${esc(l.price)}" inputmode="decimal" placeholder="ราคา" aria-label="ราคาต่อชิ้น"> ฿
+          <span class="l-total" data-total></span>
+        </div>
+      </div>`;
+    }).join("") : `<div class="s-empty">ยังไม่มีรายการ<br>ใส่จำนวนที่สินค้าด้านซ้าย</div>`;
+    updateTotals();
+  }
+  function updateTotals() {
+    $("lines").querySelectorAll(".line").forEach((row) => {
+      const l = cart[+row.dataset.l], q = num(l.qty) || 0, pr = num(l.price);
+      row.querySelector("[data-total]").textContent = isNaN(pr) ? "" : money(q * pr) + " ฿";
+      row.querySelector(".l-price").classList.toggle("missing", isNaN(pr));
+    });
+    const s = K.summaryText(cart, { links: $("links").checked, note: $("note").value });
+    $("sum").textContent = s.text;
+    $("total").innerHTML = `${money(s.total)} บาท${s.missing ? `<small>ยังไม่ใส่ราคา ${s.missing} รายการ</small>` : ""}`;
+    $("line").href = K.lineShareUrl(s.text);
+    $("headN").textContent = cart.length ? `${cart.length} รายการ · ${money(s.pieces)} ชิ้น` : "";
+    $("barN").textContent = cart.length;
+    $("barT").textContent = `${money(s.total)} ฿`;
+  }
+
+  // ---------- ดูรูปใหญ่ ----------
+  function openZoom(id) {
+    const p = byId.get(id);
+    const img = $("zImg");
+    img.src = K.thumbUrl(p);
+    const full = new Image();
+    full.onload = () => { if (!$("zoom").hidden) img.src = full.src; };
+    full.src = K.bigUrl(p);
+    const range = K.priceRange(p);
+    $("zCap").innerHTML = `<b>${esc(K.orderName(p))}</b>` +
+      (range ? `<div class="z-price">ราคาส่ง ${esc(range)}</div>` : "") +
+      (p.options ? `<div class="z-note">${p.options.map((o) => `${esc(o.name)} ${money(o.price)} ฿`).join(" · ")}</div>` : "") +
+      (p.note ? `<div class="z-note">${esc(p.note)}</div>` : "");
+    $("zoom").hidden = false;
+  }
+  const closeZoom = () => { $("zoom").hidden = true; };
+
+  let toastTimer;
+  function toast(msg) {
+    $("toast").textContent = msg; $("toast").hidden = false;
+    clearTimeout(toastTimer); toastTimer = setTimeout(() => { $("toast").hidden = true; }, 1800);
+  }
+
+  // ---------- เหตุการณ์ ----------
+  let timer;
+  $("q").addEventListener("input", () => { clearTimeout(timer); timer = setTimeout(renderRows, 150); });
+  $("cat").addEventListener("change", () => { renderRows(); window.scrollTo({ top: 0 }); });
+  $("only").addEventListener("change", renderRows);
+
+  $("rows").addEventListener("click", (e) => {
+    const z = e.target.closest("[data-zoom]"); if (z) return openZoom(z.dataset.zoom);
+    const ex = e.target.closest("[data-expand]");
+    if (ex) return toggleExpand(ex.dataset.expand);
+    const d = e.target.closest("[data-d]");
+    if (d) {
+      const st = d.closest(".step");
+      setQty(st.dataset.id, st.dataset.v, Math.max(0, qtyOf(st.dataset.id, st.dataset.v) + +d.dataset.d));
+    }
+  });
+  $("rows").addEventListener("input", (e) => {
+    const st = e.target.closest(".step"); if (!st) return;
+    setQty(st.dataset.id, st.dataset.v, Math.max(0, Math.floor(num(e.target.value)) || 0));
+  });
+
+  $("lines").addEventListener("input", (e) => {
+    const f = e.target.dataset.f; if (!f) return;
+    const row = e.target.closest(".line"), l = cart[+row.dataset.l];
+    l[f] = e.target.value;
+    const opt = f === "variant" && byId.get(l.id).options?.find((o) => o.name === l.variant.trim());
+    if (opt) { l.price = opt.price; row.querySelector('[data-f="price"]').value = String(opt.price); }
+    if (f === "price") K.rememberPrice(l.id, l.price);
+    save(); updateTotals(); syncPicker(l.id);
+  });
+  $("lines").addEventListener("click", (e) => {
+    const z = e.target.closest("[data-zoom]"); if (z) return openZoom(z.dataset.zoom);
+    const row = e.target.closest(".line"); if (!row) return;
+    const i = +row.dataset.l, id = cart[i].id;
+    if (e.target.closest("[data-del]")) { cart.splice(i, 1); save(); renderLines(); syncPicker(id); return; }
+    const st = e.target.closest("[data-ls]");
+    if (st) {
+      cart[i].qty = Math.max(1, (num(cart[i].qty) || 0) + +st.dataset.ls);
+      row.querySelector('[data-f="qty"]').value = cart[i].qty;
+      save(); updateTotals(); syncPicker(id);
+    }
+  });
+  $("bulkGo").addEventListener("click", () => {
+    const n = Math.floor(num($("bulkN").value));
+    if (!(n > 0)) return toast("ใส่จำนวนก่อน เช่น 10");
+    if (!cart.length) return toast("ยังไม่มีรายการ");
+    cart.forEach((l) => { l.qty = n; });
+    save(); renderLines(); renderRows();
+    toast(`ตั้งจำนวนอย่างละ ${n} แล้ว (${cart.length} รายการ)`);
+  });
+  $("links").addEventListener("change", () => { store.set(K.key("orderLinks"), $("links").checked); updateTotals(); });
+  $("note").addEventListener("input", () => { store.set(K.key("orderNote"), $("note").value); updateTotals(); });
+  $("copy").addEventListener("click", async () => {
+    if (!cart.length) return toast("ยังไม่มีรายการ");
+    const ok = await K.copyText(K.summaryText(cart, { links: $("links").checked, note: $("note").value }).text);
+    toast(ok ? "คัดลอกแล้ว วางในแชทร้านได้เลย" : "คัดลอกไม่ได้ ลองกดค้างที่ข้อความ");
+  });
+  $("clear").addEventListener("click", () => {
+    if (!cart.length || !confirm("ล้างรายการทั้งหมด?")) return;
+    cart = []; save(); renderLines(); renderRows();
+  });
+
+  $("sBar").addEventListener("click", () => { $("sheet").classList.add("open"); document.body.style.overflow = "hidden"; });
+  $("sClose").addEventListener("click", () => { $("sheet").classList.remove("open"); document.body.style.overflow = ""; });
+  $("zoom").addEventListener("click", closeZoom);
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape") { closeZoom(); $("sClose").click(); } });
+  // รูปย่อโหลดไม่ขึ้น -> ใช้รูปจาก Drive แทน
+  document.addEventListener("error", (e) => {
+    const img = e.target;
+    if (img.tagName !== "IMG" || img.dataset.retried || !img.dataset.zoom) return;
+    img.dataset.retried = "1";
+    img.src = K.bigUrl(byId.get(img.dataset.zoom), 400);
+  }, true);
+  // กลับมาจากหน้าแคตตาล็อกด้วยปุ่ม Back -> โหลดรายการใหม่
+  window.addEventListener("pageshow", (e) => { if (e.persisted) { cart = K.loadCart(); renderLines(); renderRows(); } });
+
+  renderRows();
+  renderLines();
+})();
+</script>
+</body>
+</html>

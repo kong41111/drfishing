@@ -51,6 +51,9 @@
   .search input:focus::placeholder { color: var(--muted); }
   .search svg { position: absolute; left: 13px; top: 50%; transform: translateY(-50%); width: 17px; height: 17px; opacity: .7; pointer-events: none; }
   .search input:focus ~ svg { color: var(--muted); }
+  .order-link { flex-shrink: 0; background: var(--accent); color: #fff; text-decoration: none; font: 700 14px/1 var(--head); padding: 10px 14px; border-radius: 999px; white-space: nowrap; }
+  .order-link:hover { background: #ff8c3a; }
+  .c-hint a { color: var(--navy-2); font-weight: 600; }
   .search .clear { position: absolute; right: 6px; top: 50%; transform: translateY(-50%); border: 0; background: none; width: 30px; height: 30px; border-radius: 50%; cursor: pointer; color: var(--muted); font-size: 18px; }
 
   /* ---------- แท็บหมวดหมู่ ---------- */
@@ -183,7 +186,8 @@
 
   @media (max-width: 640px) {
     .bar { flex-wrap: wrap; gap: 8px; padding: 8px 12px; }
-    .search { max-width: none; flex-basis: 100%; }
+    .search { max-width: none; flex-basis: 100%; order: 2; }
+    .order-link { margin-left: auto; padding: 8px 12px; font-size: 13px; }
     .logo { font-size: 22px; }
     main { padding: 12px 10px 80px; }
     .grid { grid-template-columns: repeat(2, 1fr); gap: 8px; }
@@ -211,6 +215,7 @@
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
       <button class="clear" id="clear" hidden aria-label="ล้างคำค้น">×</button>
     </div>
+    <a class="order-link" href="order.html">📝 สั่งรายการ</a>
   </div>
   <nav class="tabs" aria-label="หมวดหมู่สินค้า"><div class="scroller" id="tabs" role="tablist"></div></nav>
 </header>
@@ -264,7 +269,7 @@
     <h2>🛒 ตะกร้าสั่งของ</h2>
     <button class="icon-btn" id="cClose" aria-label="ปิดตะกร้า">×</button>
   </div>
-  <div class="c-hint">ดูราคาจากรูปสินค้า (กดที่รูปเล็กเพื่อดูรูปใหญ่) แล้วใส่จำนวนกับราคาต่อชิ้น</div>
+  <div class="c-hint">กดที่รูปเล็กเพื่อดูรูปใหญ่ · สั่งหลายรายการ/หลายเบอร์ใช้ <a href="order.html">หน้าสั่งรายการ</a> สะดวกกว่า</div>
   <div class="c-list" id="cList"></div>
   <div class="c-foot" id="cFoot">
     <label>ข้อความสรุปรายการ</label>
@@ -279,10 +284,12 @@
 </aside>
 <div class="toast" id="toast" hidden></div>
 
-<script src="data/products.js?v=202609112010"></script>
+<script src="data/products.js?v=202609120036"></script>
+<script src="shared.js?v=202609120036"></script>
 <script>
 (() => {
   const D = window.BPO_DATA;
+  const K = window.ShopKit;
   const $ = (id) => document.getElementById(id);
   if (!D) {
     $("list").innerHTML = '<div class="empty"><b>ยังไม่มีข้อมูลสินค้า</b>ดับเบิลคลิก "อัปเดตสินค้า.bat" เพื่อดึงรายการจาก Google Drive</div>';
@@ -304,9 +311,8 @@
   const typeOrder = D.groups.flatMap((g) => g.types.map((t) => g.name + "|" + t.name));
   const collator = new Intl.Collator("th", { numeric: true, sensitivity: "base" });
 
-  const thumbUrl = (p) => D.localImages ? `data/images/${p.id}.jpg` : `https://lh3.googleusercontent.com/d/${p.id}=w400`;
-  const driveThumb = (p, w) => `https://lh3.googleusercontent.com/d/${p.id}=w${w}`;
-  const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const { thumbUrl, esc, num, money, orderName, priceRange } = K;
+  const driveThumb = K.bigUrl;
   const fmtDate = (iso) => iso ? new Date(iso + "T00:00").toLocaleDateString("th-TH", { day: "numeric", month: "short", year: "2-digit" }) : "";
 
   // ---------- สถานะ (เก็บใน URL hash เพื่อแชร์ลิงก์ได้) ----------
@@ -387,13 +393,6 @@
       <div class="thumb"><img loading="lazy" src="${thumbUrl(p)}" alt="${esc(p.label)}" data-id="${p.id}"><span class="badges">${SPECIAL.filter((m) => p[m.flag]).map((m) => `<span class="badge ${m.cls}">${m.badge}</span>`).join("")}</span>${addBtn(p.id)}</div>
       <div class="info">${p.code ? `<div class="code">${highlight(p.code, terms)}</div>` : ""}<div class="name${p.noname ? " dim" : ""}">${highlight(p.label, terms)}</div><div class="meta">${esc(meta)}</div>${priceHtml(p)}</div>
     </div>`;
-  }
-  // ราคาที่แสดง: ราคาเดียว "280 ฿" หรือหลายรุ่น "118 – 144 ฿"
-  function priceRange(p) {
-    const list = p.options ? p.options.map((o) => o.price) : p.price != null ? [p.price] : [];
-    if (!list.length) return "";
-    const lo = Math.min(...list), hi = Math.max(...list);
-    return lo === hi ? `${money(lo)} ฿` : `${money(lo)} – ${money(hi)} ฿`;
   }
   const priceHtml = (p) => priceRange(p)
     ? `<div class="price">${priceRange(p)}${p.options ? ` <small>${p.options.length} รุ่น</small>` : ""}</div>`
@@ -512,47 +511,21 @@
 
   // ---------- ตะกร้าสั่งของ (เก็บในเครื่องของผู้ใช้เอง) ----------
   const byId = new Map(products.map((p) => [p.id, p]));
-  const store = {
-    get(k, d) { try { return JSON.parse(localStorage.getItem(k)) ?? d; } catch { return d; } },
-    set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} },
-  };
-  // บรรทัดในตะกร้า: { id, name, variant, qty, price }  (price = ราคาต่อชิ้น, "" = ยังไม่ใส่)
-  let cart = store.get("bpo-cart", []).filter((l) => l && l.id);
-  const lastPrice = store.get("bpo-prices", {});   // จำราคาที่เคยใส่ไว้ของแต่ละสินค้า
-  const num = (v) => { const n = parseFloat(String(v).replace(/,/g, "")); return isFinite(n) ? n : NaN; };
-  const money = (n) => n.toLocaleString("en-US", { maximumFractionDigits: 2 });
-  const orderName = (p) => [p.code, p.noname ? `${p.type} (${p.name.slice(0, 20)})` : p.name].filter(Boolean).join(" ");
+  // บรรทัดในตะกร้า: { id, name, variant, qty, price } — ใช้ร่วมกับหน้าสั่งรายการ (order.html)
+  let cart = K.loadCart();
   const qtyInCart = (id) => cart.filter((l) => l.id === id).reduce((s, l) => s + (num(l.qty) || 0), 0);
 
   function addToCart(p) {
     const line = cart.find((l) => l.id === p.id && !l.variant);
     if (line) line.qty = (num(line.qty) || 0) + 1;
-    else cart.push({ id: p.id, name: orderName(p), variant: "", qty: 1, price: p.price ?? lastPrice[p.id] ?? "" });
+    else cart.push({ id: p.id, name: orderName(p), variant: "", qty: 1, price: K.defaultPrice(p) });
     saveCart();
     renderCartList();
     refreshAddButtons();
     toast(`ใส่ตะกร้าแล้ว: ${orderName(p)} (${qtyInCart(p.id)} ชิ้น)`);
   }
-  function saveCart() { store.set("bpo-cart", cart); }
-
-  function summaryText() {
-    let total = 0, pieces = 0, missing = 0;
-    const lines = cart.map((l) => {
-      const q = num(l.qty) || 0, pr = num(l.price);
-      pieces += q;
-      const name = l.name + (l.variant.trim() ? ` (${l.variant.trim()})` : "");
-      if (isNaN(pr)) { missing++; return `${name} ${money(q)} x ? : ?`; }
-      total += q * pr;
-      return `${name} ${money(q)} x ${money(pr)} : ${money(q * pr)}`;
-    });
-    const text = [
-      `รายการสั่งซื้อ ร้าน ${D.shop}`,
-      ...lines,
-      `รวม ${cart.length} รายการ ${money(pieces)} ชิ้น`,
-      `ยอดเงินรวม : ${money(total)} บาท` + (missing ? ` (ยังไม่ใส่ราคา ${missing} รายการ)` : ""),
-    ].join("\n");
-    return { text, total, missing };
-  }
+  function saveCart() { K.saveCart(cart); }
+  const summaryText = () => K.summaryText(cart);
 
   function renderCartList() {
     $("cList").innerHTML = cart.length ? cart.map((l, i) => {
@@ -583,7 +556,7 @@
     const s = summaryText();
     $("cSum").textContent = s.text;
     $("cTotal").innerHTML = `${money(s.total)} บาท${s.missing ? `<br><small>ยังไม่ใส่ราคา ${s.missing} รายการ</small>` : ""}`;
-    $("cLine").href = "https://line.me/R/share?text=" + encodeURIComponent(s.text);
+    $("cLine").href = K.lineShareUrl(s.text);
     const pieces = cart.reduce((a, l) => a + (num(l.qty) || 0), 0);
     $("fab").hidden = !cart.length;
     $("fabN").textContent = money(pieces);
@@ -602,14 +575,7 @@
     t.textContent = msg; t.hidden = false;
     clearTimeout(toastTimer); toastTimer = setTimeout(() => { t.hidden = true; }, 1800);
   }
-  async function copyText(text) {
-    try { await navigator.clipboard.writeText(text); return true; }
-    catch {
-      const ta = Object.assign(document.createElement("textarea"), { value: text });
-      document.body.appendChild(ta); ta.select();
-      const ok = document.execCommand("copy"); ta.remove(); return ok;
-    }
-  }
+  const copyText = K.copyText;
 
   $("fab").addEventListener("click", openCart);
   $("cClose").addEventListener("click", closeCart);
@@ -622,7 +588,7 @@
     // เลือกรุ่นที่มีราคากำหนดไว้ -> ใส่ราคาให้เอง
     const opt = f === "variant" && byId.get(l.id)?.options?.find((o) => o.name === l.variant.trim());
     if (opt) { l.price = opt.price; row.querySelector('[data-f="price"]').value = money(opt.price).replace(/,/g, ""); }
-    if (f === "price" && !isNaN(num(l.price))) { lastPrice[l.id] = l.price; store.set("bpo-prices", lastPrice); }
+    if (f === "price") K.rememberPrice(l.id, l.price);
     saveCart(); updateCartTotals();
   });
   $("cList").addEventListener("click", (e) => {
@@ -708,6 +674,10 @@
     const dx = e.changedTouches[0].clientX - touchX; touchX = null;
     if (Math.abs(dx) > 50) openViewer(cur + (dx < 0 ? 1 : -1), vlist);
   });
+  window.addEventListener("pageshow", (e) => {
+    if (!e.persisted) return;
+    cart = K.loadCart(); renderCartList(); refreshAddButtons();
+  });
   window.addEventListener("hashchange", () => { readHash(); $("q").value = state.q; $("sort").value = state.sort; render(); });
 
   function update(toTop) {
@@ -722,9 +692,7 @@
   $("sort").value = state.sort;
   // ชื่อร้าน: โลโก้ ชื่อแท็บ และไอคอนแท็บ (ตัวอักษรแรกของชื่อร้าน)
   $("logo").textContent = D.shop;
-  document.title = `${D.shop} — รายการสินค้าราคาส่ง`;
-  const mark = D.shop.split(/[.\s]/)[0].slice(0, 3);
-  $("favicon").href = "data:image/svg+xml," + encodeURIComponent(`<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='#0c2340'/><text x='32' y='41' font-family='Arial' font-weight='900' font-size='${mark.length > 2 ? 22 : 28}' fill='white' text-anchor='middle'>${esc(mark)}</text><rect x='14' y='47' width='36' height='4' rx='2' fill='#ff7a1a'/></svg>`);
+  K.brandPage("รายการสินค้าราคาส่ง");
   $("subtitle").textContent = `${D.total.toLocaleString()} รายการ · ${D.groups.length} หมวดหมู่`;
   $("footer").innerHTML = `ร้าน ${esc(D.shop)} · อัปเดตข้อมูลล่าสุด ${esc(D.updated)} · <a href="${esc(D.source)}" target="_blank" rel="noopener">โฟลเดอร์รูปใน Google Drive</a>`;
   render();
