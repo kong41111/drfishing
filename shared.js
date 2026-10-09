@@ -80,6 +80,12 @@ window.ShopKit = (() => {
   }
   const lineShareUrl = (text) => "https://line.me/R/share?text=" + encodeURIComponent(text);
 
+  // ดึงข้อมูลล่าสุดจากเว็บ (ข้ามแคชของเบราว์เซอร์) — ของในตะกร้าไม่หาย
+  function refreshData() {
+    const url = location.pathname + "?r=" + Date.now() + location.hash;
+    location.replace(url);
+  }
+
   async function copyText(text) {
     try { await navigator.clipboard.writeText(text); return true; }
     catch {
@@ -99,6 +105,6 @@ window.ShopKit = (() => {
 
   return {
     D, store, key, num, money, esc, thumbUrl, bigUrl, driveUrl, label, orderName, priceRange,
-    retailRange, byId, loadCart, saveCart, rememberPrice, defaultPrice, summaryText, lineShareUrl, copyText, brandPage,
+    retailRange, refreshData, byId, loadCart, saveCart, rememberPrice, defaultPrice, summaryText, lineShareUrl, copyText, brandPage,
   };
 })();

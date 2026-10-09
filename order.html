@@ -123,6 +123,7 @@
   details summary { font-size: 13px; color: var(--navy-2); cursor: pointer; }
   .sum { margin: 6px 0 0; background: #f6f8fa; border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; font: 13px/1.55 var(--body); white-space: pre-wrap; overflow-wrap: anywhere; max-height: 170px; overflow-y: auto; }
   .btns { display: flex; gap: 8px; }
+  .b-refresh { flex: 0 0 auto !important; background: #e8eef6; color: var(--navy); }
   .btns button, .btns a { flex: 1; border: 0; border-radius: 10px; padding: 11px 8px; font: 700 14px var(--head); cursor: pointer; text-align: center; text-decoration: none; }
   .b-copy { background: var(--navy); color: #fff; }
   .b-line { background: #06c755; color: #fff; }
@@ -204,7 +205,8 @@
         <div class="btns">
           <button class="b-copy" id="copy">คัดลอกข้อความ</button>
           <a class="b-line" id="line" target="_blank" rel="noopener">ส่งทาง LINE</a>
-          <button class="b-clear" id="clear">ล้าง</button>
+          <button class="b-refresh" id="refresh" title="ดึงรายการและราคาล่าสุดจากเว็บ">🔄 รีเฟรช</button>
+          <button class="b-clear" id="clear" title="ล้างรายการทั้งหมด">ล้าง</button>
         </div>
       </div>
     </div>
@@ -218,8 +220,8 @@
 </div>
 <div class="toast" id="toast" hidden></div>
 
-<script src="data/products.js?v=202610091119"></script>
-<script src="shared.js?v=202610091119"></script>
+<script src="data/products.js?v=202610091130"></script>
+<script src="shared.js?v=202610091130"></script>
 <script>
 (() => {
   const K = window.ShopKit;
@@ -457,6 +459,7 @@
     const ok = await K.copyText(K.summaryText(cart, { links: $("links").checked, note: $("note").value }).text);
     toast(ok ? "คัดลอกแล้ว วางในแชทร้านได้เลย" : "คัดลอกไม่ได้ ลองกดค้างที่ข้อความ");
   });
+  $("refresh").addEventListener("click", () => { toast("กำลังดึงข้อมูลล่าสุด ..."); K.refreshData(); });
   $("clear").addEventListener("click", () => {
     if (!cart.length || !confirm("ล้างรายการทั้งหมด?")) return;
     cart = []; save(); renderLines(); renderRows();

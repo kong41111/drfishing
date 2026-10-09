@@ -182,6 +182,7 @@
   .c-btns button, .c-btns a { flex: 1; border: 0; border-radius: 10px; padding: 11px 8px; font: 700 14px var(--head); cursor: pointer; text-align: center; text-decoration: none; }
   .btn-copy { background: var(--navy); color: #fff; }
   .btn-line { background: #06c755; color: #fff; }
+  .btn-refresh { flex: 0 0 auto !important; background: #e8eef6; color: var(--navy); }
   .btn-clear { flex: 0 0 auto !important; background: none; color: var(--muted); font-weight: 400 !important; text-decoration: underline !important; }
   .toast { position: fixed; left: 50%; bottom: 80px; transform: translateX(-50%); z-index: 60; background: rgba(12,35,64,.95); color: #fff; padding: 9px 16px; border-radius: 999px; font-size: 14px; pointer-events: none; transition: opacity .2s; max-width: 90vw; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   .toast[hidden] { display: block; opacity: 0; }
@@ -280,14 +281,15 @@
     <div class="c-btns">
       <button class="btn-copy" id="cCopy">คัดลอกข้อความ</button>
       <a class="btn-line" id="cLine" target="_blank" rel="noopener">ส่งทาง LINE</a>
-      <button class="btn-clear" id="cClear">ล้าง</button>
+      <button class="btn-refresh" id="cRefresh" title="ดึงรายการและราคาล่าสุดจากเว็บ">🔄 รีเฟรช</button>
+      <button class="btn-clear" id="cClear" title="ล้างสินค้าทั้งหมดในตะกร้า">ล้าง</button>
     </div>
   </div>
 </aside>
 <div class="toast" id="toast" hidden></div>
 
-<script src="data/products.js?v=202610091119"></script>
-<script src="shared.js?v=202610091119"></script>
+<script src="data/products.js?v=202610091130"></script>
+<script src="shared.js?v=202610091130"></script>
 <script>
 (() => {
   const D = window.BPO_DATA;
@@ -609,6 +611,7 @@
     const ok = await copyText(summaryText().text);
     toast(ok ? "คัดลอกข้อความแล้ว วางในแชทร้านได้เลย" : "คัดลอกไม่ได้ ลองกดค้างที่ข้อความเพื่อคัดลอก");
   });
+  $("cRefresh").addEventListener("click", () => { toast("กำลังดึงข้อมูลล่าสุด ..."); K.refreshData(); });
   $("cClear").addEventListener("click", () => {
     if (!confirm("ล้างสินค้าทั้งหมดในตะกร้า?")) return;
     cart = []; saveCart(); renderCartList(); refreshAddButtons();
