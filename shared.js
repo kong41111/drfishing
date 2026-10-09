@@ -30,6 +30,14 @@ window.ShopKit = (() => {
     return lo === hi ? `${money(lo)} ฿` : `${money(lo)} – ${money(hi)} ฿`;
   }
 
+  // ราคาขาย/ปลีกที่แสดง (ถ้าร้านระบุไว้ในรูป)
+  function retailRange(p) {
+    const list = p.retailOptions ? p.retailOptions.map((o) => o.price) : p.retail != null ? [p.retail] : [];
+    if (!list.length) return "";
+    const lo = Math.min(...list), hi = Math.max(...list);
+    return lo === hi ? `${money(lo)} ฿` : `${money(lo)} – ${money(hi)} ฿`;
+  }
+
   // ---------- ตะกร้า: [{ id, name, variant, qty, price }] (price = ราคาต่อชิ้น, "" = ยังไม่ใส่) ----------
   const byId = new Map(D.products.map((p) => [p.id, p]));
   const lastPrice = store.get(key("prices"), null) ?? legacy("bpo-prices") ?? {};  // จำราคาที่เคยพิมพ์เอง
@@ -91,6 +99,6 @@ window.ShopKit = (() => {
 
   return {
     D, store, key, num, money, esc, thumbUrl, bigUrl, driveUrl, label, orderName, priceRange,
-    byId, loadCart, saveCart, rememberPrice, defaultPrice, summaryText, lineShareUrl, copyText, brandPage,
+    retailRange, byId, loadCart, saveCart, rememberPrice, defaultPrice, summaryText, lineShareUrl, copyText, brandPage,
   };
 })();

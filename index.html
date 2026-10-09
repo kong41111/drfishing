@@ -106,6 +106,8 @@
   .meta { font-size: 12px; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   .price { margin-top: auto; padding-top: 3px; font: 700 16px/1.2 var(--head); color: #d45a00; }
   .price small { font: 400 11px var(--body); color: var(--muted); }
+  .price .retail { font: 400 12px/1.3 var(--body); color: var(--muted); }
+  .v-retail { font: 400 15px var(--body); color: #ffd2b0; }
   .price.none { font: 400 12px var(--body); color: var(--muted); }
   .v-price { font: 700 20px/1.3 var(--head); color: #ffa05c; margin-top: 2px; }
   .v-opts { font: 400 13px/1.5 var(--body); color: #ffd2b0; }
@@ -284,8 +286,8 @@
 </aside>
 <div class="toast" id="toast" hidden></div>
 
-<script src="data/products.js?v=202609120036"></script>
-<script src="shared.js?v=202609120036"></script>
+<script src="data/products.js?v=202610091119"></script>
+<script src="shared.js?v=202610091119"></script>
 <script>
 (() => {
   const D = window.BPO_DATA;
@@ -311,7 +313,7 @@
   const typeOrder = D.groups.flatMap((g) => g.types.map((t) => g.name + "|" + t.name));
   const collator = new Intl.Collator("th", { numeric: true, sensitivity: "base" });
 
-  const { thumbUrl, esc, num, money, orderName, priceRange } = K;
+  const { thumbUrl, esc, num, money, orderName, priceRange, retailRange } = K;
   const driveThumb = K.bigUrl;
   const fmtDate = (iso) => iso ? new Date(iso + "T00:00").toLocaleDateString("th-TH", { day: "numeric", month: "short", year: "2-digit" }) : "";
 
@@ -395,7 +397,7 @@
     </div>`;
   }
   const priceHtml = (p) => priceRange(p)
-    ? `<div class="price">${priceRange(p)}${p.options ? ` <small>${p.options.length} รุ่น</small>` : ""}</div>`
+    ? `<div class="price">${priceRange(p)}${p.options ? ` <small>${p.options.length} รุ่น</small>` : ""}${retailRange(p) ? `<div class="retail">ขาย ${retailRange(p)}</div>` : ""}</div>`
     : `<div class="price none">ดูราคาในรูป</div>`;
   function addBtn(id) {
     const n = qtyInCart(id);
@@ -483,7 +485,7 @@
     full.src = driveThumb(p, 1600);
     $("vName").textContent = [p.code, p.label].filter(Boolean).join("  ");
     $("vPrice").innerHTML = priceRange(p)
-      ? `ราคาส่ง ${esc(priceRange(p))}` +
+      ? `ราคาส่ง ${esc(priceRange(p))}${retailRange(p) ? ` <span class="v-retail">· ราคาขาย ${esc(retailRange(p))}</span>` : ""}` +
         (p.options ? `<div class="v-opts">${p.options.map((o) => `${esc(o.name)} ${money(o.price)} ฿`).join(" · ")}</div>` : "") +
         (p.note ? `<div class="v-opts">${esc(p.note)}</div>` : "")
       : "";

@@ -218,8 +218,8 @@
 </div>
 <div class="toast" id="toast" hidden></div>
 
-<script src="data/products.js?v=202609120036"></script>
-<script src="shared.js?v=202609120036"></script>
+<script src="data/products.js?v=202610091119"></script>
+<script src="shared.js?v=202610091119"></script>
 <script>
 (() => {
   const K = window.ShopKit;
@@ -281,7 +281,7 @@
       <div class="r-info">
         <div class="r-name">${p.code ? `<span class="code">${esc(p.code)}</span>` : ""}${esc(K.label(p))}</div>
         <div class="r-meta">${esc(meta)}</div>
-        <div class="r-price${range ? "" : " none"}">${range || "ดูราคาในรูป"}${p.note ? ` <small>· ${esc(p.note.split(" / ")[0])}</small>` : ""}</div>
+        <div class="r-price${range ? "" : " none"}">${range || "ดูราคาในรูป"}${K.retailRange(p) ? ` <small>· ขาย ${K.retailRange(p)}</small>` : ""}${p.note ? ` <small>· ${esc(p.note.split(" / ")[0])}</small>` : ""}</div>
       </div>
       <div class="r-side">${side}</div>
     </div>` + (p.options && open ? optsHtml(p) : "");
@@ -387,7 +387,7 @@
     full.src = K.bigUrl(p);
     const range = K.priceRange(p);
     $("zCap").innerHTML = `<b>${esc(K.orderName(p))}</b>` +
-      (range ? `<div class="z-price">ราคาส่ง ${esc(range)}</div>` : "") +
+      (range ? `<div class="z-price">ราคาส่ง ${esc(range)}${K.retailRange(p) ? ` · ราคาขาย ${esc(K.retailRange(p))}` : ""}</div>` : "") +
       (p.options ? `<div class="z-note">${p.options.map((o) => `${esc(o.name)} ${money(o.price)} ฿`).join(" · ")}</div>` : "") +
       (p.note ? `<div class="z-note">${esc(p.note)}</div>` : "");
     $("zoom").hidden = false;
