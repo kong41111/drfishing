@@ -1,9 +1,9 @@
 {
  "shop": "DR.FISHING",
  "source": "https://drive.google.com/drive/folders/1LMRWnHmTHHV4Lm_9zAng_eIkZiEL6VCp",
- "updated": "2026-10-09 11:30",
+ "updated": "2026-10-17 20:16",
  "localImages": true,
- "total": 527,
+ "total": 528,
  "groups": [
   {
    "name": "เหยื่อตกปลา",
@@ -27,11 +27,11 @@
   },
   {
    "name": "รอก",
-   "count": 29,
+   "count": 30,
    "types": [
     {
      "name": "รอก",
-     "count": 29
+     "count": 30
     }
    ]
   },
@@ -611,7 +611,7 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-01",
+   "date": "2026-10-09",
    "options": [
     {
      "name": "2.7 ม.",
@@ -1754,6 +1754,20 @@
    "price": 105.0
   },
   {
+   "id": "1-eszQ1iQ2I0GTw49hssP54UhtaLjePh3",
+   "name": "ZZZZZ-1-94 DB 1000AL",
+   "code": "",
+   "noname": false,
+   "file": "ZZZZZ-1-94 DB 1000AL.jpg",
+   "group": "รอก",
+   "folder": "C-รอก",
+   "type": "รอก",
+   "sub": "",
+   "new": false,
+   "open": false,
+   "date": "2026-10-17"
+  },
+  {
    "id": "1X8wBmMBhwF9UoR3TZhCScKWWroVTypOE",
    "name": "มือหมุนรอก FW",
    "code": "D1-0",
@@ -2825,7 +2839,7 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2025-05-12",
+   "date": "2026-10-09",
    "options": [
     {
      "name": "#10",
@@ -10038,7 +10052,7 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-04-25",
+   "date": "2026-10-08",
    "options": [
     {
      "name": "ด้าม 1.4 ม. + หัวสวิง 40 ซม.",
@@ -10063,7 +10077,7 @@
    "sub": "",
    "new": false,
    "open": false,
-   "date": "2026-04-25",
+   "date": "2026-10-08",
    "options": [
     {
      "name": "หัวสวิง 40 ซม.",
